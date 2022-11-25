@@ -156,7 +156,8 @@ def write_conference_meta(path, pdf_meta):
             text = ''
             for page in cur_reader:  
                 text += (page.get_text("text"))
-            if cur_conference in text:
+
+            if text.find(cur_conference) != -1:
                 cur_reader = PdfFileReader(file) #aktuelle PDF lesen können
                 cur_writer = PdfFileWriter() # aktuelle PDF schreiben können
                 cur_writer.appendPagesFromReader(cur_reader)

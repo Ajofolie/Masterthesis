@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[28]:
+# In[3]:
 
 
 import re
@@ -31,21 +31,25 @@ from sentence_transformers import SentenceTransformer
 
 
 def build_corpus(files_path):
+    
     text_dict = {'title': [],
                  'text': []}
 
-    #Iteration über PDF's und in text speichern. Alle PDF's liegen in text_list Es werden nur die ersten beiden Seiten eingelesen
+    #Iteration über PDF's und in text_dict speichern
     for file in files_path:
-        has_abstract = False
-        cur_reader = fitz.open(file)
+        has_abstract = False #flag ob abstract existiert
+        cur_reader = fitz.open(file) #lesen
         text = ''
         text_tmp = ''
-        cur_title = cur_reader.metadata['title']
-
+        cur_title = cur_reader.metadata['title'] #Titel aus Metadaten lesen
+        
+        #Iteration über Seiten des Textdokuments
         for i in range(len(cur_reader)):  
             page = cur_reader.load_page(i)
-
-            abstract = page.search_for("abstract")
+            abstract = page.search_for("abstract") #Suche nach abstract
+            #falls abstract existiert, setze flag und breche Schleifendurchlauf ab
+            #Speicher den text der Seite mit abstract in Text
+            #falls nicht nimm Text von allen Seiten
             if abstract:
                 text +=  cur_reader.get_page_text(i)
                 has_abstract = True
@@ -55,11 +59,10 @@ def build_corpus(files_path):
 
         if not has_abstract:
             text = text_tmp
-
+        #Speichern der Texte und zugehöriger Titel in dictionary
         text_dict['title'].append(cur_title)
         text_dict['text'].append(text)
         
-
         cur_reader.close()
         
     return text_dict
@@ -68,6 +71,8 @@ def build_corpus(files_path):
 # In[19]:
 
 
+#Analog build_corpus
+#Text von allen Seiten wird gespeichert
 def build_conference(files_path):
     con_dict = {'title': [],
                  'text': []}
@@ -99,34 +104,37 @@ def preprocess_corpus(corpus):
         tokens = word_tokenize(text) #tokens auf Wortebene
 
     for i in range(len(tokens)):
-        tokens[i] = re.sub("(\\d)+","", tokens[i])   #entfernt Zahlen
+        tokens[i] = re.sub("(\\d)+","", tokens[i]) #entfernt Zahlen
         all_tokens.append(tokens[i])
         
-    detokenize = TreebankWordDetokenizer().detokenize(all_tokens)
+    detokenize = TreebankWordDetokenizer().detokenize(all_tokens)#Detokenisierung
     corpus['text'].append(detokenize)
     
     return corpus
 
 
-# In[21]:
+# In[5]:
 
 
 def get_stopwords():
-#Englische Stop Words
+    #Englische Stop Words
     stop_words = set(stopwords.words("english"))
-#Hinzufügen eigener Stopwords
-    new_words = ["the", "as", "was", "that", "open", "access", "thought", "sees", "agreement", "term", "initially", "people", "eu", "citiations", "de", "authors",
-                "com", "citations", "table", "et", "al", "conference", "th", "ieee", "fig", "aaai", "www", "org", "yet", "http","open access" ]
+    #Hinzufügen eigener Stopwords
+    new_words = ["the", "as", "was", "that", "open", "access", "thought", "sees", 
+                 "agreement", "term", "initially", "people", "eu", "citiations", 
+                 "de", "authors","com", "citations", "table", "et", "al", "conference", 
+                 "th", "ieee access", "ieee", "fig", "aaai", "www", "org", "yet", "http","open access" ]
     my_stop_words = stop_words.union(new_words)
     
     return my_stop_words
 
 
-# In[26]:
+# In[12]:
 
 
 def generate_keywords(corpus, conference_corpus):
     
+    stop_words = get_stopwords()
     corpus = preprocess_corpus(corpus)
     
     paper_keys = {'keywords': [], 
@@ -136,48 +144,48 @@ def generate_keywords(corpus, conference_corpus):
     conference_keys = {'keywords': [], 
                         'relevance':[],
                         'conference': [] }
-    
+    #Definition des Modells, des vectorizers und KeyBert
     sentence_model = SentenceTransformer("all-mpnet-base-v2")
     kw_model = KeyBERT(model=sentence_model)
-    vectorizer = KeyphraseCountVectorizer(stop_words=get_stopwords())
-    
+    vectorizer = KeyphraseCountVectorizer(stop_words=stop_words)
 
-    #iteration über alle PDF's
-
+    #Extraktion keywords für paper
     for x in range(len(corpus['title'])): 
-        doc_embedding, word_embedding = kw_model.extract_embeddings(corpus['text'][x], vectorizer=vectorizer)
-        keywords_dist_paper = kw_model.extract_keywords(corpus['text'][x], vectorizer=vectorizer, use_mmr=True, diversity=0.6, 
-                                                        top_n=20, doc_embeddings=doc_embedding, 
-                                                        word_embeddings=word_embedding)
-
-        
+        doc_embedding_paper, word_embedding_paper = kw_model.extract_embeddings(corpus['text'][x], vectorizer=vectorizer)
+        keywords_dist_paper = kw_model.extract_keywords(corpus['text'][x], vectorizer=vectorizer, use_mmr=True, 
+                                                        diversity=0.6, top_n=20, doc_embeddings=doc_embedding_paper, 
+                                                        word_embeddings=word_embedding_paper,stop_words=stop_words)
+        #Füllung dictionary paper_keys
         for i in range(len(keywords_dist_paper)):
             keyword =  keywords_dist_paper[i][0]
-            paper_keys['keywords'].append(keyword)
-            relevance = keywords_dist_paper[i][1]
-            paper_keys['relevance'].append(relevance)
-            paper_keys['paper'].append(corpus["title"][x])
-            
+            if keyword not in stop_words:
+                paper_keys['keywords'].append(keyword)
+                relevance = keywords_dist_paper[i][1]
+                paper_keys['relevance'].append(relevance)
+                paper_keys['paper'].append(corpus["title"][x])
+     
+    #Extraktion keywords für Konferenzbeschreibungen
     for x in range(len(conference_corpus['title'])): 
-        doc_embedding, word_embedding = kw_model.extract_embeddings(conference_corpus['text'][x], vectorizer=vectorizer)
-        keywords_dist_conference = kw_model.extract_keywords(corpus['text'][x], vectorizer=vectorizer, use_mmr=True, diversity=0.5, 
-                                                        top_n=20, doc_embeddings=doc_embedding, 
-                                                        word_embeddings=word_embedding)
-        
+        doc_embedding_con, word_embedding_con = kw_model.extract_embeddings(conference_corpus['text'][x], vectorizer=vectorizer)
+        keywords_dist_conference = kw_model.extract_keywords(conference_corpus['text'][x], vectorizer=vectorizer, 
+                                                             use_mmr=True, diversity=0.5, top_n=20,
+                                                             doc_embeddings=doc_embedding_con, 
+                                                             word_embeddings=word_embedding_con,stop_words=stop_words)
+        #Füllung dictionary conference_keys
         for i in range(len(keywords_dist_conference)):
             keyword =  keywords_dist_conference[i][0]
-            conference_keys['keywords'].append(keyword)
-            relevance = keywords_dist_conference[i][1]
-            conference_keys['relevance'].append(relevance)
-            conference_keys['conference'].append(conference_corpus["title"][x])
+            if keyword not in stop_words:
+                conference_keys['keywords'].append(keyword)
+                relevance = keywords_dist_conference[i][1]
+                conference_keys['relevance'].append(relevance)
+                conference_keys['conference'].append(conference_corpus["title"][x])
             
-        #Umwandlung in Dataframe
-
+    #Umwandlung in Dataframe paper_keys
     df_paper = pd.DataFrame(paper_keys)
     filepath_paper = 'keywords/paper_Keywords.csv'
     df_paper = df_paper.sort_values('relevance',ascending=False)
     df_paper.to_csv(filepath_paper)
-
+    #Umwandlung in Dataframe conference_keys
     df_conference = pd.DataFrame(conference_keys)
     filepath_conference = 'keywords/conference_Keywords.csv'
     df_conference = df_conference.sort_values('relevance',ascending=False)
@@ -186,20 +194,8 @@ def generate_keywords(corpus, conference_corpus):
     return paper_keys, conference_keys
 
 
-# In[11]:
+# In[ ]:
 
 
-new_words = ["the", "as", "was", "that", "open", "access", 
-               "thought", "sees", "agreement", "term", "initially",
-               "people", "eu", "citiations", "de", "authors",
-               "com", "citations", "table", "et", "al", "conference", 
-               "th", "ieee", "fig", "aaai", "www", "org", "yet", "http", 'open access' ]
-print(stopwords.words('english'))
 
-
-# In[16]:
-
-
-vectorizer = KeyphraseCountVectorizer(stop_words=get_stopwords())
-print(vectorizer.get_params())
 

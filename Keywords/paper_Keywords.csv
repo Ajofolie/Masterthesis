@@ -45,7 +45,7 @@ deep neural network with arbitrary depth"
 1320,sem image quality assessment,0.6236,SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features
 1480,neuromorphic attitude estimation,0.6232,Neuromorphic computing for attitude estimation onboard quadrotors
 1441,nurse scheduling,0.6229,Ant colony optimization with semi random initialization for nurse rostering problem
-140,reram devices,0.6219, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+140,reram devices,0.6219,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 540,arrival delays prediction,0.6148,Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification
 480,intrusion detection,0.6125,A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset
 960,android runtime,0.6107,Method for Profile-Guided Optimization of Android Applications Using Random Forest
@@ -58,18 +58,18 @@ deep neural network with arbitrary depth"
 40,hearing thresholds,0.5996,Audiogram Digitization Tool for Audiological Reports
 921,tools lifecycle management,0.5966,Management of tools in digital manufacturing - A case study
 1000,data compression,0.5955,Multi-Dimensional Data Compression and Query Processing in Array Databases
-141,memristor,0.5942, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+141,memristor,0.5942,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 922,wokshop production management model,0.5883,Management of tools in digital manufacturing - A case study
 401,activation sparsity,0.5877,Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks
 120,multiple pickup locations,0.5867," A Selective Many-to-Many Pickup and Delivery Problem With Handling Cost in the
 Omni-Channel Last-Mile Delivery"
-80,route generation research,0.5862, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+80,route generation research,0.5862,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 1180,generalized functional safety,0.5857,Problems and solutions regarding generalized functional safety in cyberspace
 940,erp model,0.5834,How to apply the ERP model for Smart Mining?
 1381,industrial big data,0.5814,Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0
 300,molecular similarity,0.5811,Metric learning for kernel ridge regression: assessment of molecular similarity
 1061,feature selection,0.5802,Robust classification with feature selection using an application of the Douglas-Rachford splitting algorithm
-81,cycling training routes,0.5801, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+81,cycling training routes,0.5801,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 1360,machining modeling,0.5786,Experimental investigations and finite element analysis of milling of Inconel 718 alloy
 541,flight delays,0.577,Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification
 941,smart mining,0.5752,How to apply the ERP model for Smart Mining?
@@ -202,7 +202,7 @@ Omni-Channel Last-Mile Delivery"
 1622,human eye,0.426,Learning torsional eye movements through active efficient coding
 601,fuzzy logic controller,0.4256,New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic
 1642,cosmological physics,0.4243,DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification
-142,neuromorphic algorithms,0.4241, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+142,neuromorphic algorithms,0.4241,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 321,fault tolerance,0.4241,Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks
 1262,mobile communications,0.4239,Secure transmission technology based on direct modulation with random channel characteristics
 1502,current memristor device,0.4237,"Advantages of binary stochastic synapses for hardware spiking neural networks with realistic
@@ -225,7 +225,7 @@ memristors"
 Omni-Channel Last-Mile Delivery"
 1104,concave multivariate piecewise,0.4137,Box-constrained optimization for minimax supervised learning
 1184,random physical failures,0.4119,Problems and solutions regarding generalized functional safety in cyberspace
-82,evolutionary algorithm,0.4119, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+82,evolutionary algorithm,0.4119,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 943,business automation,0.4111,How to apply the ERP model for Smart Mining?
 363,efﬁcient architectural defense approach,0.4101,GhostLeg: Selective Memory Coalescing for Secure GPU Architecture
 1122,backward propagation,0.4091,Multilevel minimization for deep residual networks
@@ -311,7 +311,7 @@ deep neural network with arbitrary depth"
 1523,ar hmds,0.3511,The Metaverse and Beyond: Implementing Advanced Multiverse Realms With Smart Wearables
 1203,key generation,0.3508,Physical layer security techniques for data transmission for future wireless networks
 1123,complex statistical learning tasks,0.3502,Multilevel minimization for deep residual networks
-83,geographical data,0.3499, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+83,geographical data,0.3499,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 484,confusion matrix,0.3498,A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset
 945,surface coal mine,0.3498,How to apply the ERP model for Smart Mining?
 1302,gan,0.3493,Implicit privacy preservation: a framework based on data generation
@@ -322,7 +322,7 @@ deep neural network with arbitrary depth"
 703,particle physics,0.3485,A duality connecting neural network and cosmological dynamics
 1643,telescope errors,0.3476,DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification
 343,entropy weight values,0.3474,"Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches"
-143,bipolar resistive switches,0.3473, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+143,bipolar resistive switches,0.3473,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 462,location prediction,0.3472,A framework for recommending tourist attractions using deep learning and association rule mining-based methods
 502,qam,0.3472,SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization
 1084,spatial variation,0.3467,Goal-oriented adaptive sampling under random field modelling of response probability distributions
@@ -335,7 +335,7 @@ deep neural network with arbitrary depth"
 565,original data matrices,0.3421,Non-negative Matrix Factorization for Dimensionality Reduction
 583,flight properties,0.3409,Parallel Hybrid 2-Opt Flower Pollination Algorithm for Real-Time UAV Trajectory Planning on GPU
 1042,dynamic workload,0.3408,Predictive Hybrid Autoscaling for Containerized Applications
-144,memory wall,0.3388, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+144,memory wall,0.3388,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 1403,neighbour search,0.3383,R-tree data structure implementation for Computer Aided Engineering (CAE) tools
 1085,versatile modelling approaches,0.3382,Goal-oriented adaptive sampling under random field modelling of response probability distributions
 1144,several ids classiﬁcation models,0.3377,Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)
@@ -366,7 +366,7 @@ deep neural network with arbitrary depth"
 1644,classification accuracy,0.3247,DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification
 903,mechanical stiffness matrices,0.3247,Digital Twins for Micro Machining
 1585,detector simulation,0.3241,Particle-based fast jet simulation at the LHC with variational autoencoders
-145,lower resistive state,0.324, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+145,lower resistive state,0.324,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 1043,automatic service,0.3235,Predictive Hybrid Autoscaling for Containerized Applications
 1303,imposter,0.3234,Implicit privacy preservation: a framework based on data generation
 1304,data generation,0.3233,Implicit privacy preservation: a framework based on data generation
@@ -416,7 +416,7 @@ Hesitant Fuzzy Environment"
 1405,cae tools,0.3104,R-tree data structure implementation for Computer Aided Engineering (CAE) tools
 883,manufacturing processes,0.3103,Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates
 604,target voltage,0.3103,New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic
-84,smart sports training,0.3101, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+84,smart sports training,0.3101,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 505,communication networks,0.3085,SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization
 124,heuristics,0.3081," A Selective Many-to-Many Pickup and Delivery Problem With Handling Cost in the
 Omni-Channel Last-Mile Delivery"
@@ -478,7 +478,7 @@ Hesitant Fuzzy Environment"
 968,code analysis,0.2871,Method for Profile-Guided Optimization of Android Applications Using Random Forest
 1205,eavesdropper,0.2867,Physical layer security techniques for data transmission for future wireless networks
 205,neurobiology,0.2856,Neural network training with highly incomplete medical datasets
-85,planning,0.2854, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+85,planning,0.2854,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 1285,time monitoring,0.2853,A note on diagnosis and performance degradation detection in automatic control systems towards functional safety and cyber security
 1227,anomaly aggregation,0.2847,Efficient poisoning attacks and defenses for unlabeled data in DDoS prediction of intelligent transportation systems
 444,associated energy expenditures,0.2843,Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data
@@ -495,7 +495,7 @@ Hesitant Fuzzy Environment"
 643,lowest common ancestor,0.2808,Learning tree structures from leaves for particle decay reconstruction
 926,company metalac,0.2804,Management of tools in digital manufacturing - A case study
 1483,battery autonomy,0.2802,Neuromorphic computing for attitude estimation onboard quadrotors
-86,property graph domain,0.2793, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+86,property graph domain,0.2793,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 765,trajectory estimation,0.2789,General spiking neural network framework for the learning trajectory from a noisy mmWave radar
 1026,tunable delay,0.2787,Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays
 487,nearest neighbor,0.2781,A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset
@@ -524,7 +524,7 @@ Hesitant Fuzzy Environment"
 1366,parametric optimization,0.2644,Experimental investigations and finite element analysis of milling of Inconel 718 alloy
 927,crm,0.2634,Management of tools in digital manufacturing - A case study
 1029,speed computing,0.2632,Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays
-146,binary vector,0.262, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+146,binary vector,0.262,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 746,artiﬁcial intelligence applications,0.2618,Convolutional neural networks with radio-frequency spintronic nano-devices
 1567,canonical forward model,0.2617,Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks
 1544,new drugs,0.2609,Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning
@@ -537,7 +537,7 @@ Hesitant Fuzzy Environment"
 1485,deep neural networks,0.2578,Neuromorphic computing for attitude estimation onboard quadrotors
 627,diffusion tractography,0.2573,Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo
 706,small perturbations,0.2569,A duality connecting neural network and cosmological dynamics
-147,reliability aspects,0.2566, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+147,reliability aspects,0.2566,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 628,state networks dynamics,0.2565,Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo
 1344,semiconductor,0.2561,"Emulation and modelling of semiconductor optical amplifier-based all-optical photonic integrated
 deep neural network with arbitrary depth"
@@ -562,7 +562,7 @@ deep neural network with arbitrary depth"
 1229,markov model,0.251,Efficient poisoning attacks and defenses for unlabeled data in DDoS prediction of intelligent transportation systems
 1088,calibration,0.2509,Goal-oriented adaptive sampling under random field modelling of response probability distributions
 1568,cluster triaxiality,0.2507,Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks
-87,automatic generation,0.2507, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+87,automatic generation,0.2507,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 546,domestic ﬂight data,0.2507,Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification
 1388,shop ﬂoor,0.2503,Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0
 1629,deeper understanding,0.2498,Learning torsional eye movements through active efficient coding
@@ -593,7 +593,7 @@ deep neural network with arbitrary depth"
 1147,sophisticated deep learning,0.2447,Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)
 1109,discret sur un domaine polyhédral,0.2445,Box-constrained optimization for minimax supervised learning
 385,learn,0.2444,Subaging in underparametrized deep neural networks 
-88,ascent,0.2443, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+88,ascent,0.2443,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 127,local search,0.2438," A Selective Many-to-Many Pickup and Delivery Problem With Handling Cost in the
 Omni-Channel Last-Mile Delivery"
 629,mathematical modelling,0.2435,Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo
@@ -622,7 +622,7 @@ Omni-Channel Last-Mile Delivery"
 1006,huge computing costs,0.2366,Multi-Dimensional Data Compression and Query Processing in Array Databases
 730,picard number,0.2365,Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds
 1070,medoid modeling,0.2362,Robust classification with feature selection using an application of the Douglas-Rachford splitting algorithm
-148,digital converters,0.2361, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+148,digital converters,0.2361,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 128,travel cost,0.2355," A Selective Many-to-Many Pickup and Delivery Problem With Handling Cost in the
 Omni-Channel Last-Mile Delivery"
 789,light,0.2354,High-dimensional encryption in optical fibers using spatial modes of light and machine learning
@@ -690,7 +690,7 @@ memristors"
 1328,digital object identifier,0.2178,SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features
 107,novel similarity,0.2178," A Novel Similarity-Based Multi-Attribute Group Decision-Making Method in a Probabilistic
 Hesitant Fuzzy Environment"
-149,valence change mechanism,0.2172, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+149,valence change mechanism,0.2172,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 388,dnns,0.2171,Subaging in underparametrized deep neural networks 
 731,specific line bundle,0.2171,Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds
 410,weights,0.217,Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks
@@ -722,7 +722,7 @@ deep neural network with arbitrary depth"
 1249,key technical lemma,0.2097,Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach
 68,users,0.2094,A Comprehensive Study of DNS Operational Issues by Mining DNS Forums
 389,mean field limit,0.2093,Subaging in underparametrized deep neural networks 
-89,intersections,0.2093, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+89,intersections,0.2093,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 27,fisica nucleare,0.2092,Improving parametric neural networks for highenergy physics (and beyond)
 709,background,0.209,A duality connecting neural network and cosmological dynamics
 1149,sequential implementation,0.2089,Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)
@@ -806,13 +806,13 @@ Hesitant Fuzzy Environment"
 48,nihl annotation portal,0.1899,Audiogram Digitization Tool for Audiological Reports
 1591,flow,0.1898,Particle-based fast jet simulation at the LHC with variational autoencoders
 1569,carlstrom et al,0.1898,Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks
-90,mutation,0.1897, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+90,mutation,0.1897,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 1448,construction solution phase,0.1897,Ant colony optimization with semi random initialization for nurse rostering problem
 167,situ inference,0.1897,A biology-informed similarity metric for simulated patches of human cell membrane
 647,transformer encoder,0.1897,Learning tree structures from leaves for particle decay reconstruction
 71,record types,0.1892,A Comprehensive Study of DNS Operational Issues by Mining DNS Forums
 447,hydrogen,0.189,Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data
-150,complex operations,0.1889, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+150,complex operations,0.1889,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 807,single photon detectors,0.1887,superconducting nanowire-based architecture for neuromorphic computing
 348,users privacy,0.1878,"Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches"
 985,voltage deviations,0.1877,Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis
@@ -912,7 +912,7 @@ memristors"
 1632,prediction error,0.1643,Learning torsional eye movements through active efficient coding
 1048,smallest entity,0.1643,Predictive Hybrid Autoscaling for Containerized Applications
 1090,instance shape,0.1637,Goal-oriented adaptive sampling under random field modelling of response probability distributions
-151,low power operation,0.1632, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+151,low power operation,0.1632,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 187,precision agriculture,0.1631,Carbon Footprint vs Energy Optimization in IoT Network Deployments
 1272,keys,0.1631,Secure transmission technology based on direct modulation with random channel characteristics
 1391,physical dimension,0.1628,Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0
@@ -926,7 +926,7 @@ memristors"
 269,decomposition,0.1613,Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach
 270,efﬁcient embedding,0.1612,Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach
 1450,complex problem,0.1609,Ant colony optimization with semi random initialization for nurse rostering problem
-91,digital surface model,0.1604, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+91,digital surface model,0.1604,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 1370,rupture properties,0.1603,Experimental investigations and finite element analysis of milling of Inconel 718 alloy
 471,attraction extraction method,0.1601,A framework for recommending tourist attractions using deep learning and association rule mining-based methods
 714,intrinsic high degree,0.1601,A duality connecting neural network and cosmological dynamics
@@ -967,7 +967,7 @@ memristors"
 667,possible execution efﬁciency,0.1505,Kinematic Optimization of 6DOF Serial Robot Arms by Bio-Inspired Algorithms
 249,comput,0.1505,Synaptic 1/f noise injection for overfitting suppression in hardware neural networks
 1112,luc pronzato,0.1503,Box-constrained optimization for minimax supervised learning
-152,vmm,0.1497, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+152,vmm,0.1497,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 1510,snns,0.1497,"Advantages of binary stochastic synapses for hardware spiking neural networks with realistic
 memristors"
 170,abstract,0.1496,A biology-informed similarity metric for simulated patches of human cell membrane
@@ -983,7 +983,7 @@ memristors"
 949,reliability,0.1474,How to apply the ERP model for Smart Mining?
 1451,performance comparison,0.1472,Ant colony optimization with semi random initialization for nurse rostering problem
 1534,addition,0.1471,The Metaverse and Beyond: Implementing Advanced Multiverse Realms With Smart Wearables
-92,algorithm operators,0.1471, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+92,algorithm operators,0.1471,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 912,critical speed,0.1471,Digital Twins for Micro Machining
 690,ab initio techniques,0.1467,Quantum neural networks force fields generation
 250,artiﬁcial intelligence era,0.1465,Synaptic 1/f noise injection for overfitting suppression in hardware neural networks
@@ -991,7 +991,7 @@ memristors"
 1050,communications technology planning,0.1463,Predictive Hybrid Autoscaling for Containerized Applications
 668,structural length index,0.1459,Kinematic Optimization of 6DOF Serial Robot Arms by Bio-Inspired Algorithms
 1273,mission,0.1457,Secure transmission technology based on direct modulation with random channel characteristics
-93,maribor,0.1454, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+93,maribor,0.1454,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 669,better singularity,0.1451,Kinematic Optimization of 6DOF Serial Robot Arms by Bio-Inspired Algorithms
 1609,pnn,0.145,Massively scalable wavelength diverse integrated photonic linear neuron
 871,edp sciences,0.1448,Study on the Application of the Holistic Optimization Method of the Manufacturing Process in the Case of a Reduced Instances Database
@@ -1117,7 +1117,7 @@ Hesitant Fuzzy Environment"
 232,monoliths,0.1255,Detection of Cluster Anomalies With ML Techniques
 1212,information network,0.1255,Physical layer security techniques for data transmission for future wireless networks
 1275,time pad,0.125,Secure transmission technology based on direct modulation with random channel characteristics
-153,large numbers,0.1249, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+153,large numbers,0.1249,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 674,5dof,0.1247,Kinematic Optimization of 6DOF Serial Robot Arms by Bio-Inspired Algorithms
 1611,high index contrast,0.1246,Massively scalable wavelength diverse integrated photonic linear neuron
 189,116329gb,0.1245,Carbon Footprint vs Energy Optimization in IoT Network Deployments
@@ -1156,7 +1156,7 @@ Omni-Channel Last-Mile Delivery"
 395,licence,0.1189,Subaging in underparametrized deep neural networks 
 991,λd,0.1185,Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis
 1576,further distribution,0.1185,Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks
-94,ern society,0.1182, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+94,ern society,0.1182,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 54,other tests,0.1181,Audiogram Digitization Tool for Audiological Reports
 1393,heat transfer,0.1181,Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0
 1471,modiﬁed deferred acceptance,0.1178,SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks
@@ -1182,7 +1182,7 @@ deep neural network with arbitrary depth"
 10,universiti teknologi malaysia,0.1149,"Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
 Machine Learning Solutions"
 1473,economic informatics,0.1148,SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks
-154,bottleneck,0.1148, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+154,bottleneck,0.1148,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 1196,dhr,0.1145,Problems and solutions regarding generalized functional safety in cyberspace
 396,göttingen,0.1142,Subaging in underparametrized deep neural networks 
 1577,zeldovich,0.1142,Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks
@@ -1201,7 +1201,7 @@ deep neural network with arbitrary depth"
 233,lightweight protocols,0.1116,Detection of Cluster Anomalies With ML Techniques
 609,transmission line losses,0.1113,New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic
 552,ing fuel costs,0.111,Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification
-155,reset,0.1108, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+155,reset,0.1108,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 171,learn,0.1107,A biology-informed similarity metric for simulated patches of human cell membrane
 311,nccr,0.1106,Metric learning for kernel ridge regression: assessment of molecular similarity
 1077,smai,0.1106,Robust classification with feature selection using an application of the Douglas-Rachford splitting algorithm
@@ -1323,7 +1323,7 @@ Machine Learning Solutions"
 113,signiﬁcant expansion,0.0895," A Novel Similarity-Based Multi-Attribute Group Decision-Making Method in a Probabilistic
 Hesitant Fuzzy Environment"
 854,data,0.0894,Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC
-95,electrical engineering,0.0893, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+95,electrical engineering,0.0893,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 1493,binary events,0.0892,Neuromorphic computing for attitude estimation onboard quadrotors
 1550,optimization problem,0.0889,Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning
 1036,square deviations,0.0889,Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays
@@ -1428,7 +1428,7 @@ Omni-Channel Last-Mile Delivery"
 891,full factorial experiments,0.0716,Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates
 238,ter,0.0714,Detection of Cluster Anomalies With ML Techniques
 1016,synopsis,0.0713,Multi-Dimensional Data Compression and Query Processing in Array Databases
-96,creative commons attribution,0.0709, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+96,creative commons attribution,0.0709,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 1375,costs,0.0707,Experimental investigations and finite element analysis of milling of Inconel 718 alloy
 1335,creative commons attribution,0.0707,SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features
 1318,abstract,0.0705,Implicit privacy preservation: a framework based on data generation
@@ -1504,7 +1504,7 @@ memristors"
 856,reicent commercial introduction,0.0586,Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC
 316,reliable tools,0.0584,Metric learning for kernel ridge regression: assessment of molecular similarity
 378,tlp,0.0583,GhostLeg: Selective Memory Coalescing for Secure GPU Architecture
-156,delft university,0.0583, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+156,delft university,0.0583,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 815,lower power consumption,0.058,superconducting nanowire-based architecture for neuromorphic computing
 1376,acceptable regions,0.0579,Experimental investigations and finite element analysis of milling of Inconel 718 alloy
 336,simulation results,0.0579,Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks
@@ -1563,19 +1563,19 @@ memristors"
 1432,neuilly,0.0475,Development of an advanced MES for the simulation and optimization of industry 4.0 process
 894,travel speed,0.0474,Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates
 357,mcdm,0.0474,"Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches"
-157,received,0.0472, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+157,received,0.0472,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 1519,author,0.0459,"Advantages of binary stochastic synapses for hardware spiking neural networks with realistic
 memristors"
 917,vytautas ostasevicius1,0.0458,Digital Twins for Micro Machining
 1498,processing time,0.0449,Neuromorphic computing for attitude estimation onboard quadrotors
 876,galati,0.0448,Study on the Application of the Holistic Optimization Method of the Manufacturing Process in the Case of a Reduced Instances Database
-97,iztok fister jr,0.0444, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+97,iztok fister jr,0.0444,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 214,subsets,0.0437,Neural network training with highly incomplete medical datasets
 317,alternative measures,0.0435,Metric learning for kernel ridge regression: assessment of molecular similarity
 1158,current version,0.0435,Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)
 1096,baptiste caillau,0.0428,Goal-oriented adaptive sampling under random field modelling of response probability distributions
 1018,lsst,0.0427,Multi-Dimensional Data Compression and Query Processing in Array Databases
-158,abhairaj singh3,0.0425, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+158,abhairaj singh3,0.0425,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 758,received,0.0423,Convolutional neural networks with radio-frequency spintronic nano-devices
 477,open api,0.0421,A framework for recommending tourist attractions using deep learning and association rule mining-based methods
 796,narayan bhusal1,0.0419,High-dimensional encryption in optical fibers using spatial modes of light and machine learning
@@ -1639,7 +1639,7 @@ Hesitant Fuzzy Environment"
 1434,multidisci,0.0305,Development of an advanced MES for the simulation and optimization of industry 4.0 process
 1435,small series,0.0304,Development of an advanced MES for the simulation and optimization of industry 4.0 process
 196,large group,0.0304,Carbon Footprint vs Energy Optimization in IoT Network Deployments
-159,compact modelling,0.0298, Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
+159,compact modelling,0.0298,Reliability aspects of binary vector-matrixmultiplications using ReRAM devices
 1417,vit university,0.0294,R-tree data structure implementation for Computer Aided Engineering (CAE) tools
 694,demanding strategies,0.0291,Quantum neural networks force fields generation
 1637,clear water bay,0.0288,Learning torsional eye movements through active efficient coding
@@ -1730,7 +1730,7 @@ Hesitant Fuzzy Environment"
 Machine Learning Solutions"
 1359,received,-0.0032,"Emulation and modelling of semiconductor optical amplifier-based all-optical photonic integrated
 deep neural network with arbitrary depth"
-98,essential part,-0.0033, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+98,essential part,-0.0033,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 1378,creative commons attribution license,-0.0037,Experimental investigations and finite element analysis of milling of Inconel 718 alloy
 1439,expected ﬂexibility,-0.0043,Development of an advanced MES for the simulation and optimization of industry 4.0 process
 218,world,-0.0043,Neural network training with highly incomplete medical datasets
@@ -1747,7 +1747,7 @@ deep neural network with arbitrary depth"
 1559,other settings,-0.0192,Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning
 1299,accepted,-0.0204,A note on diagnosis and performance degradation detection in automatic control systems towards functional safety and cyber security
 598,creative commons attribution license,-0.0222,Parallel Hybrid 2-Opt Flower Pollination Algorithm for Real-Time UAV Trajectory Planning on GPU
-99,1970s,-0.0224, Modified Evolutionary Algorithm for Generating the Cycling Training Routes
+99,1970s,-0.0224,Modified Evolutionary Algorithm for Generating the Cycling Training Routes
 339,graduate student member,-0.0226,Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks
 1379,doe,-0.0227,Experimental investigations and finite element analysis of milling of Inconel 718 alloy
 699,received,-0.0326,Quantum neural networks force fields generation
