@@ -168,7 +168,7 @@ def generate_keywords(corpus, conference_corpus):
     for x in range(len(conference_corpus['title'])): 
         doc_embedding_con, word_embedding_con = kw_model.extract_embeddings(conference_corpus['text'][x], vectorizer=vectorizer)
         keywords_dist_conference = kw_model.extract_keywords(conference_corpus['text'][x], vectorizer=vectorizer, 
-                                                             use_mmr=True, diversity=0.5, top_n=50,
+                                                             use_mmr=True, diversity=0.2, top_n=10,
                                                              doc_embeddings=doc_embedding_con, 
                                                              word_embeddings=word_embedding_con)
         #Füllung dictionary conference_keys

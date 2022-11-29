@@ -129,7 +129,7 @@ def get_stopwords():
     return my_stop_words
 
 
-# In[12]:
+# In[1]:
 
 
 def generate_keywords(corpus, conference_corpus):
@@ -138,12 +138,12 @@ def generate_keywords(corpus, conference_corpus):
     corpus = preprocess_corpus(corpus)
     
     paper_keys = {'keywords': [], 
-                'relevance':[],
-                'paper': [] }
+                  'relevance':[],
+                  'paper': [] }
     
     conference_keys = {'keywords': [], 
-                        'relevance':[],
-                        'conference': [] }
+                       'relevance':[],
+                       'conference': [] }
     #Definition des Modells, des vectorizers und KeyBert
     sentence_model = SentenceTransformer("all-mpnet-base-v2")
     kw_model = KeyBERT(model=sentence_model)
@@ -154,7 +154,7 @@ def generate_keywords(corpus, conference_corpus):
         doc_embedding_paper, word_embedding_paper = kw_model.extract_embeddings(corpus['text'][x], vectorizer=vectorizer)
         keywords_dist_paper = kw_model.extract_keywords(corpus['text'][x], vectorizer=vectorizer, use_mmr=True, 
                                                         diversity=0.6, top_n=20, doc_embeddings=doc_embedding_paper, 
-                                                        word_embeddings=word_embedding_paper,stop_words=stop_words)
+                                                        word_embeddings=word_embedding_paper)
         #Füllung dictionary paper_keys
         for i in range(len(keywords_dist_paper)):
             keyword =  keywords_dist_paper[i][0]
@@ -168,9 +168,9 @@ def generate_keywords(corpus, conference_corpus):
     for x in range(len(conference_corpus['title'])): 
         doc_embedding_con, word_embedding_con = kw_model.extract_embeddings(conference_corpus['text'][x], vectorizer=vectorizer)
         keywords_dist_conference = kw_model.extract_keywords(conference_corpus['text'][x], vectorizer=vectorizer, 
-                                                             use_mmr=True, diversity=0.5, top_n=20,
+                                                             use_mmr=True, diversity=0.2, top_n=10,
                                                              doc_embeddings=doc_embedding_con, 
-                                                             word_embeddings=word_embedding_con,stop_words=stop_words)
+                                                             word_embeddings=word_embedding_con)
         #Füllung dictionary conference_keys
         for i in range(len(keywords_dist_conference)):
             keyword =  keywords_dist_conference[i][0]
@@ -183,12 +183,12 @@ def generate_keywords(corpus, conference_corpus):
     #Umwandlung in Dataframe paper_keys
     df_paper = pd.DataFrame(paper_keys)
     filepath_paper = 'keywords/paper_Keywords.csv'
-    df_paper = df_paper.sort_values('relevance',ascending=False)
+    df_paper = df_paper.sort_values('paper')
     df_paper.to_csv(filepath_paper)
     #Umwandlung in Dataframe conference_keys
     df_conference = pd.DataFrame(conference_keys)
     filepath_conference = 'keywords/conference_Keywords.csv'
-    df_conference = df_conference.sort_values('relevance',ascending=False)
+    df_conference = df_conference.sort_values('conference')
     df_conference.to_csv(filepath_conference)
 
     return paper_keys, conference_keys

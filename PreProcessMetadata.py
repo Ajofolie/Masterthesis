@@ -16,6 +16,7 @@ import pandas as pd
 
 
 # initialerstellung der csv mit allen PDF's
+# Vielleicht noch löschen der Einträge die nicht im Pfad sind???
 def read_paper_meta(path):
     paper_path = str(path) + "PDF"
     #p = pathlib.Path(path)
@@ -113,7 +114,7 @@ def read_paper_meta(path):
     return(meta_control)
 
 
-# In[1]:
+# In[2]:
 
 
 #Anpassung der Metadaten in den eigentlichen PDF's:
@@ -125,18 +126,22 @@ def write_paper_meta(path, pdf_meta):
     for x in range(len(pdf_meta)):
         cur_pdf = pdf_meta['PDF'][x] #Name der PDF  
         cur_pdf_full = paper_path + cur_pdf #voller Pfad der jeweiligen PDF
-        cur_reader = PdfFileReader(cur_pdf_full) #aktuelle PDF lesen können
-        cur_writer = PdfFileWriter() # aktuelle PDF schreiben können
-        cur_writer.appendPagesFromReader(cur_reader)
-        cur_metadata = cur_reader.getDocumentInfo() #Metadaten der aktuellen PDF holen
-        cur_writer.addMetadata(cur_metadata) #Metadaten der aktuellen PDF ändern
-        cur_writer.addMetadata({"/Title": pdf_meta['Titles'][x]})
-        cur_writer.addMetadata({"/Author": pdf_meta['Authors'][x]})
-        #custom Metadata
-        cur_writer.addMetadata({"/CreationDate": str(pdf_meta['Date'][x])})
-        cur_writer.addMetadata({"/ConferenceName": pdf_meta['Conference'][x]})
-        with open(cur_pdf_full, "wb") as fp:
-            cur_writer.write(fp)
+        cur_file = pathlib.Path(cur_pdf_full)
+        if cur_file.exists(): #Prüfung ob PDF Pfad existiert fehlt noch
+            cur_reader = PdfFileReader(cur_pdf_full) #aktuelle PDF lesen können
+            cur_writer = PdfFileWriter() #aktuelle PDF schreiben können
+            cur_writer.appendPagesFromReader(cur_reader)
+            cur_metadata = cur_reader.getDocumentInfo() #Metadaten der aktuellen PDF holen
+            cur_writer.addMetadata(cur_metadata) #Metadaten der aktuellen PDF ändern
+            cur_writer.addMetadata({"/Title": pdf_meta['Titles'][x]})
+            cur_writer.addMetadata({"/Author": pdf_meta['Authors'][x]})
+            #custom Metadata
+            cur_writer.addMetadata({"/CreationDate": str(pdf_meta['Date'][x])})
+            cur_writer.addMetadata({"/ConferenceName": pdf_meta['Conference'][x]})
+            with open(cur_pdf_full, "wb") as fp:
+                cur_writer.write(fp)
+        else:
+            continue
     
 
 
@@ -156,8 +161,7 @@ def write_conference_meta(path, pdf_meta):
             text = ''
             for page in cur_reader:  
                 text += (page.get_text("text"))
-
-            if text.find(cur_conference) != -1:
+        if text.find(cur_conference) != -1:
                 cur_reader = PdfFileReader(file) #aktuelle PDF lesen können
                 cur_writer = PdfFileWriter() # aktuelle PDF schreiben können
                 cur_writer.appendPagesFromReader(cur_reader)
