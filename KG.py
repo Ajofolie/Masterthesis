@@ -24,7 +24,7 @@ def get_entity_rel(meta, KG_entities, keyword_list_paper, keyword_list_con):
     KG_entities.add_node("Autor", color=2, typ='class')
     KG_entities.add_node("Konferenz", color=3, typ='class')
     KG_entities.add_node("Themengebiet paper", color=10, typ='class')
-    KG_entities.add_node("Themengebiet Konferenz", color=15, typ='class')
+    KG_entities.add_node("Themengebiet Konferenz", color=5, typ='class')
     
     for i in range(len(meta)):
         
@@ -53,7 +53,7 @@ def get_entity_rel(meta, KG_entities, keyword_list_paper, keyword_list_con):
             #Festlegung mindest Relevanz
             if keyword_list_paper['relevance'][j] > 0.4:
                 #Knotenerstellung aller keywords mit Attribut typ Thema paper
-                KG_entities.add_node(keyword_list_paper['keywords'][j], color=10.5, typ='Thema paper')
+                KG_entities.add_node(keyword_list_paper['keywords'][j], color=9.5, typ='Thema paper')
                 #Beziehung zwischen keywords und Überknoten Themengebiet paper mit Attribut label ist
                 KG_entities.add_edge(keyword_list_paper['keywords'][j], 'Themengebiet paper', label='ist')
                 if meta['Titles'][i] == keyword_list_paper['paper'][j]:
@@ -65,7 +65,7 @@ def get_entity_rel(meta, KG_entities, keyword_list_paper, keyword_list_con):
             #Festlegung mindest Relevanz
             if keyword_list_con['relevance'][j] > 0.44:
                 #Knotenerstellung aller keywords mit Attribut typ Thema Konferenz
-                KG_entities.add_node(keyword_list_con['keywords'][j], color=15.2, typ='Thema Konferenz')
+                KG_entities.add_node(keyword_list_con['keywords'][j], color=4.5, typ='Thema Konferenz')
                 #Beziehung zwischen keywords und Überknoten Themengebiet Konferenz mit Attribut label ist
                 KG_entities.add_edge(keyword_list_con['keywords'][j], 'Themengebiet Konferenz', label='ist')
                 if meta['Conference'][i] == keyword_list_con['conference'][j]:
@@ -129,7 +129,7 @@ def query_graph(G_KG,n,class_result,visited,selects={}):
 
 
 #mergen der dictionaries (mehrere values für einen key, jedoch keine doppelten Werte)
-def merge_dictionary(selects, selects_tmp):   
+def merge_dictionary(selects, selects_tmp):  
     dict_3 = {**selects_tmp,**selects} #erstellt neues dictionary aus merge von selects_tmp und selects (überschreibt sich)
     for key, value in selects_tmp.items(): #Iteration über key:value pairs
             if key in selects and key in selects_tmp: #wenn key in beiden dictionaries
@@ -157,7 +157,6 @@ def dict_korr(G_KG,selects, selects_tmp, class_result):
         # oder falls Autoren gesucht werden, ein Titel reinkommt und eine Kante zu dem gesuchten keyword hat
         (class_result == 'Autor' and selects_tmp_keys[0] == 'Titel' and G_KG.has_edge(selects_tmp_values[0], selects_values[0]))):
         dict_3 = merge_dictionary(selects, selects_tmp) #Aufruf merge dictionary Funktion
-        
         #Falls Titel gesucht werden, gib das entstandene dict3 zurück
         if class_result == 'Titel': 
             return dict_3
@@ -186,27 +185,30 @@ def dict_korr(G_KG,selects, selects_tmp, class_result):
 
 #Korrektur der zu mergenden dictionaries, wenn keine Angabe was gefunden werden soll (gibt alles aus)
 def dict_korr_all(G_KG,selects, selects_tmp):
-
     flag = False
     selects_keys = list(selects.keys())
     selects_tmp_keys = list(selects_tmp.keys())
     selects_values = list(selects.values())
     selects_tmp_values = list(selects_tmp.values())
-
+    
     #Einschränkung Titel Suche (Suchbegriff ist Titel)
     if selects_keys[0] == 'Titel':
         if selects_tmp_keys[0] == 'Titel': 
             return selects #mache nichts, da Titel die Ersteingabe war und nicht weitere Titel gefunden werden sollen
-        if 'Konferenz' in selects.keys(): #falls Konferenz schon enthalten
-            if selects_tmp_keys[0] == 'Autor' or selects_tmp_keys[0] == 'Konferenz': #es wird ein Autor oder Konferenz reingegeben
-                return selects #mache nichts, da nicht noch eine Konferenz oder Autoren anderer Titel rauskommen sollen (wegen Reihenfolge wie Knoten durchlaufen werden)
+        if selects_tmp_keys[0] == 'Autor' and not G_KG.has_edge(selects_tmp_values[0],selects_values[0]): #es wird ein Autor oder Konferenz reingegeben
+            return selects #mache nichts, da nicht noch eine Konferenz oder Autoren anderer Titel rauskommen sollen (wegen Reihenfolge wie Knoten durchlaufen werden)
+        if selects_tmp_keys[0] == 'Konferenz' and not G_KG.has_edge(selects_values[0], selects_tmp_values[0]):
+            return selects 
         if selects_tmp_keys[0] == 'Thema paper' and not G_KG.has_edge(selects_values[0], selects_tmp_values[0]): #nur Themen, die eine Kante zum Ersteingegebenen Titel haben
             return selects #mache nichts
         if selects_tmp_keys[0] =='Thema Konferenz': #Falls Konferenz Thema reinkommt
+            print(selects_tmp_values[0])
             for k,v in selects.items(): #iteration über key:value pairs von selects
-                if k == 'Konferenz' and G_KG.has_edge(v, selects_tmp_values[0]): #falls key Konferenz ist und eine Kante zum Titel hat
+                if k == 'Konferenz' and G_KG.has_edge(v,selects_tmp_values[0]): #falls key Konferenz ist und eine Kante zum Thema Konferenz hat
                     dict_3 = merge_dictionary(selects, selects_tmp) #nimm Konferenz Thema auf
                     return dict_3
+                else:
+                    flag = True
 
     #Einschränkung Konferenz Suche(Suchbegriff ist Konferenz)
     if selects_keys[0] == 'Konferenz':
@@ -274,7 +276,7 @@ def show_graph(G_KG,colors):
     plt.figure(figsize=(25,15))
     pos = nx.spring_layout(G_KG, k=10/math.sqrt(G_KG.order())) # Layout Graph
     d = dict(G_KG.degree)
-    #pos = nx.spring_layout(G_KG)  #setting the positions with respect to G, not k.
     nx.draw_networkx(G_KG, with_labels=True, pos=pos, node_size=[v * 50 for v in d.values()], node_color=colors, edge_color= 'grey', font_family = 'Arial')
-    plt.show()
+    #plt.show()
+    plt.savefig("G_KG.png", format="PNG")
 

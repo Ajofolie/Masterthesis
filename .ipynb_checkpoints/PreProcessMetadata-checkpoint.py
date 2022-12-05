@@ -9,16 +9,15 @@ import fitz
 import os
 import pathlib
 import pandas as pd
-#import numpy as np
 
 
 # In[2]:
 
 
 # initialerstellung der csv mit allen PDF's
+# Vielleicht noch löschen der Einträge die nicht im Pfad sind???
 def read_paper_meta(path):
     paper_path = str(path) + "PDF"
-    #p = pathlib.Path(path)
     p = pathlib.Path(paper_path)
     pdf_names = []
     meta_author = []
@@ -29,19 +28,20 @@ def read_paper_meta(path):
     meta_list = []
     files_path = list(p.glob('*.pdf'))
     is_checked = True
+    meta_control = pd.DataFrame()
     
     #Itertion über alle files
     for file in files_path:
-        meta_control = pd.read_excel(str(path) + 'metadata_list.xlsx')
+        meta_control_tmp = pd.read_excel(str(path) + 'metadata_list.xlsx')
         cur_reader = PdfFileReader(file)
-        cur_pdf_name = pathlib.Path(file).name #holen PDF Name   
+        cur_pdf_name = pathlib.Path(file).name #holen PDF Name  
         #Prüfung ob PDF bereits in metadata_list enthalten
         if(cur_pdf_name in meta_control.values):
             cur_index = meta_control.loc[meta_control['PDF'] == cur_pdf_name] #Zeile der PDF
             if(pd.isna(cur_index.Check.iloc[0])): #wenn Check bei der PDF leer, dann check auf False
                 is_checked = False
         #Falls name der Datei nicht in der Excel, hole die Metadaten und speicher diese weg     
-        if(cur_pdf_name not in meta_control.values):
+        if not cur_pdf_name in meta_control.values:
             is_checked = False
             cur_writer = PdfFileWriter() # aktuelle PDF schreiben können
             cur_metadata = cur_reader.getDocumentInfo()
@@ -102,18 +102,17 @@ def read_paper_meta(path):
             #Erstellung als DataFrame aus Dictionary
             df_meta = pd.DataFrame(meta_list)
             #Zusammenfügen der bereits existierenden Datei und den neuen Metadaten
-            meta_control = pd.concat([meta_control, df_meta])
-
+            meta_control = pd.concat([meta_control_tmp, df_meta])
+    print(meta_control)
     #Ausgabe Excel
-    meta_control.to_excel(str(path) + 'metadata_list.xlsx', index=False, header=True)     
+    meta_control.to_excel(str(path) + 'metadata_list.xlsx', index=False, header=True)  
     if(not is_checked): #Prüfung auf Check, dann auch öffnen der Datei   
         os.system("start EXCEL.EXE " + str(path) + "metadata_list.xlsx")
-        raise Exception('Anpassen der Metadaten in Datei notwendig. Datei wird geöffnet.\n\t\tAnschließend Programm neustarten.')
-    
+        raise Exception('Anpassen der Metadaten in Datei notwendig. Datei wird geöffnet. Anschließend Programm neustarten.')
     return(meta_control)
 
 
-# In[1]:
+# In[2]:
 
 
 #Anpassung der Metadaten in den eigentlichen PDF's:
@@ -125,18 +124,22 @@ def write_paper_meta(path, pdf_meta):
     for x in range(len(pdf_meta)):
         cur_pdf = pdf_meta['PDF'][x] #Name der PDF  
         cur_pdf_full = paper_path + cur_pdf #voller Pfad der jeweiligen PDF
-        cur_reader = PdfFileReader(cur_pdf_full) #aktuelle PDF lesen können
-        cur_writer = PdfFileWriter() # aktuelle PDF schreiben können
-        cur_writer.appendPagesFromReader(cur_reader)
-        cur_metadata = cur_reader.getDocumentInfo() #Metadaten der aktuellen PDF holen
-        cur_writer.addMetadata(cur_metadata) #Metadaten der aktuellen PDF ändern
-        cur_writer.addMetadata({"/Title": pdf_meta['Titles'][x]})
-        cur_writer.addMetadata({"/Author": pdf_meta['Authors'][x]})
-        #custom Metadata
-        cur_writer.addMetadata({"/CreationDate": str(pdf_meta['Date'][x])})
-        cur_writer.addMetadata({"/ConferenceName": pdf_meta['Conference'][x]})
-        with open(cur_pdf_full, "wb") as fp:
-            cur_writer.write(fp)
+        cur_file = pathlib.Path(cur_pdf_full)
+        if cur_file.exists(): #Prüfung ob PDF Pfad existiert fehlt noch
+            cur_reader = PdfFileReader(cur_pdf_full) #aktuelle PDF lesen können
+            cur_writer = PdfFileWriter() #aktuelle PDF schreiben können
+            cur_writer.appendPagesFromReader(cur_reader)
+            cur_metadata = cur_reader.getDocumentInfo() #Metadaten der aktuellen PDF holen
+            cur_writer.addMetadata(cur_metadata) #Metadaten der aktuellen PDF ändern
+            cur_writer.addMetadata({"/Title": pdf_meta['Titles'][x]})
+            cur_writer.addMetadata({"/Author": pdf_meta['Authors'][x]})
+            #custom Metadata
+            cur_writer.addMetadata({"/CreationDate": str(pdf_meta['Date'][x])})
+            cur_writer.addMetadata({"/ConferenceName": pdf_meta['Conference'][x]})
+            with open(cur_pdf_full, "wb") as fp:
+                cur_writer.write(fp)
+        else:
+            continue
     
 
 
@@ -156,8 +159,7 @@ def write_conference_meta(path, pdf_meta):
             text = ''
             for page in cur_reader:  
                 text += (page.get_text("text"))
-
-            if text.find(cur_conference) != -1:
+        if text.find(cur_conference) != -1:
                 cur_reader = PdfFileReader(file) #aktuelle PDF lesen können
                 cur_writer = PdfFileWriter() # aktuelle PDF schreiben können
                 cur_writer.appendPagesFromReader(cur_reader)
