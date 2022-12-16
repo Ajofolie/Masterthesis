@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[14]:
+# In[3]:
 
 
 from PyPDF2 import PdfFileReader, PdfFileWriter
@@ -14,8 +14,7 @@ import pandas as pd
 # In[2]:
 
 
-# initialerstellung der csv mit allen PDF's
-# Vielleicht noch löschen der Einträge die nicht im Pfad sind???
+# Vervollständigen der Excel metadata_list mit allen PDF's
 def read_paper_meta(path):
     paper_path = str(path) + "PDF"
     p = pathlib.Path(paper_path)
@@ -28,11 +27,12 @@ def read_paper_meta(path):
     meta_list = []
     files_path = list(p.glob('*.pdf'))
     is_checked = True
-    meta_control = pd.DataFrame()
+    meta_control = pd.read_excel(str(path) + 'metadata_list.xlsx')
+    df_meta = pd.DataFrame()
     
     #Itertion über alle files
     for file in files_path:
-        meta_control_tmp = pd.read_excel(str(path) + 'metadata_list.xlsx')
+        meta_control_tmp = pd.DataFrame()
         cur_reader = PdfFileReader(file)
         cur_pdf_name = pathlib.Path(file).name #holen PDF Name  
         #Prüfung ob PDF bereits in metadata_list enthalten
@@ -102,8 +102,8 @@ def read_paper_meta(path):
             #Erstellung als DataFrame aus Dictionary
             df_meta = pd.DataFrame(meta_list)
             #Zusammenfügen der bereits existierenden Datei und den neuen Metadaten
-            meta_control = pd.concat([meta_control_tmp, df_meta])
-    print(meta_control)
+            meta_control_tmp = pd.concat([meta_control_tmp, df_meta])
+        meta_control = pd.concat([meta_control, meta_control_tmp])
     #Ausgabe Excel
     meta_control.to_excel(str(path) + 'metadata_list.xlsx', index=False, header=True)  
     if(not is_checked): #Prüfung auf Check, dann auch öffnen der Datei   

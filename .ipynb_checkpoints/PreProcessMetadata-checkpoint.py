@@ -28,11 +28,12 @@ def read_paper_meta(path):
     meta_list = []
     files_path = list(p.glob('*.pdf'))
     is_checked = True
-    meta_control = pd.DataFrame()
+    meta_control = pd.read_excel(str(path) + 'metadata_list.xlsx')
+    df_meta = pd.DataFrame()
     
     #Itertion über alle files
     for file in files_path:
-        meta_control_tmp = pd.read_excel(str(path) + 'metadata_list.xlsx')
+        meta_control_tmp = pd.DataFrame()
         cur_reader = PdfFileReader(file)
         cur_pdf_name = pathlib.Path(file).name #holen PDF Name  
         #Prüfung ob PDF bereits in metadata_list enthalten
@@ -42,6 +43,7 @@ def read_paper_meta(path):
                 is_checked = False
         #Falls name der Datei nicht in der Excel, hole die Metadaten und speicher diese weg     
         if not cur_pdf_name in meta_control.values:
+            print(cur_pdf_name)
             is_checked = False
             cur_writer = PdfFileWriter() # aktuelle PDF schreiben können
             cur_metadata = cur_reader.getDocumentInfo()
@@ -102,8 +104,8 @@ def read_paper_meta(path):
             #Erstellung als DataFrame aus Dictionary
             df_meta = pd.DataFrame(meta_list)
             #Zusammenfügen der bereits existierenden Datei und den neuen Metadaten
-            meta_control = pd.concat([meta_control_tmp, df_meta])
-    print(meta_control)
+            meta_control_tmp = pd.concat([meta_control_tmp, df_meta])
+        meta_control = pd.concat([meta_control, meta_control_tmp])
     #Ausgabe Excel
     meta_control.to_excel(str(path) + 'metadata_list.xlsx', index=False, header=True)  
     if(not is_checked): #Prüfung auf Check, dann auch öffnen der Datei   
