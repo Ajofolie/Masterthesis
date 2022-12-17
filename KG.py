@@ -12,34 +12,35 @@ from rdflib import Graph, Literal, RDF, URIRef
 from rdflib import Namespace
 from rdflib.namespace import DC, FOAF, RDF
 
-
 # In[1197]:
 
-
 def get_entity_rel(df_pdf_meta, g, keyword_list_paper, keyword_list_con):
-    
     n = Namespace('http://G_KG.org/')
-    g.bind('n',n)
-
+    G_KG.bind('G_KG',n)
+    G_KG.bind('dc',DC)
+    G_KG.bind('FOAF',FOAF)
+    G_KG.bind('rdf',RDF)
+#Literale nicht abfragbar?????
 
     for i in range(len(df_pdf_meta)):
-        cur_authors =  df_pdf_meta['Authors'][i].split(',')
-        date_cur = Literal(df_pdf_meta['Date'][i]) #aktuelles Datum
+        authors =  df_pdf_meta['Authors'][i].split(',')
+        date = df_pdf_meta['Date'][i] #aktuelles Datum
+        date_cur = Literal(date)
         titel = df_pdf_meta['Titles'][i].strip()
-        paper_cur = Literal(titel) #aktueller Titel
+        title_cur = Literal(titel) #aktueller Titel
         con = df_pdf_meta['Conference'][i].strip()
         con_cur = Literal(con) #aktuelle Konferenz
 
-        g.add((n.paper, DC.title, paper_cur))
-        g.add((paper_cur, DC.date, date_cur))
-        g.add((con_cur, DC.title, n.conference))
-        g.add((paper_cur, DC.publisher, con_cur))
+        g.add((n.paper, DC.title, title_cur))
+        g.add((title_cur, DC.date, date_cur))
+        g.add((n.conference, DC.title, con_cur))
+        g.add((title_cur, DC.publisher, con_cur))
 
-        for author in cur_authors:
+        for author in authors:
             author = author.strip()
             author_cur = Literal(author)
             g.add((n.Autor, FOAF.name, author_cur))
-            g.add((author_cur, DC.creator, paper_cur))
+            g.add((author_cur, DC.creator, title_cur))
 
         for j in range(len(keyword_list_paper['keywords'])):
             #Festlegung mindest Relevanz
@@ -48,7 +49,7 @@ def get_entity_rel(df_pdf_meta, g, keyword_list_paper, keyword_list_con):
                 g.add((n.ThemengebietPaper, RDF.type, pk_cur))
                 if df_pdf_meta['Titles'][i] == keyword_list_paper['paper'][j]:
                     #Beziehung zwischen Titeln und keywords mit Attribut label handelt von
-                    g.add((paper_cur, DC.subject, pk_cur))
+                    g.add((title_cur, DC.subject, pk_cur))
 
         #Themen Konferenzen     
         for j in range(len(keyword_list_con['keywords'])):
