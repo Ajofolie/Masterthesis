@@ -7,7 +7,7 @@ In den Folgenden Abschnitten wird auf die einzelnen Programmteile eingegangen un
 PreProcessMetadata
 Das Skript umfasst drei folgende Funktionen:
 
-read_paper_meta
+     read_paper_meta
 
 Die erste Funktion  hat die Aufgabe, die Metadaten der wissenschaftlichen paper einzulesen und diese in die Hilfsdatei metadata_list.xlsx zu schreiben. Dabei ist es wichtig, dass eine solche Datei bereits existiert. Das Lesen und auslesen dieser Datei wird durch das Paket pandas ermöglicht.
 
@@ -21,18 +21,18 @@ Da es möglich ist, dass abgefragte Metadateninformationen nicht vorhanden sind,
 Am Ende der Funktion spielt die gesetzte Flag eine Rolle. Denn falls diese Flag auf False steht, soll das Programm abbrechen und die metadata_list.xlsx Datei öffnen. Das Öffnen wird über das build-in Paket os realisiert. Somit wird eine manuelle Überprüfung durch den Nutzer vorausgesetzt und eine sichere Weiterverarbeitung garantiert. Die Flag wird auf False gesetzt wenn eine Datei noch nicht in der Liste vorhanden war oder die Spalte Check nicht befüllt ist.
 Die Funktion erhält den Dateipfad wo sich die PDF Dateien befinden als Übergabeparameter und gibt die Liste der gesammelten Metadaten als Rückgabewert zurück.
 
-write_paper_meta
+     write_paper_meta
 
 Nachdem die Metadaten Liste korrekt befüllt und gepflegt wurde, wird die nächste Funktion aufgerufen. Dieser Schritt dient einer konsistenten Datenhaltung. Denn hier werden die korrigierten Metadaten in die eigentlichen Metadaten der Dateien geschrieben. Somit ist auch eine Löschung der Metadaten Liste unproblematisch, denn bei einer weiteren Ausführung der Funktion read_paper_meta würden die korrigierten Metadaten erneut in die Liste eingetragen werden. Die Funktion erhält ebenfalls den Dateipfad als Übergabeparamter, in dem sich die PDF Dateien befinden. In diesem Schritt werden mittels der erstellten und korrigierten Excel Liste alle Metadaten eingelesen und in den jeweiligen PDF Dateien eingepflegt. Diese Funktion besitzt keinen Rückgabeparameter.
 Analog dazu existiert eine weitere Funktion.
 
-write_conference_meta
+     write_conference_meta
 
 Hier wird der Titel einer Konferenz ermittelt und in den Metadaten einer Konferenzbeschreibung hinterlegt. Auch hier wird wieder der Dateipfad übergeben und das Objekt mit den Metadateninformationen. Hier muss jedoch auch über alle Konferenzbeschreibungen iteriert werden, da noch keine Verbindung zwischen den Konferenztiteln und den tatsächlichen Konferenz Dateien besteht. Da aber in jeder Konferenzbeschreibung auch der Titel der Konferenz enthalten ist, kann durch eine Prüfung, ob der ConferenceName aus der Metadatenliste in einer Konferenz Datei vorhanden ist, auch der Titel in die Metadaten der Konferenz Datei geschrieben werden. Auch diese Funktion gibt keinen Wert zurück.
 
 Nachdem diese Funktionen ausgeführt wurden, ergibt sich eine Datenhaltung mit korrekten und gepflegten Metadaten. Diese Metadaten können dazu genutzt werden, die ersten Knoten in der Wissensbasis zu befüllen und bilden den ersten Pflicht Übergabeparameter für die Funktion, die später die Knoten und Kanten des Graphen bilden.
 
-PreProcess_NLP
+     PreProcess_NLP
 Das Skript besteht aus folgenden Funktionen:
 
      build_corpus: liest Texte aus den PDF Dateien und bildet den Text Korpus zu wissenschafltichen Publikationen
@@ -41,21 +41,21 @@ Das Skript besteht aus folgenden Funktionen:
      get_stopwords: Definition der Stopwords
      generate_keywords: Erstellung der keywords aus den PDF Dateien
 
-build_corpus und build_conference
+     build_corpus und build_conference
 
 Bei dieser Funktion wird ein Dictionary erstellt, welches die Titel und Texte der PDF Dateien enthält. Der Übergabeparameter ist der Dateipfad, in dem sich die Dateien befinden. Erneut wird mithilfe von fitz über die Dateien iteriert um die Metadaten, genauer den hinterlegten Titel, auszulesen. Darauf folgt eine weitere Schleife, die Seite für Seite in einem PDF Dokument nach einem abstract sucht. Die Suche wird durch string matching realisiert. Falls die Seite gefunden wird auf dem sich das abstract befindet, wird ausschließlich der Text von dieser Seite in dem erstellten dictionary gespeichert. Falls das Dokument kein abstract enthält, wird der gesamte Text des Dokuments gespeichert. Das gefüllte dictionary wird am Ende der Funktion zurückgegeben.
 In build_conference werden analog zu build_corpus die Beschreibung von Konferenzen ausgelesen. Auch hier wird der Dateipfad als Parameter übergeben und ein identisches dictionary zurückgegeben. Hier wird jedoch immer der gesamte Text gespeichert.
 
-preprocess_corpus
+     preprocess_corpus
 
 Nachdem die Texte extrahiert wurden, soll der Text vorverarbeitet werden. Dazu wird die Variable mit allen Texten übergeben und tokenisiert. 
 Nach diesen Transformationen werden die Texte zurückgegeben und können weitervearbeitet werden.
 
-get_stopwords
+     get_stopwords
 
 Diese Funktion dient zur Zusammenstellung der stopwords. Diese Wörter sollen aus den Texten herausgefiltert werden und bei der Generierung von keywords nicht berücksichtigt werden. Neben einer feststehenden Liste an Wörtern, können auch benutzerdefinierte Begriffe hinzugefügt werden. Neben der englischen stopword Liste wurden in autorefanhang:stopwords aufgeführte Wörter festgesetzt.
 
-generate_keywords
+     generate_keywords
 
 Die Kernfunktion dieses Skripts erzeugt die keywords aus den wissenschaftlichen papern und Konferenzbeschreibungen. Die Funktion erhält als Parameter die aufbereiteten Texte und zum Anderen die Texte aus den Konferenzen. Es werden zwei dictionaries deklariert, für die Texte der paper und der Texte aus den Konferenzbeschreibungen. Sie beinhalten außerdem die keys keywords, relevance und paper bzw. conference. Außerdem wird das Modell zur keyword Extraktion definiert. In diesem Fall wird KeyBERT verwendet, welches auch aus der gleichnamigen Bibliothek stammt. 
 
@@ -80,14 +80,14 @@ Nach der Generierung werden die keywords für wissenschaftliche paper und Konfer
 
 Die Tabelle für die paper beinhaltet neben den keywords und der zugehörigen Relevanz (wie gut passt das keyword zu dem Text) den Titel des zugehörigen papers. Selbiges gilt für Konferenzen, wo der Konferenztitel mit abgebildet wird. Diese beiden Datenstrukturen werden auch von der Funktion zurückgegeben.
 
-KG_old
+     KG_old
 Das dritte Skript besteht aus mehreren Funktionen. Eine sorgt für die Befüllung des Graphen und die Andere für eine Farbpalette, die die Knoten in Abhängigkeit ihres Überknotens (Label) einfärbt. Alle Weiteren dienen der Abfrage des Graphen.
 
-kg_colors
+     kg_colors
 
 Durch die Erstellung einer colormap werden alle Konferenzen in einer Farbe dargestellt und beispielsweise Autoren in einer anderen. Die gewählte Farbpalette ist turbofootnoteurlhttps://matplotlib.org/stable/tutorials/colors/colormaps.html aus dem imporierten Paket matplotlib.
 
-get_entity_rel
+     get_entity_rel
 
 Neben der Farbgebung sorgt diese Funktion für die Erstellung der Kanten und Knoten. Übergeben werden hierbei folgende Parameter:
 
@@ -99,24 +99,24 @@ Neben der Farbgebung sorgt diese Funktion für die Erstellung der Kanten und Kno
 
 Die Funktion erstellt zuerst die Überknoten mittels:
 
-KG_entities.add_node("Paper", color=0.9, typ='class')
+     KG_entities.add_node("Paper", color=0.9, typ='class')
 
 beziehungsweise Instanzknoten:
 
-KG_entities.add_node(author, color=2, typ='Autor')
+     KG_entities.add_node(author, color=2, typ='Autor')
 
  Im Anschluss folgt eine Iteration über jeden Eintrag des Dataframes und generiert dabei Knoten für jeden Titel, zugehörige Autoren und Konferenzen. 
 
-KG_entities.add_node(meta['Titles'][i], date=meta['Date'][i],
-    color=0.8, typ='Titel')
+     KG_entities.add_node(meta['Titles'][i], date=meta['Date'][i],
+         color=0.8, typ='Titel')
 
 An jeder Stelle, an der Knoten erstellt werden, wird auch ein Farbe über das Attribut color definiert, die die Knoten erhalten sollen.
 Zusätzlich werden die Kanten durch
 
-KG_entities.add_edge(meta['Conference'][i], 'Konferenz',
-    label='ist') #Überknoten
-KG_entities.add_edge(meta['Titles'][i], meta['Conference'][i], 
-    label='ist Teil von') #Instanzknoten
+     KG_entities.add_edge(meta['Conference'][i], 'Konferenz',
+         label='ist') #Überknoten
+     KG_entities.add_edge(meta['Titles'][i], meta['Conference'][i], 
+         label='ist Teil von') #Instanzknoten
 
 erstellt. Die Themen, also generierte keywords- und phrases werden auch in dieser Funktion als Knoten gebildet. Es wird ein Knoten mit seiner Farbe erstellt und die zugehörige Kante zum zugehörigen Titel oder Konferenz über thematisiert gebildet. Die richtige Zuordnung der Kanten wird zum Einen darüber garantiert, dass es durch den Aufbau des Dataframes möglich ist über einzelne Zeilen zu iterieren. Zum Anderen wird bei Themengebieten zusätzlich geprüft, ob der Titel, bzw. die Konferenz gleich dem Titel oder der Konferenz in den keyword Auflistungen ist. Zurückgegeben wird der entstandene Graph.
 Die Abfrage des Graphen mittels Suchbegriffen, wie schon in namerefsec:konzGraph erläutert, wird in weiteren Funktionen realisiert. Je nach Abfrage werden unterschiedliche Ergebnisse geliefert, die in autorefchap:ergebnisse näher vorgestellt und beispielhaft veranschaulicht werden.
