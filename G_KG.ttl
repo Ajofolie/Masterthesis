@@ -1,7 +1,8 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix FOAF: <http://xmlns.com/foaf/0.1/> .
+@prefix G_KG: <http://G_KG.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-<http://G_KG.org/Autor> ns2:name "ABDULRAQEB ALHAMMADI",
+G_KG:Autor FOAF:name "ABDULRAQEB ALHAMMADI",
         "AHSAN H. KHANDOKER",
         "ALEN RAJŠP",
         "ALESSANDRO FAUSTO",
@@ -354,7 +355,7 @@
         "Đurđanović Dragan",
         "Živković Jovan" .
 
-<http://G_KG.org/ThemengebietKonferenz> a "advanced manufacturing",
+G_KG:ThemengebietKonferenz a "advanced manufacturing",
         "antennas",
         "clean energy",
         "composite material design",
@@ -408,7 +409,7 @@
         "topology optimization",
         "topology optimizations" .
 
-<http://G_KG.org/ThemengebietPaper> a "abstract fog computing",
+G_KG:ThemengebietPaper a "abstract fog computing",
         "abstract secure",
         "accurate molecular force fields",
         "activation sparsity",
@@ -623,7 +624,7 @@
         "wireless mobile communications",
         "wokshop production management model" .
 
-<http://G_KG.org/conference> ns1:title "French-German-Swiss conference on Optimization",
+G_KG:conference dc:title "French-German-Swiss conference on Optimization",
         "ICCWCS 2022",
         "IEEE Access",
         "International Journal for Simulation and Multidisciplinary Design Optimization",
@@ -632,7 +633,7 @@
         "Neuromorphic Computing and Engineering",
         "Security and Safety" .
 
-<http://G_KG.org/paper> ns1:title "A Comprehensive Study of DNS Operational Issues by Mining DNS Forums",
+G_KG:paper dc:title "A Comprehensive Study of DNS Operational Issues by Mining DNS Forums",
         """A Novel Similarity-Based Multi-Attribute Group Decision-Making Method in a Probabilistic
 Hesitant Fuzzy Environment""",
         """A Selective Many-to-Many Pickup and Delivery Problem With Handling Cost in the
@@ -721,975 +722,975 @@ deep neural network with arbitrary depth""",
         "Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks",
         "superconducting nanowire-based architecture for neuromorphic computing" .
 
-"ABDULRAQEB ALHAMMADI" ns1:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
+"ABDULRAQEB ALHAMMADI" dc:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
 Machine Learning Solutions""" .
 
-"AHSAN H. KHANDOKER" ns1:creator "Explainable Computer-Aided Detection of Obstructive Sleep Apnea and Depression" .
+"AHSAN H. KHANDOKER" dc:creator "Explainable Computer-Aided Detection of Obstructive Sleep Apnea and Depression" .
 
-"ALEN RAJŠP" ns1:creator "Modified Evolutionary Algorithm for Generating the Cycling Training Routes" .
+"ALEN RAJŠP" dc:creator "Modified Evolutionary Algorithm for Generating the Cycling Training Routes" .
 
-"ALESSANDRO FAUSTO" ns1:creator "Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)" .
+"ALESSANDRO FAUSTO" dc:creator "Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)" .
 
-"ANASTASIA LYUPA" ns1:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
+"ANASTASIA LYUPA" dc:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
 
-"ANDREI VISOCHAN" ns1:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
+"ANDREI VISOCHAN" dc:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
 
-"ANDREY STROGANOV" ns1:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
+"ANDREY STROGANOV" dc:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
 
-"ANNA KOZLOVA" ns1:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
+"ANNA KOZLOVA" dc:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
 
-"ANNIKA WOLFF" ns1:creator "Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data" .
+"ANNIKA WOLFF" dc:creator "Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data" .
 
-"ANTONIO-JAVIER GARCIA-SANCHEZ" ns1:creator "Carbon Footprint vs Energy Optimization in IoT Network Deployments" .
+"ANTONIO-JAVIER GARCIA-SANCHEZ" dc:creator "Carbon Footprint vs Energy Optimization in IoT Network Deployments" .
 
-"ARUN NARAYANAN" ns1:creator "Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data" .
+"ARUN NARAYANAN" dc:creator "Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data" .
 
-"AVISHEK NAG" ns1:creator "Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach" .
+"AVISHEK NAG" dc:creator "Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach" .
 
-"Abdelgader Abdeldime Mohamed Salih" ns1:creator "Physical layer security techniques for data transmission for future wireless networks" .
+"Abdelgader Abdeldime Mohamed Salih" dc:creator "Physical layer security techniques for data transmission for future wireless networks" .
 
-"Achim Streit" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"Achim Streit" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"Achmad Said" ns1:creator "Ant colony optimization with semi random initialization for nurse rostering problem" .
+"Achmad Said" dc:creator "Ant colony optimization with semi random initialization for nurse rostering problem" .
 
-"Adnane Latif" ns1:creator "SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization" .
+"Adnane Latif" dc:creator "SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization" .
 
-"Advait Madhavan" ns1:creator "Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays" .
+"Advait Madhavan" dc:creator "Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays" .
 
-"Afteni Cezarina" ns1:creator "Study on the Application of the Holistic Optimization Method of the Manufacturing Process in the Case of a Reduced Instances Database" .
+"Afteni Cezarina" dc:creator "Study on the Application of the Holistic Optimization Method of the Manufacturing Process in the Case of a Reduced Instances Database" .
 
-"Afteni Mitica" ns1:creator "Study on the Application of the Holistic Optimization Method of the Manufacturing Process in the Case of a Reduced Instances Database" .
+"Afteni Mitica" dc:creator "Study on the Application of the Holistic Optimization Method of the Manufacturing Process in the Case of a Reduced Instances Database" .
 
-"AkshatKumar Nigam" ns1:creator "Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning" .
+"AkshatKumar Nigam" dc:creator "Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning" .
 
-"Aleksandra Ćiprijanovi" ns1:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
+"Aleksandra Ćiprijanovi" dc:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
 
-"Alice Mizrahi" ns1:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
+"Alice Mizrahi" dc:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
 
-"Alla Hajar" ns1:creator "Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification" .
+"Alla Hajar" dc:creator "Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification" .
 
-"Alán Aspuru-Guzik" ns1:creator "Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning" .
+"Alán Aspuru-Guzik" dc:creator "Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning" .
 
-"Amarjouf Madiha" ns1:creator "Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" .
+"Amarjouf Madiha" dc:creator "Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" .
 
-"Anas Hatim" ns1:creator "SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization" .
+"Anas Hatim" dc:creator "SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization" .
 
-"Andre Lukas" ns1:creator "Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds" .
+"Andre Lukas" dc:creator "Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds" .
 
-"Andres E Lombo" ns1:creator "superconducting nanowire-based architecture for neuromorphic computing" .
+"Andres E Lombo" dc:creator "superconducting nanowire-based architecture for neuromorphic computing" .
 
-"Anirudh Nihalani Vattikonda" ns1:creator "Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" .
+"Anirudh Nihalani Vattikonda" dc:creator "Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" .
 
-"Anthony Rizzo" ns1:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
+"Anthony Rizzo" dc:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
 
-"Antonini Marc" ns1:creator "Robust classification with feature selection using an application of the Douglas-Rachford splitting algorithm" .
+"Antonini Marc" dc:creator "Robust classification with feature selection using an application of the Douglas-Rachford splitting algorithm" .
 
-"Aoussat Améziane" ns1:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
+"Aoussat Améziane" dc:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
 
-"ArnaudDe Riz" ns1:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
+"ArnaudDe Riz" dc:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
 
-"Arthur Thaller" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"Arthur Thaller" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"BUMYOON KIM" ns1:creator "Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC" .
+"BUMYOON KIM" dc:creator "Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC" .
 
-"BYEUNGWOO JEON" ns1:creator "Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC" .
+"BYEUNGWOO JEON" dc:creator "Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC" .
 
-"Bahja Fadoua" ns1:creator "Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" .
+"Bahja Fadoua" dc:creator "Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" .
 
-"Balakrishnan Raman" ns1:creator "Experimental investigations and finite element analysis of milling of Inconel 718 alloy" .
+"Balakrishnan Raman" dc:creator "Experimental investigations and finite element analysis of milling of Inconel 718 alloy" .
 
-"Balouki Youssef" ns1:creator "A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset",
+"Balouki Youssef" dc:creator "A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset",
         "Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification" .
 
-"Barandiaran Iñigo" ns1:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
+"Barandiaran Iñigo" dc:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
 
-"Barbosa Susana" ns1:creator "Box-constrained optimization for minimax supervised learning" .
+"Barbosa Susana" dc:creator "Box-constrained optimization for minimax supervised learning" .
 
-"Barlaud Michel" ns1:creator "Robust classification with feature selection using an application of the Douglas-Rachford splitting algorithm" .
+"Barlaud Michel" dc:creator "Robust classification with feature selection using an application of the Douglas-Rachford splitting algorithm" .
 
-"Belaidi Idir" ns1:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
+"Belaidi Idir" dc:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
 
-"Benfriha Khaled" ns1:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
+"Benfriha Khaled" dc:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
 
-"Bertram E Shi" ns1:creator "Learning torsional eye movements through active efficient coding" .
+"Bertram E Shi" dc:creator "Learning torsional eye movements through active efficient coding" .
 
-"Bin Shi" ns1:creator """Emulation and modelling of semiconductor optical amplifier-based all-optical photonic integrated
+"Bin Shi" dc:creator """Emulation and modelling of semiconductor optical amplifier-based all-optical photonic integrated
 deep neural network with arbitrary depth""" .
 
-"Boutfarjoute Omar" ns1:creator "New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic" .
+"Boutfarjoute Omar" dc:creator "New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic" .
 
-"Bouzid Abdel-Hakim" ns1:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
+"Bouzid Abdel-Hakim" dc:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
 
-"Breno Orzari" ns1:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
+"Breno Orzari" dc:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
 
-"Brian Nord" ns1:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
+"Brian Nord" dc:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
 
-"Bruno Olshausen" ns1:creator "RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" .
+"Bruno Olshausen" dc:creator "RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" .
 
-"Carlo Lucibello" ns1:creator "Deep learning via message passing algorithms based on belief propagation" .
+"Carlo Lucibello" dc:creator "Deep learning via message passing algorithms based on belief propagation" .
 
-"Carolina Herrera Segura" ns1:creator "Subaging in underparametrized deep neural networks" .
+"Carolina Herrera Segura" dc:creator "Subaging in underparametrized deep neural networks" .
 
-"Chaidas D." ns1:creator "Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" .
+"Chaidas D." dc:creator "Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" .
 
-"Chami Mouhcine" ns1:creator "Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" .
+"Chami Mouhcine" dc:creator "Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" .
 
-"Charrier Quentin" ns1:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
+"Charrier Quentin" dc:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
 
-"Chekenbah Hamid" ns1:creator "New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic" .
+"Chekenbah Hamid" dc:creator "New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic" .
 
-"Chen Xue" ns1:creator "Implicit privacy preservation: a framework based on data generation" .
+"Chen Xue" dc:creator "Implicit privacy preservation: a framework based on data generation" .
 
-"Chenglong You" ns1:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
+"Chenglong You" dc:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
 
-"Chi-Ning Chou" ns1:creator "superconducting nanowire-based architecture for neuromorphic computing" .
+"Chi-Ning Chou" dc:creator "superconducting nanowire-based architecture for neuromorphic computing" .
 
-"Chong Zhang" ns1:creator "Learning torsional eye movements through active efficient coding" .
+"Chong Zhang" dc:creator "Learning torsional eye movements through active efficient coding" .
 
-"Christopher Benge" ns1:creator "Reliability aspects of binary vector-matrixmultiplications using ReRAM devices" .
+"Christopher Benge" dc:creator "Reliability aspects of binary vector-matrixmultiplications using ReRAM devices" .
 
-"Christopher Tison" ns1:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
+"Christopher Tison" dc:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
 
-"Clémence Corminboeuf" ns1:creator "Metric learning for kernel ridge regression: assessment of molecular similarity" .
+"Clémence Corminboeuf" dc:creator "Metric learning for kernel ridge regression: assessment of molecular similarity" .
 
-"DINH-DAI VU" ns1:creator "Predictive Hybrid Autoscaling for Containerized Applications" .
+"DINH-DAI VU" dc:creator "Predictive Hybrid Autoscaling for Containerized Applications" .
 
-"DUC N. M. HOANG" ns1:creator "Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks" .
+"DUC N. M. HOANG" dc:creator "Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks" .
 
-"Daniel Coleman" ns1:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
+"Daniel Coleman" dc:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
 
-"Daniele Bonacorsi" ns1:creator "Improving parametric neural networks for highenergy physics (and beyond)" .
+"Daniele Bonacorsi" dc:creator "Improving parametric neural networks for highenergy physics (and beyond)" .
 
-"Danijela Markovi´c" ns1:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
+"Danijela Markovi´c" dc:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
 
-"Daniulaitis Vytautas" ns1:creator "Digital Twins for Micro Machining" .
+"Daniulaitis Vytautas" dc:creator "Digital Twins for Micro Machining" .
 
-"David N Spergel" ns1:creator "Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" .
+"David N Spergel" dc:creator "Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" .
 
-"Davidson Jebaseelan" ns1:creator "R-tree data structure implementation for Computer Aided Engineering (CAE) tools" .
+"Davidson Jebaseelan" dc:creator "R-tree data structure implementation for Computer Aided Engineering (CAE) tools" .
 
-"De Han" ns1:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
+"De Han" dc:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
 
-"Di Martino Joseph" ns1:creator "Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" .
+"Di Martino Joseph" dc:creator "Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" .
 
-"Dian Wu" ns1:creator "RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" .
+"Dian Wu" dc:creator "RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" .
 
-"Diana Diana" ns1:creator "Ant colony optimization with semi random initialization for nurse rostering problem" .
+"Diana Diana" dc:creator "Ant colony optimization with semi random initialization for nurse rostering problem" .
 
-"Diana Kafkes" ns1:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
+"Diana Kafkes" dc:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
 
-"Diego Tapias" ns1:creator "Subaging in underparametrized deep neural networks" .
+"Diego Tapias" dc:creator "Subaging in underparametrized deep neural networks" .
 
-"Dimitrijevic Sonja" ns1:creator "How to apply the ERP model for Smart Mining?" .
+"Dimitrijevic Sonja" dc:creator "How to apply the ERP model for Smart Mining?" .
 
-"Dimitrios Gunopulos" ns1:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
+"Dimitrios Gunopulos" dc:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
 
-"Ding Steven X." ns1:creator "A note on diagnosis and performance degradation detection in automatic control systems towards functional safety and cyber security" .
+"Ding Steven X." dc:creator "A note on diagnosis and performance degradation detection in automatic control systems towards functional safety and cyber security" .
 
-"Dong Rongen" ns1:creator "Physical layer security techniques for data transmission for future wireless networks" .
+"Dong Rongen" dc:creator "Physical layer security techniques for data transmission for future wireless networks" .
 
-"Dongrui Fan" ns1:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
+"Dongrui Fan" dc:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
 
-"D´edalo Sanz-Hern´andez" ns1:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
+"D´edalo Sanz-Hern´andez" dc:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
 
-"EDUARDO E. ESPINOSA" ns1:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
+"EDUARDO E. ESPINOSA" dc:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
 
-"ERVIN GALAN-URIBE" ns1:creator "Kinematic Optimization of 6DOF Serial Robot Arms by Bio-Inspired Algorithms" .
+"ERVIN GALAN-URIBE" dc:creator "Kinematic Optimization of 6DOF Serial Robot Arms by Bio-Inspired Algorithms" .
 
-"Edison Montoya" ns1:creator "Subaging in underparametrized deep neural networks" .
+"Edison Montoya" dc:creator "Subaging in underparametrized deep neural networks" .
 
-"El-Zant Chawki" ns1:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
+"El-Zant Chawki" dc:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
 
-"Elhaj El Hassan Ibn" ns1:creator "Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" .
+"Elhaj El Hassan Ibn" dc:creator "Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" .
 
-"F Javier Sánchez" ns1:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
+"F Javier Sánchez" dc:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
 
-"FABIO PATRONE" ns1:creator "Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)" .
+"FABIO PATRONE" dc:creator "Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)" .
 
-"FRANCISCO-JOSE ALVARADO-ALCON" ns1:creator "Carbon Footprint vs Energy Optimization in IoT Network Deployments" .
+"FRANCISCO-JOSE ALVARADO-ALCON" dc:creator "Carbon Footprint vs Energy Optimization in IoT Network Deployments" .
 
-"FRANÇOIS CHARIH" ns1:creator "Audiogram Digitization Tool for Audiological Reports" .
+"FRANÇOIS CHARIH" dc:creator "Audiogram Digitization Tool for Audiological Reports" .
 
-"Fabian Ruehle" ns1:creator "Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds" .
+"Fabian Ruehle" dc:creator "Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds" .
 
-"Fabrizio Pittorino" ns1:creator "Deep learning via message passing algorithms based on belief propagation" .
+"Fabrizio Pittorino" dc:creator "Deep learning via message passing algorithms based on belief propagation" .
 
-"Fatemeh Mostafavi" ns1:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
+"Fatemeh Mostafavi" dc:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
 
-"Felice C Lightstone" ns1:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
+"Felice C Lightstone" dc:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
 
-"Feng Dengguo" ns1:creator "Concretely efficient secure multi-party computation protocols: survey and more" .
+"Feng Dengguo" dc:creator "Concretely efficient secure multi-party computation protocols: survey and more" .
 
-"Fillatre Lionel" ns1:creator "Box-constrained optimization for minimax supervised learning" .
+"Fillatre Lionel" dc:creator "Box-constrained optimization for minimax supervised learning" .
 
-"Florian Bernlochner" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"Florian Bernlochner" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"Fountas N. A." ns1:creator "Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" .
+"Fountas N. A." dc:creator "Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" .
 
-"Francesco Tacchino" ns1:creator "Quantum neural networks force fields generation" .
+"Francesco Tacchino" dc:creator "Quantum neural networks force fields generation" .
 
-"Friedrich Eisenbrand" ns1:creator "Metric learning for kernel ridge regression: assessment of molecular similarity" .
+"Friedrich Eisenbrand" dc:creator "Metric learning for kernel ridge regression: assessment of molecular similarity" .
 
-"Frumusanu Gabriel-Radu" ns1:creator "Study on the Application of the Holistic Optimization Method of the Manufacturing Process in the Case of a Reduced Instances Database" .
+"Frumusanu Gabriel-Radu" dc:creator "Study on the Application of the Holistic Optimization Method of the Manufacturing Process in the Case of a Reduced Instances Database" .
 
-"GALINA MIRZAEVA" ns1:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
+"GALINA MIRZAEVA" dc:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
 
-"GIOVANNI GAGGERO" ns1:creator "Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)" .
+"GIOVANNI GAGGERO" dc:creator "Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)" .
 
-"GUNJAE KOO" ns1:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
+"GUNJAE KOO" dc:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
 
-"Gabriel Nathan Perdue" ns1:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
+"Gabriel Nathan Perdue" dc:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
 
-"Gabriele Perugini" ns1:creator "Deep learning via message passing algorithms based on belief propagation" .
+"Gabriele Perugini" dc:creator "Deep learning via message passing algorithms based on belief propagation" .
 
-"Gaedke-Merzhäuser Lisa" ns1:creator "Multilevel minimization for deep residual networks" .
+"Gaedke-Merzhäuser Lisa" dc:creator "Multilevel minimization for deep residual networks" .
 
-"Gaidys Rimvydas" ns1:creator "Digital Twins for Micro Machining" .
+"Gaidys Rimvydas" dc:creator "Digital Twins for Micro Machining" .
 
-"Gao Sheng" ns1:creator "Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach" .
+"Gao Sheng" dc:creator "Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach" .
 
-"Gautier Athénaïs" ns1:creator "Goal-oriented adaptive sampling under random field modelling of response probability distributions" .
+"Gautier Athénaïs" dc:creator "Goal-oriented adaptive sampling under random field modelling of response probability distributions" .
 
-"Gerald Leake" ns1:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
+"Gerald Leake" dc:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
 
-"Ghodsian Nooshin" ns1:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
+"Ghodsian Nooshin" dc:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
 
-"Gilet Cyprien" ns1:creator "Box-constrained optimization for minimax supervised learning" .
+"Gilet Cyprien" dc:creator "Box-constrained optimization for minimax supervised learning" .
 
-"Ginsbourger David" ns1:creator "Goal-oriented adaptive sampling under random field modelling of response probability distributions" .
+"Ginsbourger David" dc:creator "Goal-oriented adaptive sampling under random field modelling of response probability distributions" .
 
-"Giovanni Volpe" ns1:creator "Neural network training with highly incomplete medical datasets" .
+"Giovanni Volpe" dc:creator "Neural network training with highly incomplete medical datasets" .
 
-"Giulio Dujany" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"Giulio Dujany" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"Gregory Snyder" ns1:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
+"Gregory Snyder" dc:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
 
-"Guido C H E de Croon" ns1:creator "Neuromorphic computing for attitude estimation onboard quadrotors" .
+"Guido C H E de Croon" dc:creator "Neuromorphic computing for attitude estimation onboard quadrotors" .
 
-"Guoqi Li" ns1:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
+"Guoqi Li" dc:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
 
-"HABIB ULLAH KHAN" ns1:creator "Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches" .
+"HABIB ULLAH KHAN" dc:creator "Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches" .
 
-"HAMED AHMADI" ns1:creator "Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach" .
+"HAMED AHMADI" dc:creator "Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach" .
 
-"HAORAN WANG" ns1:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
+"HAORAN WANG" dc:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
 
-"HYUBJIN LEE" ns1:creator "Multi-Dimensional Data Compression and Query Processing in Array Databases" .
+"HYUBJIN LEE" dc:creator "Multi-Dimensional Data Compression and Query Processing in Array Databases" .
 
-"Hanzhang Zhao" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Hanzhang Zhao" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Harsh Bhatia" ns1:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
+"Harsh Bhatia" dc:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
 
-"He Hangjia" ns1:creator "Physical layer security techniques for data transmission for future wireless networks" .
+"He Hangjia" dc:creator "Physical layer security techniques for data transmission for future wireless networks" .
 
-"Hector Rubio" ns1:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
+"Hector Rubio" dc:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
 
-"Helgi I Ingólfsson" ns1:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
+"Helgi I Ingólfsson" dc:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
 
-"Hong-Ye Hu" ns1:creator "RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" .
+"Hong-Ye Hu" dc:creator "RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" .
 
-"Hu Aiqun" ns1:creator "Secure transmission technology based on direct modulation with random channel characteristics" .
+"Hu Aiqun" dc:creator "Secure transmission technology based on direct modulation with random channel characteristics" .
 
-"Hu Jinsong" ns1:creator "Physical layer security techniques for data transmission for future wireless networks" .
+"Hu Jinsong" dc:creator "Physical layer security techniques for data transmission for future wireless networks" .
 
-"Hu Teng" ns1:creator "Implicit privacy preservation: a framework based on data generation" .
+"Hu Teng" dc:creator "Implicit privacy preservation: a framework based on data generation" .
 
-"Huang Chao" ns1:creator "Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach" .
+"Huang Chao" dc:creator "Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach" .
 
-"Huifang Wang" ns1:creator "Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" .
+"Huifang Wang" dc:creator "Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" .
 
-"IBRAHEEM SHAYEA" ns1:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
+"IBRAHEEM SHAYEA" dc:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
 Machine Learning Solutions""" .
 
-"IVAN TITARENKO" ns1:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
+"IVAN TITARENKO" dc:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
 
-"IZTOK FISTER JR." ns1:creator "Modified Evolutionary Algorithm for Generating the Cycling Training Routes" .
+"IZTOK FISTER JR." dc:creator "Modified Evolutionary Algorithm for Generating the Cycling Training Routes" .
 
-"Ilias Tsaklidis" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"Ilias Tsaklidis" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"Ivano Tavernelli" ns1:creator "Quantum neural networks force fields generation" .
+"Ivano Tavernelli" dc:creator "Quantum neural networks force fields generation" .
 
-"JAIME A. ROHTEN" ns1:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
+"JAIME A. ROHTEN" dc:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
 
-"JAMES R. GREEN" ns1:creator "Audiogram Digitization Tool for Audiological Reports" .
+"JAMES R. GREEN" dc:creator "Audiogram Digitization Tool for Audiological Reports" .
 
-"JAN NEDOMA" ns1:creator "SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks" .
+"JAN NEDOMA" dc:creator "SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks" .
 
-"JAROSLAV FRNDA" ns1:creator "SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks" .
+"JAROSLAV FRNDA" dc:creator "SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks" .
 
-"JEEHWAN LEE" ns1:creator "Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC" .
+"JEEHWAN LEE" dc:creator "Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC" .
 
-"JEEYOON PARK" ns1:creator "Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC" .
+"JEEYOON PARK" dc:creator "Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC" .
 
-"JIACEN XU" ns1:creator "A Comprehensive Study of DNS Operational Issues by Mining DNS Forums" .
+"JIACEN XU" dc:creator "A Comprehensive Study of DNS Operational Issues by Mining DNS Forums" .
 
-"JICUN DING" ns1:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
+"JICUN DING" dc:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
 
-"JOAN GARCIA-HARO" ns1:creator "Carbon Footprint vs Energy Optimization in IoT Network Deployments" .
+"JOAN GARCIA-HARO" dc:creator "Carbon Footprint vs Energy Optimization in IoT Network Deployments" .
 
-"JOANNA KOSIŃSKA" ns1:creator "Detection of Cluster Anomalies With ML Techniques" .
+"JOANNA KOSIŃSKA" dc:creator "Detection of Cluster Anomalies With ML Techniques" .
 
-"JONG MYUNG RHEE" ns1:creator "Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks" .
+"JONG MYUNG RHEE" dc:creator "Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks" .
 
-"JONGMIN LEE" ns1:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
+"JONGMIN LEE" dc:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
 
-"James Kahn" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"James Kahn" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"Jarrar Abdessamad" ns1:creator "A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset" .
+"Jarrar Abdessamad" dc:creator "A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset" .
 
-"Javier Duarte" ns1:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
+"Javier Duarte" dc:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
 
-"Jayant Jha" ns1:creator "Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" .
+"Jayant Jha" dc:creator "Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" .
 
-"Jayaraman J Thiagarajan" ns1:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
+"Jayaraman J Thiagarajan" dc:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
 
-"Jean-Roch Vlimant" ns1:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
+"Jean-Roch Vlimant" dc:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
 
-"Jeong Hanjo" ns1:creator "A framework for recommending tourist attractions using deep learning and association rule mining-based methods" .
+"Jeong Hanjo" dc:creator "A framework for recommending tourist attractions using deep learning and association rule mining-based methods" .
 
-"Jesus Lares" ns1:creator "superconducting nanowire-based architecture for neuromorphic computing" .
+"Jesus Lares" dc:creator "superconducting nanowire-based architecture for neuromorphic computing" .
 
-"Jian Fu Zhang" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Jian Fu Zhang" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Jiang Changjun" ns1:creator "Efficient poisoning attacks and defenses for unlabeled data in DDoS prediction of intelligent transportation systems",
+"Jiang Changjun" dc:creator "Efficient poisoning attacks and defenses for unlabeled data in DDoS prediction of intelligent transportation systems",
         "Implicit privacy preservation: a framework based on data generation" .
 
-"Jiang Xinyi" ns1:creator "Physical layer security techniques for data transmission for future wireless networks" .
+"Jiang Xinyi" dc:creator "Physical layer security techniques for data transmission for future wireless networks" .
 
-"Joana B Pereira" ns1:creator "Neural network training with highly incomplete medical datasets" .
+"Joana B Pereira" dc:creator "Neural network training with highly incomplete medical datasets" .
 
-"Jochen Triesch" ns1:creator "Learning torsional eye movements through active efficient coding" .
+"Jochen Triesch" dc:creator "Learning torsional eye movements through active efficient coding" .
 
-"Julie Grollier" ns1:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
+"Julie Grollier" dc:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
 
-"Julien Dupeyroux" ns1:creator "Neuromorphic computing for attitude estimation onboard quadrotors" .
+"Julien Dupeyroux" dc:creator "Neuromorphic computing for attitude estimation onboard quadrotors" .
 
-"Jurenas Vytautas" ns1:creator "Digital Twins for Micro Machining" .
+"Jurenas Vytautas" dc:creator "Digital Twins for Micro Machining" .
 
-"Karl K Berggren" ns1:creator "superconducting nanowire-based architecture for neuromorphic computing" .
+"Karl K Berggren" dc:creator "superconducting nanowire-based architecture for neuromorphic computing" .
 
-"Karolis Sulinskas" ns1:creator """Advantages of binary stochastic synapses for hardware spiking neural networks with realistic
+"Karolis Sulinskas" dc:creator """Advantages of binary stochastic synapses for hardware spiking neural networks with realistic
 memristors""" .
 
-"Kechagias J." ns1:creator "Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" .
+"Kechagias J." dc:creator "Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" .
 
-"Keren Bergman" ns1:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
+"Keren Bergman" dc:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
 
-"Kevin Hunter" ns1:creator "Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks" .
+"Kevin Hunter" dc:creator "Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks" .
 
-"Kevin Pedro" ns1:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
+"Kevin Pedro" dc:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
 
-"Kopaničáková Alena" ns1:creator "Multilevel minimization for deep residual networks" .
+"Kopaničáková Alena" dc:creator "Multilevel minimization for deep residual networks" .
 
-"Krause Rolf" ns1:creator "Multilevel minimization for deep residual networks" .
+"Krause Rolf" dc:creator "Multilevel minimization for deep residual networks" .
 
-"Kuriakose Akhil C." ns1:creator "Experimental investigations and finite element analysis of milling of Inconel 718 alloy" .
+"Kuriakose Akhil C." dc:creator "Experimental investigations and finite element analysis of milling of Inconel 718 alloy" .
 
-"LIANG DONG" ns1:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
+"LIANG DONG" dc:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
 
-"LUIS MORALES-VELAZQUEZ" ns1:creator "Kinematic Optimization of 6DOF Serial Robot Arms by Bio-Inspired Algorithms" .
+"LUIS MORALES-VELAZQUEZ" dc:creator "Kinematic Optimization of 6DOF Serial Robot Arms by Bio-Inspired Algorithms" .
 
-"Lasbahani Abdellatif" ns1:creator "A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset" .
+"Lasbahani Abdellatif" dc:creator "A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset" .
 
-"Lasri Rafik" ns1:creator "New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic" .
+"Lasri Rafik" dc:creator "New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic" .
 
-"Laura Natali" ns1:creator "Neural network training with highly incomplete medical datasets" .
+"Laura Natali" dc:creator "Neural network training with highly incomplete medical datasets" .
 
-"Lawrence Spracklen" ns1:creator "Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks" .
+"Lawrence Spracklen" dc:creator "Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks" .
 
-"Lea Reuter" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"Lea Reuter" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"Leander Thiele" ns1:creator "Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" .
+"Leander Thiele" dc:creator "Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" .
 
-"Lei Deng" ns1:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
+"Lei Deng" dc:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
 
-"Li Zhong" ns1:creator "Efficient poisoning attacks and defenses for unlabeled data in DDoS prediction of intelligent transportation systems" .
+"Li Zhong" dc:creator "Efficient poisoning attacks and defenses for unlabeled data in DDoS prediction of intelligent transportation systems" .
 
-"Loubère Stéphane" ns1:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
+"Loubère Stéphane" dc:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
 
-"Luca A Thiede" ns1:creator "Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning" .
+"Luca A Thiede" dc:creator "Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning" .
 
-"Luca Anzalone" ns1:creator "Improving parametric neural networks for highenergy physics (and beyond)" .
+"Luca Anzalone" dc:creator "Improving parametric neural networks for highenergy physics (and beyond)" .
 
-"MACIEJ TOBIASZ" ns1:creator "Detection of Cluster Anomalies With ML Techniques" .
+"MACIEJ TOBIASZ" dc:creator "Detection of Cluster Anomalies With ML Techniques" .
 
-"MARCO RIVERA 2" ns1:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
+"MARCO RIVERA 2" dc:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
 
-"MARIO MARCHES" ns1:creator "Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)" .
+"MARIO MARCHES" dc:creator "Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)" .
 
-"MARTIN MAIER" ns1:creator "The Metaverse and Beyond: Implementing Advanced Multiverse Realms With Smart Wearables" .
+"MARTIN MAIER" dc:creator "The Metaverse and Beyond: Implementing Advanced Multiverse Realms With Smart Wearables" .
 
-"MASSIMO TORNATORE" ns1:creator "Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach" .
+"MASSIMO TORNATORE" dc:creator "Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach" .
 
-"MEHAR ULLAH" ns1:creator "Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data" .
+"MEHAR ULLAH" dc:creator "Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data" .
 
-"MINH-NGOC TRAN" ns1:creator "Predictive Hybrid Autoscaling for Containerized Applications" .
+"MINH-NGOC TRAN" dc:creator "Predictive Hybrid Autoscaling for Containerized Applications" .
 
-"MINSOO KIM" ns1:creator "Multi-Dimensional Data Compression and Query Processing in Array Databases" .
+"MINSOO KIM" dc:creator "Multi-Dimensional Data Compression and Query Processing in Array Databases" .
 
-"MOSTAFA M. MOUSSA YAHYA ALZAABI" ns1:creator "Explainable Computer-Aided Detection of Obstructive Sleep Apnea and Depression" .
+"MOSTAFA M. MOUSSA YAHYA ALZAABI" dc:creator "Explainable Computer-Aided Detection of Obstructive Sleep Apnea and Depression" .
 
-"MUHAMMAD AWAIS JAVED" ns1:creator "SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks" .
+"MUHAMMAD AWAIS JAVED" dc:creator "SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks" .
 
-"MUHAMMAD SOHAIL" ns1:creator "Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches" .
+"MUHAMMAD SOHAIL" dc:creator "Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches" .
 
-"MYUNG KUK YOON" ns1:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
+"MYUNG KUK YOON" dc:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
 
-"Maataoui Yassir" ns1:creator "New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic" .
+"Maataoui Yassir" dc:creator "New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic" .
 
-"Magdalena Larfors" ns1:creator "Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds" .
+"Magdalena Larfors" dc:creator "Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds" .
 
-"Majstorovic Vidosav" ns1:creator "How to apply the ERP model for Smart Mining?" .
+"Majstorovic Vidosav" dc:creator "How to apply the ERP model for Smart Mining?" .
 
-"Majstorović Vidosav" ns1:creator "Management of tools in digital manufacturing - A case study" .
+"Majstorović Vidosav" dc:creator "Management of tools in digital manufacturing - A case study" .
 
-"Mario A Quiroz-Juárez" ns1:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
+"Mario A Quiroz-Juárez" dc:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
 
-"Mario Krenn" ns1:creator "Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning" .
+"Mario Krenn" dc:creator "Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning" .
 
-"Mark D Stiles" ns1:creator "Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays" .
+"Mark D Stiles" dc:creator "Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays" .
 
-"Markus Götz" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"Markus Götz" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"Mary Touranakou" ns1:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
+"Mary Touranakou" dc:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
 
-"Matteo Castellani" ns1:creator "superconducting nanowire-based architecture for neuromorphic computing" .
+"Matteo Castellani" dc:creator "superconducting nanowire-based architecture for neuromorphic computing" .
 
-"Matthew van Niekerk1" ns1:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
+"Matthew van Niekerk1" dc:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
 
-"Matthieu Haeberle" ns1:creator "Metric learning for kernel ridge regression: assessment of molecular similarity" .
+"Matthieu Haeberle" dc:creator "Metric learning for kernel ridge regression: assessment of molecular similarity" .
 
-"Mattias Borg" ns1:creator """Advantages of binary stochastic synapses for hardware spiking neural networks with realistic
+"Mattias Borg" dc:creator """Advantages of binary stochastic synapses for hardware spiking neural networks with realistic
 memristors""" .
 
-"Maurizio Pierini" ns1:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
+"Maurizio Pierini" dc:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
 
-"Mejia-Parra Daniel" ns1:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
+"Mejia-Parra Daniel" dc:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
 
-"Meriem Afilal" ns1:creator "SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization" .
+"Meriem Afilal" dc:creator "SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization" .
 
-"Meysam Hashemi" ns1:creator "Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" .
+"Meysam Hashemi" dc:creator "Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" .
 
-"Michael Fanto" ns1:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
+"Michael Fanto" dc:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
 
-"Michael Spannowsky" ns1:creator "A duality connecting neural network and cosmological dynamics" .
+"Michael Spannowsky" dc:creator "A duality connecting neural network and cosmological dynamics" .
 
-"Michelle L J Lollie" ns1:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
+"Michelle L J Lollie" dc:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
 
-"Mikuckyte Sandra" ns1:creator "Digital Twins for Micro Machining" .
+"Mikuckyte Sandra" dc:creator "Digital Twins for Micro Machining" .
 
-"Miles Cranmer" ns1:creator "Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" .
+"Miles Cranmer" dc:creator "Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" .
 
-"MingyuYan" ns1:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
+"MingyuYan" dc:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
 
-"Mingyuan Hong" ns1:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
+"Mingyuan Hong" dc:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
 
-"Miskovic Zarko" ns1:creator "How to apply the ERP model for Smart Mining?" .
+"Miskovic Zarko" dc:creator "How to apply the ERP model for Smart Mining?" .
 
-"Mitrovic Radivoje" ns1:creator "How to apply the ERP model for Smart Mining?" .
+"Mitrovic Radivoje" dc:creator "How to apply the ERP model for Smart Mining?" .
 
-"Moreno Aitor" ns1:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
+"Moreno Aitor" dc:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
 
-"Moumoun Lahcen" ns1:creator "Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification" .
+"Moumoun Lahcen" dc:creator "Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification" .
 
-"Mounir Arioua" ns1:creator "SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization" .
+"Mounir Arioua" dc:creator "SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization" .
 
-"Nadezda Chernyavskaya" ns1:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
+"Nadezda Chernyavskaya" dc:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
 
-"Nancy Lynch" ns1:creator "superconducting nanowire-based architecture for neuromorphic computing" .
+"Nancy Lynch" dc:creator "superconducting nanowire-based architecture for neuromorphic computing" .
 
-"Narayan Bhusal" ns1:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
+"Narayan Bhusal" dc:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
 
-"Nathan Leroux" ns1:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
+"Nathan Leroux" dc:creator "Convolutional neural networks with radio-frequency spintronic nano-devices" .
 
-"Ninikas K." ns1:creator "Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" .
+"Ninikas K." dc:creator "Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" .
 
-"Nitin Prasad" ns1:creator "Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays" .
+"Nitin Prasad" dc:creator "Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays" .
 
-"OMAR ABDUL AZIZ" ns1:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
+"OMAR ABDUL AZIZ" dc:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
 Machine Learning Solutions""" .
 
-"Ojer Marco" ns1:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
+"Ojer Marco" dc:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
 
-"Olaya Jbari" ns1:creator "Non-negative Matrix Factorization for Dimensionality Reduction" .
+"Olaya Jbari" dc:creator "Non-negative Matrix Factorization for Dimensionality Reduction" .
 
-"Omar S Magaña-Loaiza" ns1:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
+"Omar S Magaña-Loaiza" dc:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
 
-"Oriel Kiss" ns1:creator "Quantum neural networks force fields generation" .
+"Oriel Kiss" dc:creator "Quantum neural networks force fields generation" .
 
-"Oskar Taubert" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"Oskar Taubert" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"Ostasevicius Vytautas" ns1:creator "Digital Twins for Micro Machining" .
+"Ostasevicius Vytautas" dc:creator "Digital Twins for Micro Machining" .
 
-"Otman Chakkor" ns1:creator "Non-negative Matrix Factorization for Dimensionality Reduction" .
+"Otman Chakkor" dc:creator "Non-negative Matrix Factorization for Dimensionality Reduction" .
 
-"Oveis Jamialahmadi" ns1:creator "Neural network training with highly incomplete medical datasets" .
+"Oveis Jamialahmadi" dc:creator "Neural network training with highly incomplete medical datasets" .
 
-"PATRICK W. WHEELER" ns1:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
+"PATRICK W. WHEELER" dc:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
 
-"PEDRO H. J. NARDELLI" ns1:creator "Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data" .
+"PEDRO H. J. NARDELLI" dc:creator "Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data" .
 
-"Pablo Goldenzweig" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"Pablo Goldenzweig" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"Peer-Timo Bremer" ns1:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
+"Peer-Timo Bremer" dc:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
 
-"Pirot Guillaume" ns1:creator "Goal-oriented adaptive sampling under random field modelling of response probability distributions" .
+"Pirot Guillaume" dc:creator "Goal-oriented adaptive sampling under random field modelling of response probability distributions" .
 
-"Posada Jorge" ns1:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
+"Posada Jorge" dc:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
 
-"Prashansa Mukim" ns1:creator "Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays" .
+"Prashansa Mukim" dc:creator "Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays" .
 
-"Puck van Gerwen" ns1:creator "Metric learning for kernel ridge regression: assessment of molecular similarity" .
+"Puck van Gerwen" dc:creator "Metric learning for kernel ridge regression: assessment of molecular similarity" .
 
-"QIFAN ZHANG" ns1:creator "A Comprehensive Study of DNS Operational Issues by Mining DNS Forums" .
+"QIFAN ZHANG" dc:creator "A Comprehensive Study of DNS Operational Issues by Mining DNS Forums" .
 
-"Qiaoqiao Wang" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Qiaoqiao Wang" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Qihui Diao" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Qihui Diao" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Qingpeng Zhu" ns1:creator "Learning torsional eye movements through active efficient coding" .
+"Qingpeng Zhu" dc:creator "Learning torsional eye movements through active efficient coding" .
 
-"RAFAEL ASOREY-CACHEDA" ns1:creator "Carbon Footprint vs Energy Optimization in IoT Network Deployments" .
+"RAFAEL ASOREY-CACHEDA" dc:creator "Carbon Footprint vs Energy Optimization in IoT Network Deployments" .
 
-"RICARDO E. PÉREZ GUZMÁN 1" ns1:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
+"RICARDO E. PÉREZ GUZMÁN 1" dc:creator "Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" .
 
-"Raghav Kansal" ns1:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
+"Raghav Kansal" dc:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
 
-"Raimon Fabregat" ns1:creator "Metric learning for kernel ridge regression: assessment of molecular similarity" .
+"Raimon Fabregat" dc:creator "Metric learning for kernel ridge regression: assessment of molecular similarity" .
 
-"Riccardo Zecchina" ns1:creator "Deep learning via message passing algorithms based on belief propagation" .
+"Riccardo Zecchina" dc:creator "Deep learning via message passing algorithms based on belief propagation" .
 
-"Roberge Vincent" ns1:creator "Parallel Hybrid 2-Opt Flower Pollination Algorithm for Real-Time UAV Trajectory Planning on GPU" .
+"Roberge Vincent" dc:creator "Parallel Hybrid 2-Opt Flower Pollination Algorithm for Real-Time UAV Trajectory Planning on GPU" .
 
-"Roberto de J León-Montiel" ns1:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
+"Roberto de J León-Montiel" dc:creator "High-dimensional encryption in optical fibers using spatial modes of light and machine learning" .
 
-"Robin Schneider" ns1:creator "Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds" .
+"Robin Schneider" dc:creator "Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds" .
 
-"Ruiz-Salguero Oscar" ns1:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
+"Ruiz-Salguero Oscar" dc:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
 
-"Rushil Anirudh" ns1:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
+"Rushil Anirudh" dc:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
 
-"SAJJAD ROSTAMI" ns1:creator "The Metaverse and Beyond: Implementing Advanced Multiverse Realms With Smart Wearables" .
+"SAJJAD ROSTAMI" dc:creator "The Metaverse and Beyond: Implementing Advanced Multiverse Realms With Smart Wearables" .
 
-"SANG YOON PARK" ns1:creator "Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks" .
+"SANG YOON PARK" dc:creator "Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks" .
 
-"SERGEI LONCHAKOV" ns1:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
+"SERGEI LONCHAKOV" dc:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
 
-"SEUNGHO JUNG" ns1:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
+"SEUNGHO JUNG" dc:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
 
-"SHAH NAZIR" ns1:creator "Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches" .
+"SHAH NAZIR" dc:creator "Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches" .
 
-"SHIYIN LI" ns1:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
+"SHIYIN LI" dc:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
 
-"STANISLAV MOLOGIN" ns1:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
+"STANISLAV MOLOGIN" dc:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
 
-"SULTAN ALDIRMAZ-ÇOLAK" ns1:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
+"SULTAN ALDIRMAZ-ÇOLAK" dc:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
 Machine Learning Solutions""" .
 
-"SUYAN LI" ns1:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
+"SUYAN LI" dc:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
 
-"SVETLANA PAVLOVA" ns1:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
+"SVETLANA PAVLOVA" dc:creator "Method for Profile-Guided Optimization of Android Applications Using Random Forest" .
 
-"SWARNA B. CHETTY" ns1:creator "Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach" .
+"SWARNA B. CHETTY" dc:creator "Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach" .
 
-"Sandeep Madireddy" ns1:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
+"Sandeep Madireddy" dc:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
 
-"Shelar Vaibhav" ns1:creator "R-tree data structure implementation for Computer Aided Engineering (CAE) tools" .
+"Shelar Vaibhav" dc:creator "R-tree data structure implementation for Computer Aided Engineering (CAE) tools" .
 
-"Shi Weiping" ns1:creator "Physical layer security techniques for data transmission for future wireless networks" .
+"Shi Weiping" dc:creator "Physical layer security techniques for data transmission for future wireless networks" .
 
-"Shirley Ho" ns1:creator "Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" .
+"Shirley Ho" dc:creator "Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" .
 
-"Shu Feng" ns1:creator "Physical layer security techniques for data transmission for future wireless networks" .
+"Shu Feng" dc:creator "Physical layer security techniques for data transmission for future wireless networks" .
 
-"Simeunovic Vladimir" ns1:creator "How to apply the ERP model for Smart Mining?" .
+"Simeunovic Vladimir" dc:creator "How to apply the ERP model for Smart Mining?" .
 
-"Sofia Vallecorsa" ns1:creator "Quantum neural networks force fields generation" .
+"Sofia Vallecorsa" dc:creator "Quantum neural networks force fields generation" .
 
-"Stefan M Wild" ns1:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
+"Stefan M Wild" dc:creator "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" .
 
-"Stefan Preble" ns1:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
+"Stefan Preble" dc:creator "Massively scalable wavelength diverse integrated photonic linear neuron" .
 
-"Stefano Romeo" ns1:creator "Neural network training with highly incomplete medical datasets" .
+"Stefano Romeo" dc:creator "Neural network training with highly incomplete medical datasets" .
 
-"Stein Stroobants" ns1:creator "Neuromorphic computing for attitude estimation onboard quadrotors" .
+"Stein Stroobants" dc:creator "Neuromorphic computing for attitude estimation onboard quadrotors" .
 
-"Stosic Dragan" ns1:creator "How to apply the ERP model for Smart Mining?" .
+"Stosic Dragan" dc:creator "How to apply the ERP model for Smart Mining?" .
 
-"Subramani Selamani" ns1:creator "R-tree data structure implementation for Computer Aided Engineering (CAE) tools" .
+"Subramani Selamani" dc:creator "R-tree data structure implementation for Computer Aided Engineering (CAE) tools" .
 
-"Subutai Ahmad" ns1:creator "Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks" .
+"Subutai Ahmad" dc:creator "Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks" .
 
-"Sven Krippendorf" ns1:creator "A duality connecting neural network and cosmological dynamics" .
+"Sven Krippendorf" dc:creator "A duality connecting neural network and cosmological dynamics" .
 
-"Sánchez Jairo R." ns1:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
+"Sánchez Jairo R." dc:creator "Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" .
 
-"T S Jayram" ns1:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
+"T S Jayram" dc:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
 
-"TAEWEON SUH" ns1:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
+"TAEWEON SUH" dc:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
 
-"Tahri Rachid" ns1:creator "A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset" .
+"Tahri Rachid" dc:creator "A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset" .
 
-"Tai Min" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Tai Min" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Tao Li" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Tao Li" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Tarbouchi Mohammed" ns1:creator "Parallel Hybrid 2-Opt Flower Pollination Algorithm for Real-Time UAV Trajectory Planning on GPU" .
+"Tarbouchi Mohammed" dc:creator "Parallel Hybrid 2-Opt Flower Pollination Algorithm for Real-Time UAV Trajectory Planning on GPU" .
 
-"Teng Yin" ns1:creator "Physical layer security techniques for data transmission for future wireless networks" .
+"Teng Yin" dc:creator "Physical layer security techniques for data transmission for future wireless networks" .
 
-"Thiago Tomei" ns1:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
+"Thiago Tomei" dc:creator "Particle-based fast jet simulation at the LHC with variational autoencoders" .
 
-"Tobias Boeckh" ns1:creator "Learning tree structures from leaves for particle decay reconstruction" .
+"Tobias Boeckh" dc:creator "Learning tree structures from leaves for particle decay reconstruction" .
 
-"Tomas Oppelstrup" ns1:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
+"Tomas Oppelstrup" dc:creator "A biology-informed similarity metric for simulated patches of human cell membrane" .
 
-"Tommaso Diotalevi" ns1:creator "Improving parametric neural networks for highenergy physics (and beyond)" .
+"Tommaso Diotalevi" dc:creator "Improving parametric neural networks for highenergy physics (and beyond)" .
 
-"USMAN MAHMOOD MALIK" ns1:creator "SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks" .
+"USMAN MAHMOOD MALIK" dc:creator "SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks" .
 
-"Vardhan Harsh" ns1:creator "Experimental investigations and finite element analysis of milling of Inconel 718 alloy" .
+"Vardhan Harsh" dc:creator "Experimental investigations and finite element analysis of milling of Inconel 718 alloy" .
 
-"Vaxevanidis N. M." ns1:creator "Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" .
+"Vaxevanidis N. M." dc:creator "Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" .
 
-"Vijay Sekar Krishnaraju Srinivasaraju" ns1:creator "Experimental investigations and finite element analysis of milling of Inconel 718 alloy" .
+"Vijay Sekar Krishnaraju Srinivasaraju" dc:creator "Experimental investigations and finite element analysis of milling of Inconel 718 alloy" .
 
-"Viktor Jirsa" ns1:creator "Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" .
+"Viktor Jirsa" dc:creator "Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" .
 
-"Vukadinović Vojin" ns1:creator "Management of tools in digital manufacturing - A case study" .
+"Vukadinović Vojin" dc:creator "Management of tools in digital manufacturing - A case study" .
 
-"WAHEEB TASHAN" ns1:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
+"WAHEEB TASHAN" dc:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
 Machine Learning Solutions""" .
 
-"Wang Cheng" ns1:creator "Implicit privacy preservation: a framework based on data generation" .
+"Wang Cheng" dc:creator "Implicit privacy preservation: a framework based on data generation" .
 
-"Wang Jiangzhou" ns1:creator "Physical layer security techniques for data transmission for future wireless networks" .
+"Wang Jiangzhou" dc:creator "Physical layer security techniques for data transmission for future wireless networks" .
 
-"Wang Yang" ns1:creator "Physical layer security techniques for data transmission for future wireless networks" .
+"Wang Yang" dc:creator "Physical layer security techniques for data transmission for future wireless networks" .
 
-"Wang Zhuping" ns1:creator "Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach" .
+"Wang Zhuping" dc:creator "Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach" .
 
-"Wardle Peter" ns1:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
+"Wardle Peter" dc:creator "Development of an advanced MES for the simulation and optimization of industry 4.0 process" .
 
-"Wei Shao" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Wei Shao" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Weidong Zhang" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Weidong Zhang" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Wibowo Antoni" ns1:creator "Ant colony optimization with semi random initialization for nurse rostering problem" .
+"Wibowo Antoni" dc:creator "Ant colony optimization with semi random initialization for nurse rostering problem" .
 
-"William Coulton" ns1:creator "Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" .
+"William Coulton" dc:creator "Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" .
 
-"Wu JiangXing" ns1:creator "Problems and solutions regarding generalized functional safety in cyberspace" .
+"Wu JiangXing" dc:creator "Problems and solutions regarding generalized functional safety in cyberspace" .
 
-"Wu Xianke" ns1:creator "Efficient poisoning attacks and defenses for unlabeled data in DDoS prediction of intelligent transportation systems" .
+"Wu Xianke" dc:creator "Efficient poisoning attacks and defenses for unlabeled data in DDoS prediction of intelligent transportation systems" .
 
-"XIANRAN LIAO" ns1:creator "A Comprehensive Study of DNS Operational Issues by Mining DNS Forums" .
+"XIANRAN LIAO" dc:creator "A Comprehensive Study of DNS Operational Issues by Mining DNS Forums" .
 
-"Xiaochun Ye" ns1:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
+"Xiaochun Ye" dc:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
 
-"Xihui Yuan" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Xihui Yuan" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Xin Liu" ns1:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
+"Xin Liu" dc:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
 
-"YALI LI" ns1:creator """A Selective Many-to-Many Pickup and Delivery Problem With Handling Cost in the
+"YALI LI" dc:creator """A Selective Many-to-Many Pickup and Delivery Problem With Handling Cost in the
 Omni-Channel Last-Mile Delivery""" .
 
-"YON DOHN CHUNG" ns1:creator "Multi-Dimensional Data Compression and Query Processing in Array Databases" .
+"YON DOHN CHUNG" dc:creator "Multi-Dimensional Data Compression and Query Processing in Array Databases" .
 
-"YOUNGHAN KIM" ns1:creator "Predictive Hybrid Autoscaling for Containerized Applications" .
+"YOUNGHAN KIM" dc:creator "Predictive Hybrid Autoscaling for Containerized Applications" .
 
-"YOUSEF IBRAHIM DARADKEH" ns1:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
+"YOUSEF IBRAHIM DARADKEH" dc:creator """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
 Machine Learning Solutions""" .
 
-"YUBO HU" ns1:creator """A Novel Similarity-Based Multi-Attribute Group Decision-Making Method in a Probabilistic
+"YUBO HU" dc:creator """A Novel Similarity-Based Multi-Attribute Group Decision-Making Method in a Probabilistic
 Hesitant Fuzzy Environment""" .
 
-"YUNHO OH" ns1:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
+"YUNHO OH" dc:creator "GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" .
 
-"Yan Du" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Yan Du" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Yang Kang" ns1:creator "Concretely efficient secure multi-party computation protocols: survey and more" .
+"Yang Kang" dc:creator "Concretely efficient secure multi-party computation protocols: survey and more" .
 
-"Yang Qing" ns1:creator "Implicit privacy preservation: a framework based on data generation" .
+"Yang Qing" dc:creator "Implicit privacy preservation: a framework based on data generation" .
 
-"Yang Rong" ns1:creator "Secure transmission technology based on direct modulation with random channel characteristics" .
+"Yang Rong" dc:creator "Secure transmission technology based on direct modulation with random channel characteristics" .
 
-"Yawei Gao" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Yawei Gao" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Yi-Zhuang You" ns1:creator "RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" .
+"Yi-Zhuang You" dc:creator "RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" .
 
-"Yu-Wei Chang" ns1:creator "Neural network training with highly incomplete medical datasets" .
+"Yu-Wei Chang" dc:creator "Neural network training with highly incomplete medical datasets" .
 
-"Yubei Chen" ns1:creator "RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" .
+"Yubei Chen" dc:creator "RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" .
 
-"Yujie Wu" ns1:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
+"Yujie Wu" dc:creator "General spiking neural network framework for the learning trajectory from a noisy mmWave radar" .
 
-"ZHAOLIN LU" ns1:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
+"ZHAOLIN LU" dc:creator "SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" .
 
-"ZHIQIANG PANG" ns1:creator """A Novel Similarity-Based Multi-Attribute Group Decision-Making Method in a Probabilistic
+"ZHIQIANG PANG" dc:creator """A Novel Similarity-Based Multi-Attribute Group Decision-Making Method in a Probabilistic
 Hesitant Fuzzy Environment""" .
 
-"ZHOU LI" ns1:creator "A Comprehensive Study of DNS Operational Issues by Mining DNS Forums" .
+"ZHOU LI" dc:creator "A Comprehensive Study of DNS Operational Issues by Mining DNS Forums" .
 
-"Zhang Hao" ns1:creator "Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach" .
+"Zhang Hao" dc:creator "Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach" .
 
-"Zheng Chai" ns1:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
+"Zheng Chai" dc:creator "Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" .
 
-"Đurđanović Dragan" ns1:creator "Management of tools in digital manufacturing - A case study" .
+"Đurđanović Dragan" dc:creator "Management of tools in digital manufacturing - A case study" .
 
-"Živković Jovan" ns1:creator "Management of tools in digital manufacturing - A case study" .
+"Živković Jovan" dc:creator "Management of tools in digital manufacturing - A case study" .
 
 """A Selective Many-to-Many Pickup and Delivery Problem With Handling Cost in the
-Omni-Channel Last-Mile Delivery""" ns1:date "19 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "logistics service provider",
+Omni-Channel Last-Mile Delivery""" dc:date "19 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "logistics service provider",
         "mixed integer programming formulations",
         "multiple pickup locations",
         "routing plan" .
 
-"A framework for recommending tourist attractions using deep learning and association rule mining-based methods" ns1:date "2022" ;
-    ns1:publisher "ICCWCS 2022" ;
-    ns1:subject "tourism recommendation researches" .
+"A framework for recommending tourist attractions using deep learning and association rule mining-based methods" dc:date "2022" ;
+    dc:publisher "ICCWCS 2022" ;
+    dc:subject "tourism recommendation researches" .
 
-"A note on diagnosis and performance degradation detection in automatic control systems towards functional safety and cyber security" ns1:date "8 August 2022" ;
-    ns1:publisher "Security and Safety" ;
-    ns1:subject "automatic control systems",
+"A note on diagnosis and performance degradation detection in automatic control systems towards functional safety and cyber security" dc:date "8 August 2022" ;
+    dc:publisher "Security and Safety" ;
+    dc:subject "automatic control systems",
         "fault detection",
         "industrial cyber physical systems" .
 
 """Emulation and modelling of semiconductor optical amplifier-based all-optical photonic integrated
-deep neural network with arbitrary depth""" ns1:date "2 September 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "neuromorphic electronics",
+deep neural network with arbitrary depth""" dc:date "2 September 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "neuromorphic electronics",
         "optical ampliﬁer",
         "photonic neural network" .
 
-"Problems and solutions regarding generalized functional safety in cyberspace" ns1:date "22 June 2022" ;
-    ns1:publisher "Security and Safety" ;
-    ns1:subject "cybersecurity technologies",
+"Problems and solutions regarding generalized functional safety in cyberspace" dc:date "22 June 2022" ;
+    dc:publisher "Security and Safety" ;
+    dc:subject "cybersecurity technologies",
         "generalized functional safety",
         "random physical failures",
         "security assurance",
         "uncertain network attacks" .
 
-"Reliability aspects of binary vector-matrixmultiplications using ReRAM devices" ns1:date "22 June 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "memristor",
+"Reliability aspects of binary vector-matrixmultiplications using ReRAM devices" dc:date "22 June 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "memristor",
         "neuromorphic algorithms",
         "reram devices" .
 
 """A Novel Similarity-Based Multi-Attribute Group Decision-Making Method in a Probabilistic
-Hesitant Fuzzy Environment""" ns1:date "17 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "probabilistic hesitant fuzzy elements" .
+Hesitant Fuzzy Environment""" dc:date "17 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "probabilistic hesitant fuzzy elements" .
 
-"A duality connecting neural network and cosmological dynamics" ns1:date "30 August 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "cosmological dynamics",
+"A duality connecting neural network and cosmological dynamics" dc:date "30 August 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "cosmological dynamics",
         "nn dynamics" .
 
 """Advantages of binary stochastic synapses for hardware spiking neural networks with realistic
-memristors""" ns1:date "18 August 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "binary stochastic synapses",
+memristors""" dc:date "18 August 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "binary stochastic synapses",
         "current memristor device",
         "hardware spiking",
         "neuromorphic hardware" .
 
-"Audiogram Digitization Tool for Audiological Reports" ns1:date "19 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "audiogram",
+"Audiogram Digitization Tool for Audiological Reports" dc:date "19 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "audiogram",
         "hearing thresholds" .
 
-"Concretely efficient secure multi-party computation protocols: survey and more" ns1:date "14 June2022" ;
-    ns1:publisher "Security and Safety" ;
-    ns1:subject "abstract secure",
+"Concretely efficient secure multi-party computation protocols: survey and more" dc:date "14 June2022" ;
+    dc:publisher "Security and Safety" ;
+    dc:subject "abstract secure",
         "private inference" .
 
-"Detection of Cluster Anomalies With ML Techniques" ns1:date "19 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "cluster anomalies",
+"Detection of Cluster Anomalies With ML Techniques" dc:date "19 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "cluster anomalies",
         "cluster environments",
         "kubernetes anomaly detector" .
 
-"Explainable Computer-Aided Detection of Obstructive Sleep Apnea and Depression" ns1:date "23 September 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "breathing signals",
+"Explainable Computer-Aided Detection of Obstructive Sleep Apnea and Depression" dc:date "23 September 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "breathing signals",
         "sleep apnea" .
 
-"Kinematic Optimization of 6DOF Serial Robot Arms by Bio-Inspired Algorithms" ns1:date "21 September 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "genetic algorithms",
+"Kinematic Optimization of 6DOF Serial Robot Arms by Bio-Inspired Algorithms" dc:date "21 September 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "genetic algorithms",
         "harris hawk optimizer",
         "industrial robot arm",
         "robot optimization" .
 
-"Modified Evolutionary Algorithm for Generating the Cycling Training Routes" ns1:date "14 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "cycling training routes",
+"Modified Evolutionary Algorithm for Generating the Cycling Training Routes" dc:date "14 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "cycling training routes",
         "evolutionary algorithm",
         "route generation research" .
 
-"Non-negative Matrix Factorization for Dimensionality Reduction" ns1:date "2022" ;
-    ns1:publisher "ICCWCS 2022" ;
-    ns1:subject "face image database",
+"Non-negative Matrix Factorization for Dimensionality Reduction" dc:date "2022" ;
+    dc:publisher "ICCWCS 2022" ;
+    dc:subject "face image database",
         "famous matrix factorization methods",
         "principal component analysis" .
 
-"Parallel Hybrid 2-Opt Flower Pollination Algorithm for Real-Time UAV Trajectory Planning on GPU" ns1:date "2022" ;
-    ns1:publisher "ICCWCS 2022" ;
-    ns1:subject "parallel flower pollination algorithm",
+"Parallel Hybrid 2-Opt Flower Pollination Algorithm for Real-Time UAV Trajectory Planning on GPU" dc:date "2022" ;
+    dc:publisher "ICCWCS 2022" ;
+    dc:subject "parallel flower pollination algorithm",
         "uav trajectory planning",
         "wing uavs" .
 
-"Robust classification with feature selection using an application of the Douglas-Rachford splitting algorithm" ns1:date "August 2021" ;
-    ns1:publisher "French-German-Swiss conference on Optimization" ;
-    ns1:subject "feature selection",
+"Robust classification with feature selection using an application of the Douglas-Rachford splitting algorithm" dc:date "August 2021" ;
+    dc:publisher "French-German-Swiss conference on Optimization" ;
+    dc:subject "feature selection",
         "robust classification" .
 
-"Secure transmission technology based on direct modulation with random channel characteristics" ns1:date "22 June 2022" ;
-    ns1:publisher "Security and Safety" ;
-    ns1:subject "cyberspace security",
+"Secure transmission technology based on direct modulation with random channel characteristics" dc:date "22 June 2022" ;
+    dc:publisher "Security and Safety" ;
+    dc:subject "cyberspace security",
         "mobile communications",
         "random channel characteristics",
         "secure transmission technology" .
 
-"The Metaverse and Beyond: Implementing Advanced Multiverse Realms With Smart Wearables" ns1:date "19 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "oculus quest",
+"The Metaverse and Beyond: Implementing Advanced Multiverse Realms With Smart Wearables" dc:date "19 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "oculus quest",
         "virtual experiences" .
 
-"Ant colony optimization with semi random initialization for nurse rostering problem" ns1:date "2021" ;
-    ns1:publisher "International Journal for Simulation and Multidisciplinary Design Optimization" ;
-    ns1:subject "ant colony optimization",
+"Ant colony optimization with semi random initialization for nurse rostering problem" dc:date "2021" ;
+    dc:publisher "International Journal for Simulation and Multidisciplinary Design Optimization" ;
+    dc:subject "ant colony optimization",
         "nurse scheduling" .
 
-"Box-constrained optimization for minimax supervised learning" ns1:date "August 2021" ;
-    ns1:publisher "French-German-Swiss conference on Optimization" ;
-    ns1:subject "concave multivariate piecewise",
+"Box-constrained optimization for minimax supervised learning" dc:date "August 2021" ;
+    dc:publisher "French-German-Swiss conference on Optimization" ;
+    dc:subject "concave multivariate piecewise",
         "discrete empirical bayes risk",
         "minimax supervised",
         "probabilistic simplex",
         "supervised classiﬁcation" .
 
-"Efficient poisoning attacks and defenses for unlabeled data in DDoS prediction of intelligent transportation systems" ns1:date "22 June 2022" ;
-    ns1:publisher "Security and Safety" ;
-    ns1:subject "intelligent transportation systems",
+"Efficient poisoning attacks and defenses for unlabeled data in DDoS prediction of intelligent transportation systems" dc:date "22 June 2022" ;
+    dc:publisher "Security and Safety" ;
+    dc:subject "intelligent transportation systems",
         "precise ddos prediction" .
 
-"Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks" ns1:date "17 August 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "fault tolerance",
+"Fault-Tolerant Ad Hoc On-Demand Routing Protocol for Mobile Ad Hoc Networks" dc:date "17 August 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "fault tolerance",
         "mobile ad hoc networks" .
 
-"Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches" ns1:date "1 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "index terms iot",
+"Features-Based IoT Security Authentication Framework Using Statistical Aggregation, Entropy, and MOORA Approaches" dc:date "1 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "index terms iot",
         "iot security authentication" .
 
-"Goal-oriented adaptive sampling under random field modelling of response probability distributions" ns1:date "August 2021" ;
-    ns1:publisher "French-German-Swiss conference on Optimization" ;
-    ns1:subject "adaptive sampling strategies",
+"Goal-oriented adaptive sampling under random field modelling of response probability distributions" dc:date "August 2021" ;
+    dc:publisher "French-German-Swiss conference on Optimization" ;
+    dc:subject "adaptive sampling strategies",
         "logistic gaussian model",
         "posterior simulations",
         "response distributions" .
 
-"Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification" ns1:date "2022" ;
-    ns1:publisher "ICCWCS 2022" ;
-    ns1:subject "arrival delays prediction",
+"Impact of Aircraft Performance and Time of the Day on Flight Arrival Delays Prediction in the United States: a Machine Learning Classification" dc:date "2022" ;
+    dc:publisher "ICCWCS 2022" ;
+    dc:subject "arrival delays prediction",
         "flight delays" .
 
-"Improving parametric neural networks for highenergy physics (and beyond)" ns1:date "5 October 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "multiple signal mass hypotheses",
+"Improving parametric neural networks for highenergy physics (and beyond)" dc:date "5 October 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "multiple signal mass hypotheses",
         "parametric networks" .
 
-"Multi-Dimensional Data Compression and Query Processing in Array Databases" ns1:date "30 September 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "data compression",
+"Multi-Dimensional Data Compression and Query Processing in Array Databases" dc:date "30 September 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "data compression",
         "latest array databases",
         "multidimensional data" .
 
-"Multilevel minimization for deep residual networks" ns1:date "August 2021" ;
-    ns1:publisher "French-German-Swiss conference on Optimization" ;
-    ns1:subject "backward propagation",
+"Multilevel minimization for deep residual networks" dc:date "August 2021" ;
+    dc:publisher "French-German-Swiss conference on Optimization" ;
+    dc:subject "backward propagation",
         "deep residual networks",
         "new multilevel minimization framework" .
 
-"Neuromorphic computing for attitude estimation onboard quadrotors" ns1:date "5 August 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "neuromorphic attitude estimation",
+"Neuromorphic computing for attitude estimation onboard quadrotors" dc:date "5 August 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "neuromorphic attitude estimation",
         "quadrotors" .
 
-"Predictive Hybrid Autoscaling for Containerized Applications" ns1:date "20 September 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "kubernetes" .
+"Predictive Hybrid Autoscaling for Containerized Applications" dc:date "20 September 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "kubernetes" .
 
-"R-tree data structure implementation for Computer Aided Engineering (CAE) tools" ns1:date "2021" ;
-    ns1:publisher "International Journal for Simulation and Multidisciplinary Design Optimization" ;
-    ns1:subject "finite element model preparation",
+"R-tree data structure implementation for Computer Aided Engineering (CAE) tools" dc:date "2021" ;
+    dc:publisher "International Journal for Simulation and Multidisciplinary Design Optimization" ;
+    dc:subject "finite element model preparation",
         "tree data structure implementation" .
 
-"Study on the Application of the Holistic Optimization Method of the Manufacturing Process in the Case of a Reduced Instances Database" ns1:date "2022" ;
-    ns1:publisher "NEWTECH" ;
-    ns1:subject "holistic optimization method" .
+"Study on the Application of the Holistic Optimization Method of the Manufacturing Process in the Case of a Reduced Instances Database" dc:date "2022" ;
+    dc:publisher "NEWTECH" ;
+    dc:subject "holistic optimization method" .
 
-"Subaging in underparametrized deep neural networks" ns1:date "20 September 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "glassy dynamics",
+"Subaging in underparametrized deep neural networks" dc:date "20 September 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "glassy dynamics",
         "mnist database",
         "underparametrized deep neural networks" .
 
-"Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks" ns1:date "14 July 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "activation sparsity",
+"Two sparsities are better than one: unlocking the performance benefits of sparse–sparse networks" dc:date "14 July 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "activation sparsity",
         "deep learning systems",
         "sparse networks" .
 
-"A Comprehensive Study of DNS Operational Issues by Mining DNS Forums" ns1:date "19 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "dns service failure",
+"A Comprehensive Study of DNS Operational Issues by Mining DNS Forums" dc:date "19 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "dns service failure",
         "mining dns forums",
         "reliable dns infrastructure" .
 
-"A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset" ns1:date "2022" ;
-    ns1:publisher "ICCWCS 2022" ;
-    ns1:subject "computer security data sets",
+"A comparative study of Machine learning Algorithms on the UNSW-NB 15 Dataset" dc:date "2022" ;
+    dc:publisher "ICCWCS 2022" ;
+    dc:subject "computer security data sets",
         "different classification algorithms",
         "intrusion detection" .
 
-"Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays" ns1:date "14 July 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "hopfield networks",
+"Associative memories using complex-valued Hopfield networks based on spin-torque oscillator arrays" dc:date "14 July 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "hopfield networks",
         "memristor" .
 
-"Carbon Footprint vs Energy Optimization in IoT Network Deployments" ns1:date "21 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "energy consumption",
+"Carbon Footprint vs Energy Optimization in IoT Network Deployments" dc:date "21 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "energy consumption",
         "iot network deployments",
         "low power wide area networks" .
 
-"Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning" ns1:date "25 July 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "molecular reinforcement learning",
+"Curiosity in exploring chemical spaces: intrinsic rewards for molecular reinforcement learning" dc:date "25 July 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "molecular reinforcement learning",
         "new molecular designs",
         "vast chemical space" .
 
-"Deep learning via message passing algorithms based on belief propagation" ns1:date "15 July 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "belief propagation",
+"Deep learning via message passing algorithms based on belief propagation" dc:date "15 July 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "belief propagation",
         "deep learning",
         "sparse networks" .
 
-"Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach" ns1:date "26 August 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "network function virtualization" .
+"Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach" dc:date "26 August 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "network function virtualization" .
 
-"Experimental investigations and finite element analysis of milling of Inconel 718 alloy" ns1:date "2021" ;
-    ns1:publisher "International Journal for Simulation and Multidisciplinary Design Optimization" ;
-    ns1:subject "machining modeling" .
+"Experimental investigations and finite element analysis of milling of Inconel 718 alloy" dc:date "2021" ;
+    dc:publisher "International Journal for Simulation and Multidisciplinary Design Optimization" ;
+    dc:subject "machining modeling" .
 
-"French-German-Swiss conference on Optimization" ns1:subject "continuous optimization techniques",
+"French-German-Swiss conference on Optimization" dc:subject "continuous optimization techniques",
         "discrete optimization",
         "global optimization",
         "multilevel optimization",
@@ -1699,206 +1700,206 @@ memristors""" ns1:date "18 August 2022" ;
         "optimization models",
         "tial convex programming methods" .
 
-"Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data" ns1:date "13 July 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "industrial energy management system" .
+"Industrial Energy Management System: Design of a Conceptual Framework Using IoT and Big Data" dc:date "13 July 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "industrial energy management system" .
 
-"Learning torsional eye movements through active efficient coding" ns1:date "18 August 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "active efﬁcient coding",
+"Learning torsional eye movements through active efficient coding" dc:date "18 August 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "active efﬁcient coding",
         "binocular torsional eye movement control",
         "developmental robotics",
         "human eye",
         "sensorimotor contingencies" .
 
-"Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC" ns1:date "10 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "hevc ai",
+"Machine Learning-Based Early Skip Decision for Intra Subpartition Prediction in VVC" dc:date "10 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "hevc ai",
         "intra subpartition prediction",
         "video coding" .
 
-"Management of tools in digital manufacturing - A case study" ns1:date "2022" ;
-    ns1:publisher "NEWTECH" ;
-    ns1:subject "collaborative technology system",
+"Management of tools in digital manufacturing - A case study" dc:date "2022" ;
+    dc:publisher "NEWTECH" ;
+    dc:subject "collaborative technology system",
         "serbian digital factory",
         "smart manufacturing",
         "tools lifecycle management",
         "wokshop production management model" .
 
-"New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic" ns1:date "2022" ;
-    ns1:publisher "ICCWCS 2022" ;
-    ns1:subject "fuzzy logic controller",
+"New control scheme of on-load tap changer for voltage regulation in active distribution systems using Fuzzy logic" dc:date "2022" ;
+    dc:publisher "ICCWCS 2022" ;
+    dc:subject "fuzzy logic controller",
         "power grid" .
 
-"Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds" ns1:date "31 August 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "cy manifolds",
+"Numerical metrics for complete intersection and Kreuzer–Skarke Calabi–Yau manifolds" dc:date "31 August 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "cy manifolds",
         "numerical ricci",
         "string theory" .
 
-"Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach" ns1:date "22 July 2022" ;
-    ns1:publisher "Security and Safety" ;
-    ns1:subject "optimal injection attack strategy",
+"Optimal injection attack strategy for cyber-physical systems: a dynamic feedback approach" dc:date "22 July 2022" ;
+    dc:publisher "Security and Safety" ;
+    dc:subject "optimal injection attack strategy",
         "security defense" .
 
-"Quantum neural networks force fields generation" ns1:date "15 July 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "accurate molecular force fields",
+"Quantum neural networks force fields generation" dc:date "15 July 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "accurate molecular force fields",
         "electronic structure calculations",
         "neural networks force" .
 
-"Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)" ns1:date "28 September 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "deep packet inspection",
+"Reduction of the Delays Within an Intrusion Detection System (IDS) Based on Software Defined Networking (SDN)" dc:date "28 September 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "deep packet inspection",
         "intrusion detection",
         "sdn architecture" .
 
-"SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization" ns1:date "2022" ;
-    ns1:publisher "ICCWCS 2022" ;
-    ns1:subject "scma encoder",
+"SCMA Codebook Design Based on a 16 Star-QAM with MED Maximization" dc:date "2022" ;
+    dc:publisher "ICCWCS 2022" ;
+    dc:subject "scma encoder",
         "sparse code multiple access" .
 
-"SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks" ns1:date "19 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "abstract fog computing",
+"SMRETO: Stable Matching for Reliable and Efficient Task Offloading in Fog-Enabled IoT Networks" dc:date "19 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "abstract fog computing",
         "iot applications" .
 
-"Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" ns1:date "2022" ;
-    ns1:publisher "ICCWCS 2022" ;
-    ns1:subject "discrete wavelet transform",
+"Denoising Esophageal Speech using Combination of Complex and Discrete Wavelet Transform with Wiener filter and Time Dilated Fourier Cepstra" dc:date "2022" ;
+    dc:publisher "ICCWCS 2022" ;
+    dc:subject "discrete wavelet transform",
         "esophageal speech",
         "hoarse denoising device",
         "substitution voice" .
 
-"Digital Twins for Micro Machining" ns1:date "2022" ;
-    ns1:publisher "NEWTECH" ;
-    ns1:subject "vibration micro drilling tool" .
+"Digital Twins for Micro Machining" dc:date "2022" ;
+    dc:publisher "NEWTECH" ;
+    dc:subject "vibration micro drilling tool" .
 
-"Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" ns1:date "26 September 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "bayesian estimation",
+"Fully Bayesian estimation of virtual brain parameters with self-tuning Hamiltonian Monte Carlo" dc:date "26 September 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "bayesian estimation",
         "hamiltonian monte carlo",
         "virtual brain modelling" .
 
-"Implicit privacy preservation: a framework based on data generation" ns1:date "25 July 2022" ;
-    ns1:publisher "Security and Safety" ;
-    ns1:subject "implicit privacy attributes" .
+"Implicit privacy preservation: a framework based on data generation" dc:date "25 July 2022" ;
+    dc:publisher "Security and Safety" ;
+    dc:subject "implicit privacy attributes" .
 
-"International Journal for Simulation and Multidisciplinary Design Optimization" ns1:subject "composite material design",
+"International Journal for Simulation and Multidisciplinary Design Optimization" dc:subject "composite material design",
         "design optimization",
         "multidisciplinary design optimization",
         "structural optimization",
         "topology optimization",
         "topology optimizations" .
 
-"Metric learning for kernel ridge regression: assessment of molecular similarity" ns1:date "22 September 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "computational molecular design",
+"Metric learning for kernel ridge regression: assessment of molecular similarity" dc:date "22 September 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "computational molecular design",
         "kernel ridge regression",
         "molecular similarity" .
 
-"NEWTECH" ns1:subject "advanced manufacturing",
+"NEWTECH" dc:subject "advanced manufacturing",
         "digital manufacturing",
         "french mechanical association",
         "manufacturing research group",
         "manufacturing technologies" .
 
-"Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" ns1:date "2022" ;
-    ns1:publisher "NEWTECH" ;
-    ns1:subject "cut material parameters",
+"Neural networks for predicting kerf characteristics of CO2 laser-machined FFF PLA/WF plates" dc:date "2022" ;
+    dc:publisher "NEWTECH" ;
+    dc:subject "cut material parameters",
         "power co2 laser cutting" .
 
-"Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" ns1:date "7 July 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "baryonic physics",
+"Predicting the thermal Sunyaev–Zel'dovich field using modular and equivariant set-based neural networks" dc:date "7 July 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "baryonic physics",
         "computational astrophysics",
         "cosmological information",
         "thermal sunyaev" .
 
-"RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" ns1:date "3 August 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "generative model",
+"RG-Flow: a hierarchical and explainable flow model based on renormalization group and sparse prior" dc:date "3 August 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "generative model",
         "hierarchical flow",
         "renormalization group",
         "unsupervised representation disentanglement" .
 
 """Advanced Mobility Robustness Optimization Models in Future Mobile Networks Based on
-Machine Learning Solutions""" ns1:date "19 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "future mobile networks",
+Machine Learning Solutions""" dc:date "19 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "future mobile networks",
         "ieee vehicular technology society section",
         "mobility robustness optimization" .
 
-"Convolutional neural networks with radio-frequency spintronic nano-devices" ns1:date "1 July 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "artiﬁcial microwave neurons",
+"Convolutional neural networks with radio-frequency spintronic nano-devices" dc:date "1 July 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "artiﬁcial microwave neurons",
         "convolutional layers",
         "nano devices",
         "neuromorphic computing" .
 
-"GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" ns1:date "16 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "cpu vulnerability detection",
+"GhostLeg: Selective Memory Coalescing for Secure GPU Architecture" dc:date "16 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "cpu vulnerability detection",
         "efﬁcient architectural defense approach",
         "memory coalescing",
         "secure executions" .
 
-"How to apply the ERP model for Smart Mining?" ns1:date "2022" ;
-    ns1:publisher "NEWTECH" ;
-    ns1:subject "business automation",
+"How to apply the ERP model for Smart Mining?" dc:date "2022" ;
+    dc:publisher "NEWTECH" ;
+    dc:subject "business automation",
         "erp model",
         "smart mining",
         "smart supply chains" .
 
-"Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" ns1:date "20 August 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "microgrid power sharing framework" .
+"Microgrid Power Sharing Framework for Software Defined Networking and Cybersecurity Analysis" dc:date "20 August 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "microgrid power sharing framework" .
 
-"Neural network training with highly incomplete medical datasets" ns1:date "6 July 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "clinical memory research unit" .
+"Neural network training with highly incomplete medical datasets" dc:date "6 July 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "clinical memory research unit" .
 
-"SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" ns1:date "21 October 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "microscopic images",
+"SEM Image Quality Assessment Based on Intuitive Morphology and Deep Semantic Features" dc:date "21 October 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "microscopic images",
         "sem image quality assessment" .
 
-"superconducting nanowire-based architecture for neuromorphic computing" ns1:date "2 September 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "nanowire",
+"superconducting nanowire-based architecture for neuromorphic computing" dc:date "2 September 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "nanowire",
         "neuromorphic computing",
         "superconductivity" .
 
-"Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" ns1:date "2021" ;
-    ns1:publisher "International Journal for Simulation and Multidisciplinary Design Optimization" ;
-    ns1:subject "different smart manufacturing scenarios",
+"Computer graphics and visual computing use cases for Industry 4.0 and Operator 4.0" dc:date "2021" ;
+    dc:publisher "International Journal for Simulation and Multidisciplinary Design Optimization" ;
+    dc:subject "different smart manufacturing scenarios",
         "industrial big data",
         "simulation technologies" .
 
-"A biology-informed similarity metric for simulated patches of human cell membrane" ns1:date "19 August 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "similarity metrics",
+"A biology-informed similarity metric for simulated patches of human cell membrane" dc:date "19 August 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "similarity metrics",
         "simulated human cell membrane" .
 
-"General spiking neural network framework for the learning trajectory from a noisy mmWave radar" ns1:date "15 September 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "noisy mmwave radar" .
+"General spiking neural network framework for the learning trajectory from a noisy mmWave radar" dc:date "15 September 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "noisy mmwave radar" .
 
-"High-dimensional encryption in optical fibers using spatial modes of light and machine learning" ns1:date "19 July 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "multimode fibers",
+"High-dimensional encryption in optical fibers using spatial modes of light and machine learning" dc:date "19 July 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "multimode fibers",
         "optical encryption",
         "photon information capacity",
         "structured photons" .
 
-"ICCWCS 2022" ns1:subject "antennas" .
+"ICCWCS 2022" dc:subject "antennas" .
 
-"Method for Profile-Guided Optimization of Android Applications Using Random Forest" ns1:date "21 September 2022" ;
-    ns1:publisher "IEEE Access" ;
-    ns1:subject "android runtime",
+"Method for Profile-Guided Optimization of Android Applications Using Random Forest" dc:date "21 September 2022" ;
+    dc:publisher "IEEE Access" ;
+    dc:subject "android runtime",
         "random forest" .
 
-"Security and Safety" ns1:subject "conventional reliability theories",
+"Security and Safety" dc:subject "conventional reliability theories",
         "cyber security",
         "cyber security governance modes",
         "functional safety",
@@ -1908,41 +1909,41 @@ Machine Learning Solutions""" ns1:date "19 October 2022" ;
         "integrated security",
         "security" .
 
-"DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" ns1:date "21 July 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "cosmological physics",
+"DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification" dc:date "21 July 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "cosmological physics",
         "deepadversaries",
         "galaxy morphology classification" .
 
-"Development of an advanced MES for the simulation and optimization of industry 4.0 process" ns1:date "2021" ;
-    ns1:publisher "International Journal for Simulation and Multidisciplinary Design Optimization" ;
-    ns1:subject "manufacturing execution system" .
+"Development of an advanced MES for the simulation and optimization of industry 4.0 process" dc:date "2021" ;
+    dc:publisher "International Journal for Simulation and Multidisciplinary Design Optimization" ;
+    dc:subject "manufacturing execution system" .
 
-"Massively scalable wavelength diverse integrated photonic linear neuron" ns1:date "15 September 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "linear neuron",
+"Massively scalable wavelength diverse integrated photonic linear neuron" dc:date "15 September 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "linear neuron",
         "neuromorphic photonics",
         "silicon photonics platform" .
 
-"Particle-based fast jet simulation at the LHC with variational autoencoders" ns1:date "13 July 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "deep variational autoencoders",
+"Particle-based fast jet simulation at the LHC with variational autoencoders" dc:date "13 July 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "deep variational autoencoders",
         "fast jet simulation",
         "lhc",
         "reconstructed particles" .
 
-"Physical layer security techniques for data transmission for future wireless networks" ns1:date "22 July 2022" ;
-    ns1:publisher "Security and Safety" ;
-    ns1:subject "physical layer security research",
+"Physical layer security techniques for data transmission for future wireless networks" dc:date "22 July 2022" ;
+    dc:publisher "Security and Safety" ;
+    dc:subject "physical layer security research",
         "secure transmission",
         "wireless mobile communications" .
 
-"Learning tree structures from leaves for particle decay reconstruction" ns1:date "14 September 2022" ;
-    ns1:publisher "Machine Learning: Science and Technology" ;
-    ns1:subject "simulated particle physics decay structures",
+"Learning tree structures from leaves for particle decay reconstruction" dc:date "14 September 2022" ;
+    dc:publisher "Machine Learning: Science and Technology" ;
+    dc:subject "simulated particle physics decay structures",
         "tree reconstruction" .
 
-"Neuromorphic Computing and Engineering" ns1:subject "clean energy",
+"Neuromorphic Computing and Engineering" dc:subject "clean energy",
         "energy resources",
         "grammar",
         "grammars",
@@ -1963,12 +1964,12 @@ Machine Learning Solutions""" ns1:date "19 October 2022" ;
         "sustainable energy reviews",
         "synapses" .
 
-"Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" ns1:date "5 August 2022" ;
-    ns1:publisher "Neuromorphic Computing and Engineering" ;
-    ns1:subject "neuromorphic computing",
+"Synaptic 1/f noise injection for overfitting suppression in hardware neural networks" dc:date "5 August 2022" ;
+    dc:publisher "Neuromorphic Computing and Engineering" ;
+    dc:subject "neuromorphic computing",
         "semiconductor noise" .
 
-"Machine Learning: Science and Technology" ns1:subject "learning algorithms",
+"Machine Learning: Science and Technology" dc:subject "learning algorithms",
         "machine learning",
         "machine learning methods" .
 

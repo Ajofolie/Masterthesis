@@ -15,12 +15,7 @@ from rdflib.namespace import DC, FOAF, RDF
 # In[1197]:
 
 def get_entity_rel(df_pdf_meta, g, keyword_list_paper, keyword_list_con):
-    n = Namespace('http://G_KG.org/')
-    G_KG.bind('G_KG',n)
-    G_KG.bind('dc',DC)
-    G_KG.bind('FOAF',FOAF)
-    G_KG.bind('rdf',RDF)
-#Literale nicht abfragbar?????
+
 
     for i in range(len(df_pdf_meta)):
         authors =  df_pdf_meta['Authors'][i].split(',')
