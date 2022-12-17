@@ -1,5 +1,5 @@
 # Masterthesis
-\section{Dokumentation}\label{anhang:doku}
+
 Die endgültig genutzte Sammlung besteht aus 83 wissenschaftlichen papern und 16 zugehörigen Konferenzen. Darüber hinaus existiert ein Git Repository, in welchem alle Skripte und Dateien abgelegt sind.
 
 In den Folgenden Abschnitten wird auf die einzelnen Programmteile eingegangen und die Rolle der Metadaten Datei näher erläutert.
