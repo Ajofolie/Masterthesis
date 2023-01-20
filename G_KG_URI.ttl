@@ -1,0 +1,1602 @@
+@prefix FOAF: <http://xmlns.com/foaf/0.1/> .
+@prefix G_KG_ns: <http://G_KG.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+G_KG_ns:Autor FOAF:name G_KG_ns:_ALEN_RAJŠP,
+        G_KG_ns:_ALESSANDRO_FAUSTO,
+        G_KG_ns:_ANDREI_VISOCHAN,
+        G_KG_ns:_Achim_Streit,
+        G_KG_ns:_Achmad_Said,
+        G_KG_ns:_Afteni_Cezarina,
+        G_KG_ns:_AkshatKumar_Nigam,
+        G_KG_ns:_Aleksandra_Ćiprijanovi,
+        G_KG_ns:_Alla_Hajar,
+        G_KG_ns:_Alán_Aspuru_Guzik,
+        G_KG_ns:_Amarjouf_Madiha,
+        G_KG_ns:_Andre_Lukas,
+        G_KG_ns:_Andres_E_Lombo,
+        G_KG_ns:_Anirudh_Nihalani_Vattikonda,
+        G_KG_ns:_Arthur_Thaller,
+        G_KG_ns:_Barlaud_Michel,
+        G_KG_ns:_Benfriha_Khaled,
+        G_KG_ns:_Bin_Shi,
+        G_KG_ns:_Breno_Orzari,
+        G_KG_ns:_Brian_Nord,
+        G_KG_ns:_Bruno_Olshausen,
+        G_KG_ns:_Carlo_Lucibello,
+        G_KG_ns:_Carolina_Herrera_Segura,
+        G_KG_ns:_Chenglong_You,
+        G_KG_ns:_Christopher_Benge,
+        G_KG_ns:_Clémence_Corminboeuf,
+        G_KG_ns:_DINH_DAI_VU,
+        G_KG_ns:_DUC_N__M__HOANG,
+        G_KG_ns:_David_N_Spergel,
+        G_KG_ns:_Dian_Wu,
+        G_KG_ns:_Diana_Kafkes,
+        G_KG_ns:_Diego_Tapias,
+        G_KG_ns:_Dimitrios_Gunopulos,
+        G_KG_ns:_Ding_Steven_X_,
+        G_KG_ns:_ERVIN_GALAN_URIBE,
+        G_KG_ns:_Edison_Montoya,
+        G_KG_ns:_FRANCISCO_JOSE_ALVARADO_ALCON_,
+        G_KG_ns:_FRANÇOIS_CHARIH,
+        G_KG_ns:_F_Javier_Sánchez,
+        G_KG_ns:_Fabian_Ruehle,
+        G_KG_ns:_Fabrizio_Pittorino,
+        G_KG_ns:_Fatemeh_Mostafavi,
+        G_KG_ns:_Felice_C_Lightstone,
+        G_KG_ns:_Feng_Dengguo,
+        G_KG_ns:_Florian_Bernlochner,
+        G_KG_ns:_Fountas_N__A_,
+        G_KG_ns:_Francesco_Tacchino,
+        G_KG_ns:_Friedrich_Eisenbrand,
+        G_KG_ns:_Gabriel_Nathan_Perdue,
+        G_KG_ns:_Gabriele_Perugini,
+        G_KG_ns:_Gaedke_Merzhäuser_Lisa,
+        G_KG_ns:_Gao_Sheng,
+        G_KG_ns:_Gautier_Athénaïs,
+        G_KG_ns:_Gilet_Cyprien,
+        G_KG_ns:_Giulio_Dujany,
+        G_KG_ns:_Gregory_Snyder,
+        G_KG_ns:_HABIB_ULLAH_KHAN,
+        G_KG_ns:_HAORAN_WANG,
+        G_KG_ns:_Harsh_Bhatia,
+        G_KG_ns:_Helgi_I_Ingólfsson,
+        G_KG_ns:_Hong_Ye_Hu,
+        G_KG_ns:_Huifang_Wang,
+        G_KG_ns:_Ilias_Tsaklidis,
+        G_KG_ns:_Ivano_Tavernelli,
+        G_KG_ns:_JEEYOON_PARK,
+        G_KG_ns:_JOANNA_KOSIŃSKA_,
+        G_KG_ns:_JONGMIN_LEE,
+        G_KG_ns:_James_Kahn,
+        G_KG_ns:_Javier_Duarte,
+        G_KG_ns:_Jayant_Jha,
+        G_KG_ns:_Jayaraman_J_Thiagarajan,
+        G_KG_ns:_Jean_Roch_Vlimant,
+        G_KG_ns:_Jeong_Hanjo,
+        G_KG_ns:_Karolis_Sulinskas,
+        G_KG_ns:_Kevin_Hunter,
+        G_KG_ns:_Kevin_Pedro,
+        G_KG_ns:_Kuriakose_Akhil_C_,
+        G_KG_ns:_Lea_Reuter,
+        G_KG_ns:_Leander_Thiele,
+        G_KG_ns:_Li_Zhong,
+        G_KG_ns:_Luca_A_Thiede,
+        G_KG_ns:_Luca_Anzalone,
+        G_KG_ns:_MEHAR_ULLAH,
+        G_KG_ns:_MINSOO_KIM_,
+        G_KG_ns:_MOSTAFA_M__MOUSSA_YAHYA_ALZAABI,
+        G_KG_ns:_Maataoui_Yassir,
+        G_KG_ns:_Magdalena_Larfors,
+        G_KG_ns:_Majstorovic_Vidosav,
+        G_KG_ns:_Mario_A_Quiroz_Juárez,
+        G_KG_ns:_Mario_Krenn,
+        G_KG_ns:_Markus_Götz,
+        G_KG_ns:_Mary_Touranakou,
+        G_KG_ns:_Matthew_van_Niekerk1,
+        G_KG_ns:_Matthieu_Haeberle,
+        G_KG_ns:_Maurizio_Pierini,
+        G_KG_ns:_Meriem_Afilal,
+        G_KG_ns:_Meysam_Hashemi,
+        G_KG_ns:_Michael_Spannowsky,
+        G_KG_ns:_Michelle_L_J_Lollie,
+        G_KG_ns:_Miles_Cranmer,
+        G_KG_ns:_Mingyuan_Hong,
+        G_KG_ns:_Nadezda_Chernyavskaya,
+        G_KG_ns:_Narayan_Bhusal,
+        G_KG_ns:_Nathan_Leroux,
+        G_KG_ns:_Nitin_Prasad,
+        G_KG_ns:_Olaya_Jbari,
+        G_KG_ns:_Omar_S_Magaña_Loaiza,
+        G_KG_ns:_Oriel_Kiss,
+        G_KG_ns:_Oskar_Taubert,
+        G_KG_ns:_Ostasevicius_Vytautas,
+        G_KG_ns:_PEDRO_H__J__NARDELLI,
+        G_KG_ns:_Pablo_Goldenzweig,
+        G_KG_ns:_Peer_Timo_Bremer,
+        G_KG_ns:_Posada_Jorge,
+        G_KG_ns:_Puck_van_Gerwen,
+        G_KG_ns:_Qingpeng_Zhu,
+        G_KG_ns:_RICARDO_E__PÉREZ_GUZMÁN_1,
+        G_KG_ns:_Raghav_Kansal,
+        G_KG_ns:_Raimon_Fabregat,
+        G_KG_ns:_Riccardo_Zecchina,
+        G_KG_ns:_Roberge_Vincent,
+        G_KG_ns:_Roberto_de_J_León_Montiel,
+        G_KG_ns:_Robin_Schneider,
+        G_KG_ns:_Rushil_Anirudh,
+        G_KG_ns:_SAJJAD_ROSTAMI,
+        G_KG_ns:_SWARNA_B__CHETTY,
+        G_KG_ns:_Sandeep_Madireddy,
+        G_KG_ns:_Shelar_Vaibhav,
+        G_KG_ns:_Shi_Weiping,
+        G_KG_ns:_Shirley_Ho,
+        G_KG_ns:_Sofia_Vallecorsa,
+        G_KG_ns:_Stefan_M_Wild,
+        G_KG_ns:_Stein_Stroobants,
+        G_KG_ns:_Sven_Krippendorf,
+        G_KG_ns:_T_S_Jayram,
+        G_KG_ns:_Tahri_Rachid,
+        G_KG_ns:_Tao_Li_,
+        G_KG_ns:_Thiago_Tomei,
+        G_KG_ns:_Tobias_Boeckh,
+        G_KG_ns:_Tomas_Oppelstrup,
+        G_KG_ns:_USMAN_MAHMOOD_MALIK,
+        G_KG_ns:_Viktor_Jirsa,
+        G_KG_ns:_Vukadinović_Vojin,
+        G_KG_ns:_WAHEEB_TASHAN,
+        G_KG_ns:_Weidong_Zhang,
+        G_KG_ns:_William_Coulton,
+        G_KG_ns:_Wu_JiangXing,
+        G_KG_ns:_XIANRAN_LIAO,
+        G_KG_ns:_Xin_Liu,
+        G_KG_ns:_YALI_LI,
+        G_KG_ns:_YUBO_HU,
+        G_KG_ns:_Yan_Du,
+        G_KG_ns:_Yang_Qing,
+        G_KG_ns:_Yang_Rong,
+        G_KG_ns:_Yi_Zhuang_You,
+        G_KG_ns:_Yu_Wei_Chang,
+        G_KG_ns:_Yubei_Chen,
+        G_KG_ns:__ABDULRAQEB_ALHAMMADI,
+        G_KG_ns:__AHSAN_H__KHANDOKER,
+        G_KG_ns:__ANASTASIA_LYUPA,
+        G_KG_ns:__ANDREY_STROGANOV,
+        G_KG_ns:__ANNA_KOZLOVA,
+        G_KG_ns:__ANNIKA_WOLFF,
+        G_KG_ns:__ARUN_NARAYANAN,
+        G_KG_ns:__AVISHEK_NAG,
+        G_KG_ns:__Abdelgader_Abdeldime_Mohamed_Salih,
+        G_KG_ns:__Adnane_Latif,
+        G_KG_ns:__Advait_Madhavan,
+        G_KG_ns:__Afteni_Mitica,
+        G_KG_ns:__Alice_Mizrahi,
+        G_KG_ns:__Anas_Hatim,
+        G_KG_ns:__Anthony_Rizzo,
+        G_KG_ns:__Antonini_Marc,
+        G_KG_ns:__Aoussat_Améziane,
+        G_KG_ns:__ArnaudDe_Riz,
+        G_KG_ns:__BYEUNGWOO_JEON,
+        G_KG_ns:__Bahja_Fadoua,
+        G_KG_ns:__Balakrishnan_Raman,
+        G_KG_ns:__Balouki_Youssef,
+        G_KG_ns:__Barandiaran_Iñigo,
+        G_KG_ns:__Barbosa_Susana,
+        G_KG_ns:__Belaidi_Idir,
+        G_KG_ns:__Bertram_E_Shi,
+        G_KG_ns:__Boutfarjoute_Omar,
+        G_KG_ns:__Bouzid_Abdel_Hakim,
+        G_KG_ns:__Chaidas_D_,
+        G_KG_ns:__Chami_Mouhcine,
+        G_KG_ns:__Charrier_Quentin,
+        G_KG_ns:__Chekenbah_Hamid,
+        G_KG_ns:__Chen_Xue,
+        G_KG_ns:__Chi_Ning_Chou,
+        G_KG_ns:__Chong_Zhang,
+        G_KG_ns:__Christopher_Tison,
+        G_KG_ns:__D_edalo_Sanz_Hern_andez_,
+        G_KG_ns:__Daniel_Coleman,
+        G_KG_ns:__Daniele_Bonacorsi,
+        G_KG_ns:__Danijela_Markovi_c_,
+        G_KG_ns:__Daniulaitis_Vytautas,
+        G_KG_ns:__Davidson_Jebaseelan,
+        G_KG_ns:__De_Han,
+        G_KG_ns:__Di_Martino_Joseph,
+        G_KG_ns:__Diana_Diana,
+        G_KG_ns:__Dimitrijevic_Sonja,
+        G_KG_ns:__Dong_Rongen,
+        G_KG_ns:__Dongrui_Fan,
+        G_KG_ns:__EDUARDO_E__ESPINOSA,
+        G_KG_ns:__El_Zant_Chawki,
+        G_KG_ns:__Elhaj_El_Hassan_Ibn,
+        G_KG_ns:__FABIO_PATRONE,
+        G_KG_ns:__Fillatre_Lionel,
+        G_KG_ns:__Frumusanu_Gabriel_Radu,
+        G_KG_ns:__GALINA_MIRZAEVA,
+        G_KG_ns:__GIOVANNI_GAGGERO,
+        G_KG_ns:__GUNJAE_KOO,
+        G_KG_ns:__Gaidys_Rimvydas,
+        G_KG_ns:__Gerald_Leake,
+        G_KG_ns:__Ghodsian_Nooshin,
+        G_KG_ns:__Ginsbourger_David,
+        G_KG_ns:__Giovanni_Volpe,
+        G_KG_ns:__Guido_C_H_E_de_Croon,
+        G_KG_ns:__Guoqi_Li,
+        G_KG_ns:__HAMED_AHMADI,
+        G_KG_ns:__HYUBJIN_LEE_,
+        G_KG_ns:__Hanzhang_Zhao,
+        G_KG_ns:__He_Hangjia,
+        G_KG_ns:__Hector_Rubio,
+        G_KG_ns:__Hu_Aiqun,
+        G_KG_ns:__Hu_Jinsong,
+        G_KG_ns:__Hu_Teng,
+        G_KG_ns:__Huang_Chao,
+        G_KG_ns:__IBRAHEEM_SHAYEA,
+        G_KG_ns:__IVAN_TITARENKO,
+        G_KG_ns:__IZTOK_FISTER_JR_,
+        G_KG_ns:__JAIME_A__ROHTEN,
+        G_KG_ns:__JAMES_R__GREEN,
+        G_KG_ns:__JAN_NEDOMA,
+        G_KG_ns:__JAROSLAV_FRNDA,
+        G_KG_ns:__JEEHWAN_LEE,
+        G_KG_ns:__JIACEN_XU,
+        G_KG_ns:__JICUN_DING,
+        G_KG_ns:__JOAN_GARCIA_HARO,
+        G_KG_ns:__JONG_MYUNG_RHEE,
+        G_KG_ns:__Jarrar_Abdessamad,
+        G_KG_ns:__Jesus_Lares,
+        G_KG_ns:__Jian_Fu_Zhang,
+        G_KG_ns:__Jiang_Changjun,
+        G_KG_ns:__Jiang_Xinyi,
+        G_KG_ns:__Joana_B_Pereira,
+        G_KG_ns:__Jochen_Triesch,
+        G_KG_ns:__Julie_Grollier,
+        G_KG_ns:__Julien_Dupeyroux,
+        G_KG_ns:__Jurenas_Vytautas,
+        G_KG_ns:__Karl_K_Berggren,
+        G_KG_ns:__Kechagias_J_,
+        G_KG_ns:__Keren_Bergman,
+        G_KG_ns:__Kopaničáková_Alena,
+        G_KG_ns:__Krause_Rolf,
+        G_KG_ns:__LIANG_DONG,
+        G_KG_ns:__LUIS_MORALES_VELAZQUEZ,
+        G_KG_ns:__Lasbahani_Abdellatif,
+        G_KG_ns:__Lasri_Rafik,
+        G_KG_ns:__Laura_Natali_,
+        G_KG_ns:__Lawrence_Spracklen,
+        G_KG_ns:__Lei_Deng,
+        G_KG_ns:__Loubère_Stéphane,
+        G_KG_ns:__MACIEJ_TOBIASZ,
+        G_KG_ns:__MARCO_RIVERA_2,
+        G_KG_ns:__MARIO_MARCHES,
+        G_KG_ns:__MARTIN_MAIER,
+        G_KG_ns:__MASSIMO_TORNATORE,
+        G_KG_ns:__MINH_NGOC_TRAN,
+        G_KG_ns:__MUHAMMAD_AWAIS_JAVED,
+        G_KG_ns:__MUHAMMAD_SOHAIL,
+        G_KG_ns:__MYUNG_KUK_YOON,
+        G_KG_ns:__Majstorović_Vidosav,
+        G_KG_ns:__Mark_D_Stiles,
+        G_KG_ns:__Matteo_Castellani,
+        G_KG_ns:__Mattias_Borg,
+        G_KG_ns:__Mejia_Parra_Daniel,
+        G_KG_ns:__Michael_Fanto,
+        G_KG_ns:__Mikuckyte_Sandra,
+        G_KG_ns:__MingyuYan,
+        G_KG_ns:__Miskovic_Zarko,
+        G_KG_ns:__Mitrovic_Radivoje,
+        G_KG_ns:__Moreno_Aitor,
+        G_KG_ns:__Moumoun_Lahcen,
+        G_KG_ns:__Mounir_Arioua,
+        G_KG_ns:__Nancy_Lynch,
+        G_KG_ns:__Ninikas_K_,
+        G_KG_ns:__OMAR_ABDUL_AZIZ_,
+        G_KG_ns:__Ojer_Marco,
+        G_KG_ns:__Otman_Chakkor,
+        G_KG_ns:__Oveis_Jamialahmadi,
+        G_KG_ns:__PATRICK_W__WHEELER,
+        G_KG_ns:__Pirot_Guillaume,
+        G_KG_ns:__Prashansa_Mukim,
+        G_KG_ns:__QIFAN_ZHANG,
+        G_KG_ns:__Qiaoqiao_Wang,
+        G_KG_ns:__Qihui_Diao,
+        G_KG_ns:__RAFAEL_ASOREY_CACHEDA_,
+        G_KG_ns:__Ruiz_Salguero_Oscar,
+        G_KG_ns:__SANG_YOON_PARK,
+        G_KG_ns:__SERGEI_LONCHAKOV,
+        G_KG_ns:__SEUNGHO_JUNG,
+        G_KG_ns:__SHAH_NAZIR,
+        G_KG_ns:__SHIYIN_LI,
+        G_KG_ns:__STANISLAV_MOLOGIN,
+        G_KG_ns:__SULTAN_ALDIRMAZ_ÇOLAK,
+        G_KG_ns:__SUYAN_LI,
+        G_KG_ns:__SVETLANA_PAVLOVA,
+        G_KG_ns:__Shu_Feng,
+        G_KG_ns:__Simeunovic_Vladimir,
+        G_KG_ns:__Stefan_Preble,
+        G_KG_ns:__Stefano_Romeo,
+        G_KG_ns:__Stosic_Dragan,
+        G_KG_ns:__Subramani_Selamani,
+        G_KG_ns:__Subutai_Ahmad,
+        G_KG_ns:__Sánchez_Jairo_R_,
+        G_KG_ns:__TAEWEON_SUH,
+        G_KG_ns:__Tai_Min,
+        G_KG_ns:__Tarbouchi_Mohammed,
+        G_KG_ns:__Teng_Yin,
+        G_KG_ns:__Tommaso_Diotalevi,
+        G_KG_ns:__Vardhan_Harsh,
+        G_KG_ns:__Vaxevanidis_N__M_,
+        G_KG_ns:__Vijay_Sekar_Krishnaraju_Srinivasaraju,
+        G_KG_ns:__Wang_Cheng,
+        G_KG_ns:__Wang_Jiangzhou,
+        G_KG_ns:__Wang_Yang,
+        G_KG_ns:__Wang_Zhuping,
+        G_KG_ns:__Wardle_Peter,
+        G_KG_ns:__Wei_Shao,
+        G_KG_ns:__Wibowo_Antoni,
+        G_KG_ns:__Wu_Xianke,
+        G_KG_ns:__Xiaochun_Ye,
+        G_KG_ns:__Xihui_Yuan,
+        G_KG_ns:__YON_DOHN_CHUNG,
+        G_KG_ns:__YOUSEF_IBRAHIM_DARADKEH,
+        G_KG_ns:__YUNHO_OH,
+        G_KG_ns:__Yang_Kang,
+        G_KG_ns:__Yawei_Gao,
+        G_KG_ns:__Yujie_Wu,
+        G_KG_ns:__ZHAOLIN_LU,
+        G_KG_ns:__ZHIQIANG_PANG,
+        G_KG_ns:__ZHOU_LI,
+        G_KG_ns:__Zhang_Hao,
+        G_KG_ns:__Zheng_Chai_,
+        G_KG_ns:___ANTONIO_JAVIER_GARCIA_SANCHEZ,
+        G_KG_ns:___BUMYOON_KIM,
+        G_KG_ns:___YOUNGHAN_KIM,
+        G_KG_ns:__Đurđanović_Dragan,
+        G_KG_ns:__Živković_Jovan .
+
+G_KG_ns:ThemengebietKonferenz a G_KG_ns:_advanced_manufacturing,
+        G_KG_ns:_antennas,
+        G_KG_ns:_clean_energy,
+        G_KG_ns:_composite_material_design,
+        G_KG_ns:_continuous_optimization_techniques,
+        G_KG_ns:_conventional_reliability_theories,
+        G_KG_ns:_cyber_security,
+        G_KG_ns:_cyber_security_governance_modes,
+        G_KG_ns:_design_optimization,
+        G_KG_ns:_digital_manufacturing,
+        G_KG_ns:_discrete_optimization,
+        G_KG_ns:_energy_resources,
+        G_KG_ns:_french_mechanical_association,
+        G_KG_ns:_functional_safety,
+        G_KG_ns:_functional_safety_problems,
+        G_KG_ns:_functional_safety_theories,
+        G_KG_ns:_global_optimization,
+        G_KG_ns:_grammar,
+        G_KG_ns:_grammars,
+        G_KG_ns:_hardware_facility_vulnerabilities,
+        G_KG_ns:_hydropower,
+        G_KG_ns:_integrated_security,
+        G_KG_ns:_learning_algorithms,
+        G_KG_ns:_lexicon,
+        G_KG_ns:_linguistic_basis,
+        G_KG_ns:_lingvisticae_investigationes,
+        G_KG_ns:_low_carbon_future,
+        G_KG_ns:_machine_learning,
+        G_KG_ns:_machine_learning_methods,
+        G_KG_ns:_manufacturing_research_group,
+        G_KG_ns:_manufacturing_technologies,
+        G_KG_ns:_memristive_switching_materials,
+        G_KG_ns:_multidisciplinary_design_optimization,
+        G_KG_ns:_multilevel_optimization,
+        G_KG_ns:_neuromorphic_computing,
+        G_KG_ns:_neuromorphic_implementations,
+        G_KG_ns:_neuromorphic_sensing,
+        G_KG_ns:_neuromorphic_systems,
+        G_KG_ns:_nonlinear_optimization,
+        G_KG_ns:_nonlinear_optimization_methods,
+        G_KG_ns:_novel_artificial_neural_processing_systems,
+        G_KG_ns:_ocean_energy,
+        G_KG_ns:_optimization,
+        G_KG_ns:_optimization_models,
+        G_KG_ns:_phonology,
+        G_KG_ns:_security,
+        G_KG_ns:_structural_optimization,
+        G_KG_ns:_sustainable_energy,
+        G_KG_ns:_sustainable_energy_reviews,
+        G_KG_ns:_synapses,
+        G_KG_ns:_tial_convex_programming_methods,
+        G_KG_ns:_topology_optimization,
+        G_KG_ns:_topology_optimizations .
+
+G_KG_ns:ThemengebietPaper a G_KG_ns:_abstract_fog_computing,
+        G_KG_ns:_abstract_secure,
+        G_KG_ns:_accurate_molecular_force_fields,
+        G_KG_ns:_activation_sparsity,
+        G_KG_ns:_active_efﬁcient_coding,
+        G_KG_ns:_adaptive_sampling_strategies,
+        G_KG_ns:_android_runtime,
+        G_KG_ns:_ant_colony_optimization,
+        G_KG_ns:_arrival_delays_prediction,
+        G_KG_ns:_artiﬁcial_microwave_neurons,
+        G_KG_ns:_audiogram,
+        G_KG_ns:_automatic_control_systems,
+        G_KG_ns:_backward_propagation,
+        G_KG_ns:_baryonic_physics,
+        G_KG_ns:_bayesian_estimation,
+        G_KG_ns:_belief_propagation,
+        G_KG_ns:_binary_stochastic_synapses,
+        G_KG_ns:_binocular_torsional_eye_movement_control,
+        G_KG_ns:_breathing_signals,
+        G_KG_ns:_business_automation,
+        G_KG_ns:_clinical_memory_research_unit,
+        G_KG_ns:_cluster_anomalies,
+        G_KG_ns:_cluster_environments,
+        G_KG_ns:_collaborative_technology_system,
+        G_KG_ns:_computational_astrophysics,
+        G_KG_ns:_computational_molecular_design,
+        G_KG_ns:_computer_security_data_sets,
+        G_KG_ns:_concave_multivariate_piecewise,
+        G_KG_ns:_convolutional_layers,
+        G_KG_ns:_cosmological_dynamics,
+        G_KG_ns:_cosmological_information,
+        G_KG_ns:_cosmological_physics,
+        G_KG_ns:_cpu_vulnerability_detection,
+        G_KG_ns:_current_memristor_device,
+        G_KG_ns:_cut_material_parameters,
+        G_KG_ns:_cy_manifolds,
+        G_KG_ns:_cybersecurity_technologies,
+        G_KG_ns:_cyberspace_security,
+        G_KG_ns:_cycling_training_routes,
+        G_KG_ns:_data_compression,
+        G_KG_ns:_deep_learning,
+        G_KG_ns:_deep_learning_systems,
+        G_KG_ns:_deep_packet_inspection,
+        G_KG_ns:_deep_residual_networks,
+        G_KG_ns:_deep_variational_autoencoders,
+        G_KG_ns:_deepadversaries,
+        G_KG_ns:_developmental_robotics,
+        G_KG_ns:_different_classification_algorithms,
+        G_KG_ns:_different_smart_manufacturing_scenarios,
+        G_KG_ns:_discrete_empirical_bayes_risk,
+        G_KG_ns:_discrete_wavelet_transform,
+        G_KG_ns:_dns_service_failure,
+        G_KG_ns:_efﬁcient_architectural_defense_approach,
+        G_KG_ns:_electronic_structure_calculations,
+        G_KG_ns:_energy_consumption,
+        G_KG_ns:_erp_model,
+        G_KG_ns:_esophageal_speech,
+        G_KG_ns:_evolutionary_algorithm,
+        G_KG_ns:_face_image_database,
+        G_KG_ns:_famous_matrix_factorization_methods,
+        G_KG_ns:_fast_jet_simulation,
+        G_KG_ns:_fault_detection,
+        G_KG_ns:_fault_tolerance,
+        G_KG_ns:_feature_selection,
+        G_KG_ns:_finite_element_model_preparation,
+        G_KG_ns:_flight_delays,
+        G_KG_ns:_future_mobile_networks,
+        G_KG_ns:_fuzzy_logic_controller,
+        G_KG_ns:_galaxy_morphology_classification,
+        G_KG_ns:_generalized_functional_safety,
+        G_KG_ns:_generative_model,
+        G_KG_ns:_genetic_algorithms,
+        G_KG_ns:_glassy_dynamics,
+        G_KG_ns:_hamiltonian_monte_carlo,
+        G_KG_ns:_hardware_spiking,
+        G_KG_ns:_harris_hawk_optimizer,
+        G_KG_ns:_hearing_thresholds,
+        G_KG_ns:_hevc_ai,
+        G_KG_ns:_hierarchical_flow,
+        G_KG_ns:_hoarse_denoising_device,
+        G_KG_ns:_holistic_optimization_method,
+        G_KG_ns:_hopfield_networks,
+        G_KG_ns:_human_eye,
+        G_KG_ns:_ieee_vehicular_technology_society_section,
+        G_KG_ns:_implicit_privacy_attributes,
+        G_KG_ns:_index_terms_iot,
+        G_KG_ns:_industrial_big_data,
+        G_KG_ns:_industrial_cyber_physical_systems,
+        G_KG_ns:_industrial_energy_management_system,
+        G_KG_ns:_industrial_robot_arm,
+        G_KG_ns:_intelligent_transportation_systems,
+        G_KG_ns:_intra_subpartition_prediction,
+        G_KG_ns:_intrusion_detection,
+        G_KG_ns:_iot_applications,
+        G_KG_ns:_iot_network_deployments,
+        G_KG_ns:_iot_security_authentication,
+        G_KG_ns:_kernel_ridge_regression,
+        G_KG_ns:_kubernetes,
+        G_KG_ns:_kubernetes_anomaly_detector,
+        G_KG_ns:_latest_array_databases,
+        G_KG_ns:_lhc,
+        G_KG_ns:_linear_neuron,
+        G_KG_ns:_logistic_gaussian_model,
+        G_KG_ns:_logistics_service_provider,
+        G_KG_ns:_low_power_wide_area_networks,
+        G_KG_ns:_machining_modeling,
+        G_KG_ns:_manufacturing_execution_system,
+        G_KG_ns:_memory_coalescing,
+        G_KG_ns:_memristor,
+        G_KG_ns:_microgrid_power_sharing_framework,
+        G_KG_ns:_microscopic_images,
+        G_KG_ns:_minimax_supervised,
+        G_KG_ns:_mining_dns_forums,
+        G_KG_ns:_mixed_integer_programming_formulations,
+        G_KG_ns:_mnist_database,
+        G_KG_ns:_mobile_ad_hoc_networks,
+        G_KG_ns:_mobile_communications,
+        G_KG_ns:_mobility_robustness_optimization,
+        G_KG_ns:_molecular_reinforcement_learning,
+        G_KG_ns:_molecular_similarity,
+        G_KG_ns:_multidimensional_data,
+        G_KG_ns:_multimode_fibers,
+        G_KG_ns:_multiple_pickup_locations,
+        G_KG_ns:_multiple_signal_mass_hypotheses,
+        G_KG_ns:_nano_devices,
+        G_KG_ns:_nanowire,
+        G_KG_ns:_network_function_virtualization,
+        G_KG_ns:_neural_networks_force,
+        G_KG_ns:_neuromorphic_algorithms,
+        G_KG_ns:_neuromorphic_attitude_estimation,
+        G_KG_ns:_neuromorphic_computing,
+        G_KG_ns:_neuromorphic_electronics,
+        G_KG_ns:_neuromorphic_hardware,
+        G_KG_ns:_neuromorphic_photonics,
+        G_KG_ns:_new_molecular_designs,
+        G_KG_ns:_new_multilevel_minimization_framework,
+        G_KG_ns:_nn_dynamics,
+        G_KG_ns:_noisy_mmwave_radar,
+        G_KG_ns:_numerical_ricci,
+        G_KG_ns:_nurse_scheduling,
+        G_KG_ns:_oculus_quest,
+        G_KG_ns:_optical_ampliﬁer,
+        G_KG_ns:_optical_encryption,
+        G_KG_ns:_optimal_injection_attack_strategy,
+        G_KG_ns:_parallel_flower_pollination_algorithm,
+        G_KG_ns:_parametric_networks,
+        G_KG_ns:_photon_information_capacity,
+        G_KG_ns:_photonic_neural_network,
+        G_KG_ns:_physical_layer_security_research,
+        G_KG_ns:_posterior_simulations,
+        G_KG_ns:_power_co2_laser_cutting,
+        G_KG_ns:_power_grid,
+        G_KG_ns:_precise_ddos_prediction,
+        G_KG_ns:_principal_component_analysis,
+        G_KG_ns:_private_inference,
+        G_KG_ns:_probabilistic_hesitant_fuzzy_elements,
+        G_KG_ns:_probabilistic_simplex,
+        G_KG_ns:_quadrotors,
+        G_KG_ns:_random_channel_characteristics,
+        G_KG_ns:_random_forest,
+        G_KG_ns:_random_physical_failures,
+        G_KG_ns:_reconstructed_particles,
+        G_KG_ns:_reliable_dns_infrastructure,
+        G_KG_ns:_renormalization_group,
+        G_KG_ns:_reram_devices,
+        G_KG_ns:_response_distributions,
+        G_KG_ns:_robot_optimization,
+        G_KG_ns:_robust_classification,
+        G_KG_ns:_route_generation_research,
+        G_KG_ns:_routing_plan,
+        G_KG_ns:_scma_encoder,
+        G_KG_ns:_sdn_architecture,
+        G_KG_ns:_secure_executions,
+        G_KG_ns:_secure_transmission,
+        G_KG_ns:_secure_transmission_technology,
+        G_KG_ns:_security_assurance,
+        G_KG_ns:_security_defense,
+        G_KG_ns:_sem_image_quality_assessment,
+        G_KG_ns:_semiconductor_noise,
+        G_KG_ns:_sensorimotor_contingencies,
+        G_KG_ns:_serbian_digital_factory,
+        G_KG_ns:_silicon_photonics_platform,
+        G_KG_ns:_similarity_metrics,
+        G_KG_ns:_simulated_human_cell_membrane,
+        G_KG_ns:_simulated_particle_physics_decay_structures,
+        G_KG_ns:_simulation_technologies,
+        G_KG_ns:_sleep_apnea,
+        G_KG_ns:_smart_manufacturing,
+        G_KG_ns:_smart_mining,
+        G_KG_ns:_smart_supply_chains,
+        G_KG_ns:_sparse_code_multiple_access,
+        G_KG_ns:_sparse_networks,
+        G_KG_ns:_string_theory,
+        G_KG_ns:_structured_photons,
+        G_KG_ns:_substitution_voice,
+        G_KG_ns:_superconductivity,
+        G_KG_ns:_supervised_classiﬁcation,
+        G_KG_ns:_thermal_sunyaev,
+        G_KG_ns:_tools_lifecycle_management,
+        G_KG_ns:_tourism_recommendation_researches,
+        G_KG_ns:_tree_data_structure_implementation,
+        G_KG_ns:_tree_reconstruction,
+        G_KG_ns:_uav_trajectory_planning,
+        G_KG_ns:_uncertain_network_attacks,
+        G_KG_ns:_underparametrized_deep_neural_networks,
+        G_KG_ns:_unsupervised_representation_disentanglement,
+        G_KG_ns:_vast_chemical_space,
+        G_KG_ns:_vibration_micro_drilling_tool,
+        G_KG_ns:_video_coding,
+        G_KG_ns:_virtual_brain_modelling,
+        G_KG_ns:_virtual_experiences,
+        G_KG_ns:_wing_uavs,
+        G_KG_ns:_wireless_mobile_communications,
+        G_KG_ns:_wokshop_production_management_model .
+
+G_KG_ns:conference dc:title G_KG_ns:_French_German_Swiss_conference_on_Optimization,
+        G_KG_ns:_ICCWCS_2022,
+        G_KG_ns:_IEEE_Access,
+        G_KG_ns:_International_Journal_for_Simulation_and_Multidisciplinary_Design_Optimization,
+        G_KG_ns:_Machine_Learning__Science_and_Technology,
+        G_KG_ns:_NEWTECH,
+        G_KG_ns:_Neuromorphic_Computing_and_Engineering,
+        G_KG_ns:_Security_and_Safety .
+
+G_KG_ns:paper dc:title G_KG_ns:_A_Comprehensive_Study_of_DNS_Operational_Issues_by_Mining_DNS_Forums,
+        G_KG_ns:_A_Novel_Similarity_Based_Multi_Attribute_Group_Decision_Making_Method_in_a_Probabilistic_Hesitant_Fuzzy_Environment,
+        G_KG_ns:_A_Selective_Many_to_Many_Pickup_and_Delivery_Problem_With_Handling_Cost_in_the_Omni_Channel_Last_Mile_Delivery,
+        G_KG_ns:_A_biology_informed_similarity_metric_for_simulated_patches_of_human_cell_membrane,
+        G_KG_ns:_A_comparative_study_of_Machine_learning_Algorithms_on_the_UNSW_NB_15_Dataset,
+        G_KG_ns:_A_duality_connecting_neural_network_and_cosmological_dynamics,
+        G_KG_ns:_A_framework_for_recommending_tourist_attractions_using_deep_learning_and_association_rule_mining_based_methods,
+        G_KG_ns:_A_note_on_diagnosis_and_performance_degradation_detection_in_automatic_control_systems_towards_functional_safety_and_cyber_security,
+        G_KG_ns:_Advanced_Mobility_Robustness_Optimization_Models_in_Future_Mobile_Networks_Based_on_Machine_Learning_Solutions,
+        G_KG_ns:_Advantages_of_binary_stochastic_synapses_for_hardware_spiking_neural_networks_with_realistic_memristors,
+        G_KG_ns:_Ant_colony_optimization_with_semi_random_initialization_for_nurse_rostering_problem,
+        G_KG_ns:_Associative_memories_using_complex_valued_Hopfield_networks_based_on_spin_torque_oscillator_arrays,
+        G_KG_ns:_Audiogram_Digitization_Tool_for_Audiological_Reports,
+        G_KG_ns:_Box_constrained_optimization_for_minimax_supervised_learning,
+        G_KG_ns:_Carbon_Footprint_vs_Energy_Optimization_in_IoT_Network_Deployments,
+        G_KG_ns:_Computer_graphics_and_visual_computing_use_cases_for_Industry_4_0_and_Operator_4_0,
+        G_KG_ns:_Concretely_efficient_secure_multi_party_computation_protocols__survey_and_more,
+        G_KG_ns:_Convolutional_neural_networks_with_radio_frequency_spintronic_nano_devices,
+        G_KG_ns:_Curiosity_in_exploring_chemical_spaces__intrinsic_rewards_for_molecular_reinforcement_learning,
+        G_KG_ns:_DeepAdversaries__examining_the_robustness_of_deep_learning_models_for_galaxy_morphology_classification,
+        G_KG_ns:_Deep_learning_via_message_passing_algorithms_based_on_belief_propagation,
+        G_KG_ns:_Denoising_Esophageal_Speech_using_Combination_of_Complex_and_Discrete_Wavelet_Transform_with_Wiener_filter_and_Time_Dilated_Fourier_Cepstra,
+        G_KG_ns:_Detection_of_Cluster_Anomalies_With_ML_Techniques,
+        G_KG_ns:_Development_of_an_advanced_MES_for_the_simulation_and_optimization_of_industry_4_0_process,
+        G_KG_ns:_Digital_Twins_for_Micro_Machining,
+        G_KG_ns:_Dynamic_Decomposition_of_Service_Function_Chain_Using_a_Deep_Reinforcement_Learning_Approach,
+        G_KG_ns:_Efficient_poisoning_attacks_and_defenses_for_unlabeled_data_in_DDoS_prediction_of_intelligent_transportation_systems,
+        G_KG_ns:_Emulation_and_modelling_of_semiconductor_optical_amplifier_based_all_optical_photonic_integrated_deep_neural_network_with_arbitrary_depth,
+        G_KG_ns:_Experimental_investigations_and_finite_element_analysis_of_milling_of_Inconel_718_alloy,
+        G_KG_ns:_Explainable_Computer_Aided_Detection_of_Obstructive_Sleep_Apnea_and_Depression,
+        G_KG_ns:_Fault_Tolerant_Ad_Hoc_On_Demand_Routing_Protocol_for_Mobile_Ad_Hoc_Networks,
+        G_KG_ns:_Features_Based_IoT_Security_Authentication_Framework_Using_Statistical_Aggregation__Entropy__and_MOORA_Approaches,
+        G_KG_ns:_Fully_Bayesian_estimation_of_virtual_brain_parameters_with_self_tuning_Hamiltonian_Monte_Carlo,
+        G_KG_ns:_General_spiking_neural_network_framework_for_the_learning_trajectory_from_a_noisy_mmWave_radar,
+        G_KG_ns:_GhostLeg__Selective_Memory_Coalescing_for_Secure_GPU_Architecture,
+        G_KG_ns:_Goal_oriented_adaptive_sampling_under_random_field_modelling_of_response_probability_distributions,
+        G_KG_ns:_High_dimensional_encryption_in_optical_fibers_using_spatial_modes_of_light_and_machine_learning,
+        G_KG_ns:_How_to_apply_the_ERP_model_for_Smart_Mining_,
+        G_KG_ns:_Impact_of_Aircraft_Performance_and_Time_of_the_Day_on_Flight_Arrival_Delays_Prediction_in_the_United_States__a_Machine_Learning_Classification,
+        G_KG_ns:_Implicit_privacy_preservation__a_framework_based_on_data_generation,
+        G_KG_ns:_Improving_parametric_neural_networks_for_highenergy_physics__and_beyond_,
+        G_KG_ns:_Industrial_Energy_Management_System__Design_of_a_Conceptual_Framework_Using_IoT_and_Big_Data,
+        G_KG_ns:_Kinematic_Optimization_of_6DOF_Serial_Robot_Arms_by_Bio_Inspired_Algorithms,
+        G_KG_ns:_Learning_torsional_eye_movements_through_active_efficient_coding,
+        G_KG_ns:_Learning_tree_structures_from_leaves_for_particle_decay_reconstruction,
+        G_KG_ns:_Machine_Learning_Based_Early_Skip_Decision_for_Intra_Subpartition_Prediction_in_VVC,
+        G_KG_ns:_Management_of_tools_in_digital_manufacturing___A_case_study,
+        G_KG_ns:_Massively_scalable_wavelength_diverse_integrated_photonic_linear_neuron,
+        G_KG_ns:_Method_for_Profile_Guided_Optimization_of_Android_Applications_Using_Random_Forest,
+        G_KG_ns:_Metric_learning_for_kernel_ridge_regression__assessment_of_molecular_similarity,
+        G_KG_ns:_Microgrid_Power_Sharing_Framework_for_Software_Defined_Networking_and_Cybersecurity_Analysis,
+        G_KG_ns:_Modified_Evolutionary_Algorithm_for_Generating_the_Cycling_Training_Routes,
+        G_KG_ns:_Multi_Dimensional_Data_Compression_and_Query_Processing_in_Array_Databases,
+        G_KG_ns:_Multilevel_minimization_for_deep_residual_networks,
+        G_KG_ns:_Neural_network_training_with_highly_incomplete_medical_datasets,
+        G_KG_ns:_Neural_networks_for_predicting_kerf_characteristics_of_CO2_laser_machined_FFF_PLA_WF_plates,
+        G_KG_ns:_Neuromorphic_computing_for_attitude_estimation_onboard_quadrotors,
+        G_KG_ns:_New_control_scheme_of_on_load_tap_changer_for_voltage_regulation_in_active_distribution_systems_using_Fuzzy_logic,
+        G_KG_ns:_Non_negative_Matrix_Factorization_for_Dimensionality_Reduction,
+        G_KG_ns:_Numerical_metrics_for_complete_intersection_and_Kreuzer_Skarke_Calabi_Yau_manifolds,
+        G_KG_ns:_Optimal_injection_attack_strategy_for_cyber_physical_systems__a_dynamic_feedback_approach,
+        G_KG_ns:_Parallel_Hybrid_2_Opt_Flower_Pollination_Algorithm_for_Real_Time_UAV_Trajectory_Planning_on_GPU,
+        G_KG_ns:_Particle_based_fast_jet_simulation_at_the_LHC_with_variational_autoencoders,
+        G_KG_ns:_Physical_layer_security_techniques_for_data_transmission_for_future_wireless_networks,
+        G_KG_ns:_Predicting_the_thermal_Sunyaev_Zel_dovich_field_using_modular_and_equivariant_set_based_neural_networks,
+        G_KG_ns:_Predictive_Hybrid_Autoscaling_for_Containerized_Applications,
+        G_KG_ns:_Problems_and_solutions_regarding_generalized_functional_safety_in_cyberspace,
+        G_KG_ns:_Quantum_neural_networks_force_fields_generation,
+        G_KG_ns:_RG_Flow__a_hierarchical_and_explainable_flow_model_based_on_renormalization_group_and_sparse_prior,
+        G_KG_ns:_R_tree_data_structure_implementation_for_Computer_Aided_Engineering__CAE__tools,
+        G_KG_ns:_Reduction_of_the_Delays_Within_an_Intrusion_Detection_System__IDS__Based_on_Software_Defined_Networking__SDN_,
+        G_KG_ns:_Reliability_aspects_of_binary_vector_matrixmultiplications_using_ReRAM_devices,
+        G_KG_ns:_Robust_classification_with_feature_selection_using_an_application_of_the_Douglas_Rachford_splitting_algorithm,
+        G_KG_ns:_SCMA_Codebook_Design_Based_on_a_16_Star_QAM_with_MED_Maximization,
+        G_KG_ns:_SEM_Image_Quality_Assessment_Based_on_Intuitive_Morphology_and_Deep_Semantic_Features,
+        G_KG_ns:_SMRETO__Stable_Matching_for_Reliable_and_Efficient_Task_Offloading_in_Fog_Enabled_IoT_Networks,
+        G_KG_ns:_Secure_transmission_technology_based_on_direct_modulation_with_random_channel_characteristics,
+        G_KG_ns:_Study_on_the_Application_of_the_Holistic_Optimization_Method_of_the_Manufacturing_Process_in_the_Case_of_a_Reduced_Instances_Database,
+        G_KG_ns:_Subaging_in_underparametrized_deep_neural_networks_,
+        G_KG_ns:_Synaptic_1_f_noise_injection_for_overfitting_suppression_in_hardware_neural_networks,
+        G_KG_ns:_The_Metaverse_and_Beyond__Implementing_Advanced_Multiverse_Realms_With_Smart_Wearables,
+        G_KG_ns:_Two_sparsities_are_better_than_one__unlocking_the_performance_benefits_of_sparse_sparse_networks,
+        G_KG_ns:_superconducting_nanowire_based_architecture_for_neuromorphic_computing .
+
+G_KG_ns:_A_Comprehensive_Study_of_DNS_Operational_Issues_by_Mining_DNS_Forums dc:creator G_KG_ns:_XIANRAN_LIAO,
+        G_KG_ns:__JIACEN_XU,
+        G_KG_ns:__QIFAN_ZHANG,
+        G_KG_ns:__ZHOU_LI ;
+    dc:date "2022-10-19"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_dns_service_failure,
+        G_KG_ns:_mining_dns_forums,
+        G_KG_ns:_reliable_dns_infrastructure .
+
+G_KG_ns:_A_Novel_Similarity_Based_Multi_Attribute_Group_Decision_Making_Method_in_a_Probabilistic_Hesitant_Fuzzy_Environment dc:creator G_KG_ns:_YUBO_HU,
+        G_KG_ns:__ZHIQIANG_PANG ;
+    dc:date "2022-10-17"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_probabilistic_hesitant_fuzzy_elements .
+
+G_KG_ns:_A_Selective_Many_to_Many_Pickup_and_Delivery_Problem_With_Handling_Cost_in_the_Omni_Channel_Last_Mile_Delivery dc:creator G_KG_ns:_YALI_LI ;
+    dc:date "2022-10-19"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_logistics_service_provider,
+        G_KG_ns:_mixed_integer_programming_formulations,
+        G_KG_ns:_multiple_pickup_locations,
+        G_KG_ns:_routing_plan .
+
+G_KG_ns:_A_biology_informed_similarity_metric_for_simulated_patches_of_human_cell_membrane dc:creator G_KG_ns:_Felice_C_Lightstone,
+        G_KG_ns:_Harsh_Bhatia,
+        G_KG_ns:_Helgi_I_Ingólfsson,
+        G_KG_ns:_Jayaraman_J_Thiagarajan,
+        G_KG_ns:_Peer_Timo_Bremer,
+        G_KG_ns:_Rushil_Anirudh,
+        G_KG_ns:_T_S_Jayram,
+        G_KG_ns:_Tomas_Oppelstrup ;
+    dc:date "2022-08-19"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_similarity_metrics,
+        G_KG_ns:_simulated_human_cell_membrane .
+
+G_KG_ns:_A_comparative_study_of_Machine_learning_Algorithms_on_the_UNSW_NB_15_Dataset dc:creator G_KG_ns:_Tahri_Rachid,
+        G_KG_ns:__Balouki_Youssef,
+        G_KG_ns:__Jarrar_Abdessamad,
+        G_KG_ns:__Lasbahani_Abdellatif ;
+    dc:date "2022-09-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_ICCWCS_2022 ;
+    dc:subject G_KG_ns:_computer_security_data_sets,
+        G_KG_ns:_different_classification_algorithms,
+        G_KG_ns:_intrusion_detection .
+
+G_KG_ns:_A_duality_connecting_neural_network_and_cosmological_dynamics dc:creator G_KG_ns:_Michael_Spannowsky,
+        G_KG_ns:_Sven_Krippendorf ;
+    dc:date "2022-08-30"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_cosmological_dynamics,
+        G_KG_ns:_nn_dynamics .
+
+G_KG_ns:_A_framework_for_recommending_tourist_attractions_using_deep_learning_and_association_rule_mining_based_methods dc:creator G_KG_ns:_Jeong_Hanjo ;
+    dc:date "2022-09-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_ICCWCS_2022 ;
+    dc:subject G_KG_ns:_tourism_recommendation_researches .
+
+G_KG_ns:_A_note_on_diagnosis_and_performance_degradation_detection_in_automatic_control_systems_towards_functional_safety_and_cyber_security dc:creator G_KG_ns:_Ding_Steven_X_ ;
+    dc:date "2022-08-09"^^xsd:date ;
+    dc:publisher G_KG_ns:_Security_and_Safety ;
+    dc:subject G_KG_ns:_automatic_control_systems,
+        G_KG_ns:_fault_detection,
+        G_KG_ns:_industrial_cyber_physical_systems .
+
+G_KG_ns:_Advanced_Mobility_Robustness_Optimization_Models_in_Future_Mobile_Networks_Based_on_Machine_Learning_Solutions dc:creator G_KG_ns:_WAHEEB_TASHAN,
+        G_KG_ns:__ABDULRAQEB_ALHAMMADI,
+        G_KG_ns:__IBRAHEEM_SHAYEA,
+        G_KG_ns:__OMAR_ABDUL_AZIZ_,
+        G_KG_ns:__SULTAN_ALDIRMAZ_ÇOLAK,
+        G_KG_ns:__YOUSEF_IBRAHIM_DARADKEH ;
+    dc:date "2022-10-19"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_future_mobile_networks,
+        G_KG_ns:_ieee_vehicular_technology_society_section,
+        G_KG_ns:_mobility_robustness_optimization .
+
+G_KG_ns:_Advantages_of_binary_stochastic_synapses_for_hardware_spiking_neural_networks_with_realistic_memristors dc:creator G_KG_ns:_Karolis_Sulinskas,
+        G_KG_ns:__Mattias_Borg ;
+    dc:date "2022-08-18"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_binary_stochastic_synapses,
+        G_KG_ns:_current_memristor_device,
+        G_KG_ns:_hardware_spiking,
+        G_KG_ns:_neuromorphic_hardware .
+
+G_KG_ns:_Ant_colony_optimization_with_semi_random_initialization_for_nurse_rostering_problem dc:creator G_KG_ns:_Achmad_Said,
+        G_KG_ns:__Diana_Diana,
+        G_KG_ns:__Wibowo_Antoni ;
+    dc:date "2021-10-20"^^xsd:date ;
+    dc:publisher G_KG_ns:_International_Journal_for_Simulation_and_Multidisciplinary_Design_Optimization ;
+    dc:subject G_KG_ns:_ant_colony_optimization,
+        G_KG_ns:_nurse_scheduling .
+
+G_KG_ns:_Associative_memories_using_complex_valued_Hopfield_networks_based_on_spin_torque_oscillator_arrays dc:creator G_KG_ns:_Nitin_Prasad,
+        G_KG_ns:__Advait_Madhavan,
+        G_KG_ns:__Mark_D_Stiles,
+        G_KG_ns:__Prashansa_Mukim ;
+    dc:date "2022-07-14"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_hopfield_networks,
+        G_KG_ns:_memristor .
+
+G_KG_ns:_Audiogram_Digitization_Tool_for_Audiological_Reports dc:creator G_KG_ns:_FRANÇOIS_CHARIH,
+        G_KG_ns:__JAMES_R__GREEN ;
+    dc:date "2022-10-19"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_audiogram,
+        G_KG_ns:_hearing_thresholds .
+
+G_KG_ns:_Box_constrained_optimization_for_minimax_supervised_learning dc:creator G_KG_ns:_Gilet_Cyprien,
+        G_KG_ns:__Barbosa_Susana,
+        G_KG_ns:__Fillatre_Lionel ;
+    dc:date "2021-08-03"^^xsd:date ;
+    dc:publisher G_KG_ns:_French_German_Swiss_conference_on_Optimization ;
+    dc:subject G_KG_ns:_concave_multivariate_piecewise,
+        G_KG_ns:_discrete_empirical_bayes_risk,
+        G_KG_ns:_minimax_supervised,
+        G_KG_ns:_probabilistic_simplex,
+        G_KG_ns:_supervised_classiﬁcation .
+
+G_KG_ns:_Carbon_Footprint_vs_Energy_Optimization_in_IoT_Network_Deployments dc:creator G_KG_ns:_FRANCISCO_JOSE_ALVARADO_ALCON_,
+        G_KG_ns:__JOAN_GARCIA_HARO,
+        G_KG_ns:__RAFAEL_ASOREY_CACHEDA_,
+        G_KG_ns:___ANTONIO_JAVIER_GARCIA_SANCHEZ ;
+    dc:date "2022-10-21"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_energy_consumption,
+        G_KG_ns:_iot_network_deployments,
+        G_KG_ns:_low_power_wide_area_networks .
+
+G_KG_ns:_Computer_graphics_and_visual_computing_use_cases_for_Industry_4_0_and_Operator_4_0 dc:creator G_KG_ns:_Posada_Jorge,
+        G_KG_ns:__Barandiaran_Iñigo,
+        G_KG_ns:__Mejia_Parra_Daniel,
+        G_KG_ns:__Moreno_Aitor,
+        G_KG_ns:__Ojer_Marco,
+        G_KG_ns:__Ruiz_Salguero_Oscar,
+        G_KG_ns:__Sánchez_Jairo_R_ ;
+    dc:date "2021-08-10"^^xsd:date ;
+    dc:publisher G_KG_ns:_International_Journal_for_Simulation_and_Multidisciplinary_Design_Optimization ;
+    dc:subject G_KG_ns:_different_smart_manufacturing_scenarios,
+        G_KG_ns:_industrial_big_data,
+        G_KG_ns:_simulation_technologies .
+
+G_KG_ns:_Concretely_efficient_secure_multi_party_computation_protocols__survey_and_more dc:creator G_KG_ns:_Feng_Dengguo,
+        G_KG_ns:__Yang_Kang ;
+    dc:date "2022-06-14"^^xsd:date ;
+    dc:publisher G_KG_ns:_Security_and_Safety ;
+    dc:subject G_KG_ns:_abstract_secure,
+        G_KG_ns:_private_inference .
+
+G_KG_ns:_Convolutional_neural_networks_with_radio_frequency_spintronic_nano_devices dc:creator G_KG_ns:_Nathan_Leroux,
+        G_KG_ns:__Alice_Mizrahi,
+        G_KG_ns:__ArnaudDe_Riz,
+        G_KG_ns:__D_edalo_Sanz_Hern_andez_,
+        G_KG_ns:__Danijela_Markovi_c_,
+        G_KG_ns:__Julie_Grollier ;
+    dc:date "2022-07-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_artiﬁcial_microwave_neurons,
+        G_KG_ns:_convolutional_layers,
+        G_KG_ns:_nano_devices,
+        G_KG_ns:_neuromorphic_computing .
+
+G_KG_ns:_Curiosity_in_exploring_chemical_spaces__intrinsic_rewards_for_molecular_reinforcement_learning dc:creator G_KG_ns:_AkshatKumar_Nigam,
+        G_KG_ns:_Alán_Aspuru_Guzik,
+        G_KG_ns:_Luca_A_Thiede,
+        G_KG_ns:_Mario_Krenn ;
+    dc:date "2022-07-25"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_molecular_reinforcement_learning,
+        G_KG_ns:_new_molecular_designs,
+        G_KG_ns:_vast_chemical_space .
+
+G_KG_ns:_DeepAdversaries__examining_the_robustness_of_deep_learning_models_for_galaxy_morphology_classification dc:creator G_KG_ns:_Aleksandra_Ćiprijanovi,
+        G_KG_ns:_Brian_Nord,
+        G_KG_ns:_Diana_Kafkes,
+        G_KG_ns:_F_Javier_Sánchez,
+        G_KG_ns:_Gabriel_Nathan_Perdue,
+        G_KG_ns:_Gregory_Snyder,
+        G_KG_ns:_Kevin_Pedro,
+        G_KG_ns:_Sandeep_Madireddy,
+        G_KG_ns:_Stefan_M_Wild ;
+    dc:date "2022-07-21"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_cosmological_physics,
+        G_KG_ns:_deepadversaries,
+        G_KG_ns:_galaxy_morphology_classification .
+
+G_KG_ns:_Deep_learning_via_message_passing_algorithms_based_on_belief_propagation dc:creator G_KG_ns:_Carlo_Lucibello,
+        G_KG_ns:_Fabrizio_Pittorino,
+        G_KG_ns:_Gabriele_Perugini,
+        G_KG_ns:_Riccardo_Zecchina ;
+    dc:date "2022-07-15"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_belief_propagation,
+        G_KG_ns:_deep_learning,
+        G_KG_ns:_sparse_networks .
+
+G_KG_ns:_Denoising_Esophageal_Speech_using_Combination_of_Complex_and_Discrete_Wavelet_Transform_with_Wiener_filter_and_Time_Dilated_Fourier_Cepstra dc:creator G_KG_ns:_Amarjouf_Madiha,
+        G_KG_ns:__Bahja_Fadoua,
+        G_KG_ns:__Chami_Mouhcine,
+        G_KG_ns:__Di_Martino_Joseph,
+        G_KG_ns:__Elhaj_El_Hassan_Ibn ;
+    dc:date "2022-09-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_ICCWCS_2022 ;
+    dc:subject G_KG_ns:_discrete_wavelet_transform,
+        G_KG_ns:_esophageal_speech,
+        G_KG_ns:_hoarse_denoising_device,
+        G_KG_ns:_substitution_voice .
+
+G_KG_ns:_Detection_of_Cluster_Anomalies_With_ML_Techniques dc:creator G_KG_ns:_JOANNA_KOSIŃSKA_,
+        G_KG_ns:__MACIEJ_TOBIASZ ;
+    dc:date "2022-10-19"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_cluster_anomalies,
+        G_KG_ns:_cluster_environments,
+        G_KG_ns:_kubernetes_anomaly_detector .
+
+G_KG_ns:_Development_of_an_advanced_MES_for_the_simulation_and_optimization_of_industry_4_0_process dc:creator G_KG_ns:_Benfriha_Khaled,
+        G_KG_ns:__Aoussat_Améziane,
+        G_KG_ns:__Belaidi_Idir,
+        G_KG_ns:__Bouzid_Abdel_Hakim,
+        G_KG_ns:__Charrier_Quentin,
+        G_KG_ns:__El_Zant_Chawki,
+        G_KG_ns:__Ghodsian_Nooshin,
+        G_KG_ns:__Loubère_Stéphane,
+        G_KG_ns:__Wardle_Peter ;
+    dc:date "2021-09-27"^^xsd:date ;
+    dc:publisher G_KG_ns:_International_Journal_for_Simulation_and_Multidisciplinary_Design_Optimization ;
+    dc:subject G_KG_ns:_manufacturing_execution_system .
+
+G_KG_ns:_Digital_Twins_for_Micro_Machining dc:creator G_KG_ns:_Ostasevicius_Vytautas,
+        G_KG_ns:__Daniulaitis_Vytautas,
+        G_KG_ns:__Gaidys_Rimvydas,
+        G_KG_ns:__Jurenas_Vytautas,
+        G_KG_ns:__Mikuckyte_Sandra ;
+    dc:date "2022-10-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_NEWTECH ;
+    dc:subject G_KG_ns:_vibration_micro_drilling_tool .
+
+G_KG_ns:_Dynamic_Decomposition_of_Service_Function_Chain_Using_a_Deep_Reinforcement_Learning_Approach dc:creator G_KG_ns:_SWARNA_B__CHETTY,
+        G_KG_ns:__AVISHEK_NAG,
+        G_KG_ns:__HAMED_AHMADI,
+        G_KG_ns:__MASSIMO_TORNATORE ;
+    dc:date "2022-08-26"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_network_function_virtualization .
+
+G_KG_ns:_Efficient_poisoning_attacks_and_defenses_for_unlabeled_data_in_DDoS_prediction_of_intelligent_transportation_systems dc:creator G_KG_ns:_Li_Zhong,
+        G_KG_ns:__Jiang_Changjun,
+        G_KG_ns:__Wu_Xianke ;
+    dc:date "2022-06-22"^^xsd:date ;
+    dc:publisher G_KG_ns:_Security_and_Safety ;
+    dc:subject G_KG_ns:_intelligent_transportation_systems,
+        G_KG_ns:_precise_ddos_prediction .
+
+G_KG_ns:_Emulation_and_modelling_of_semiconductor_optical_amplifier_based_all_optical_photonic_integrated_deep_neural_network_with_arbitrary_depth dc:creator G_KG_ns:_Bin_Shi ;
+    dc:date "2022-09-02"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_neuromorphic_electronics,
+        G_KG_ns:_optical_ampliﬁer,
+        G_KG_ns:_photonic_neural_network .
+
+G_KG_ns:_Experimental_investigations_and_finite_element_analysis_of_milling_of_Inconel_718_alloy dc:creator G_KG_ns:_Kuriakose_Akhil_C_,
+        G_KG_ns:__Balakrishnan_Raman,
+        G_KG_ns:__Vardhan_Harsh,
+        G_KG_ns:__Vijay_Sekar_Krishnaraju_Srinivasaraju ;
+    dc:date "2021-08-10"^^xsd:date ;
+    dc:publisher G_KG_ns:_International_Journal_for_Simulation_and_Multidisciplinary_Design_Optimization ;
+    dc:subject G_KG_ns:_machining_modeling .
+
+G_KG_ns:_Explainable_Computer_Aided_Detection_of_Obstructive_Sleep_Apnea_and_Depression dc:creator G_KG_ns:_MOSTAFA_M__MOUSSA_YAHYA_ALZAABI,
+        G_KG_ns:__AHSAN_H__KHANDOKER ;
+    dc:date "2022-09-23"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_breathing_signals,
+        G_KG_ns:_sleep_apnea .
+
+G_KG_ns:_Fault_Tolerant_Ad_Hoc_On_Demand_Routing_Protocol_for_Mobile_Ad_Hoc_Networks dc:creator G_KG_ns:_DUC_N__M__HOANG,
+        G_KG_ns:__JONG_MYUNG_RHEE,
+        G_KG_ns:__SANG_YOON_PARK ;
+    dc:date "2022-08-17"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_fault_tolerance,
+        G_KG_ns:_mobile_ad_hoc_networks .
+
+G_KG_ns:_Features_Based_IoT_Security_Authentication_Framework_Using_Statistical_Aggregation__Entropy__and_MOORA_Approaches dc:creator G_KG_ns:_HABIB_ULLAH_KHAN,
+        G_KG_ns:__MUHAMMAD_SOHAIL,
+        G_KG_ns:__SHAH_NAZIR ;
+    dc:date "2022-10-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_index_terms_iot,
+        G_KG_ns:_iot_security_authentication .
+
+G_KG_ns:_Fully_Bayesian_estimation_of_virtual_brain_parameters_with_self_tuning_Hamiltonian_Monte_Carlo dc:creator G_KG_ns:_Anirudh_Nihalani_Vattikonda,
+        G_KG_ns:_Huifang_Wang,
+        G_KG_ns:_Jayant_Jha,
+        G_KG_ns:_Meysam_Hashemi,
+        G_KG_ns:_Viktor_Jirsa ;
+    dc:date "2022-09-26"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_bayesian_estimation,
+        G_KG_ns:_hamiltonian_monte_carlo,
+        G_KG_ns:_virtual_brain_modelling .
+
+G_KG_ns:_General_spiking_neural_network_framework_for_the_learning_trajectory_from_a_noisy_mmWave_radar dc:creator G_KG_ns:_Xin_Liu,
+        G_KG_ns:__De_Han,
+        G_KG_ns:__Dongrui_Fan,
+        G_KG_ns:__Guoqi_Li,
+        G_KG_ns:__Lei_Deng,
+        G_KG_ns:__MingyuYan,
+        G_KG_ns:__Xiaochun_Ye,
+        G_KG_ns:__Yujie_Wu ;
+    dc:date "2022-09-15"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_noisy_mmwave_radar .
+
+G_KG_ns:_GhostLeg__Selective_Memory_Coalescing_for_Secure_GPU_Architecture dc:creator G_KG_ns:_JONGMIN_LEE,
+        G_KG_ns:__GUNJAE_KOO,
+        G_KG_ns:__MYUNG_KUK_YOON,
+        G_KG_ns:__SEUNGHO_JUNG,
+        G_KG_ns:__TAEWEON_SUH,
+        G_KG_ns:__YUNHO_OH ;
+    dc:date "2022-10-16"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_cpu_vulnerability_detection,
+        G_KG_ns:_efﬁcient_architectural_defense_approach,
+        G_KG_ns:_memory_coalescing,
+        G_KG_ns:_secure_executions .
+
+G_KG_ns:_Goal_oriented_adaptive_sampling_under_random_field_modelling_of_response_probability_distributions dc:creator G_KG_ns:_Gautier_Athénaïs,
+        G_KG_ns:__Ginsbourger_David,
+        G_KG_ns:__Pirot_Guillaume ;
+    dc:date "2021-08-02"^^xsd:date ;
+    dc:publisher G_KG_ns:_French_German_Swiss_conference_on_Optimization ;
+    dc:subject G_KG_ns:_adaptive_sampling_strategies,
+        G_KG_ns:_logistic_gaussian_model,
+        G_KG_ns:_posterior_simulations,
+        G_KG_ns:_response_distributions .
+
+G_KG_ns:_High_dimensional_encryption_in_optical_fibers_using_spatial_modes_of_light_and_machine_learning dc:creator G_KG_ns:_Chenglong_You,
+        G_KG_ns:_Fatemeh_Mostafavi,
+        G_KG_ns:_Mario_A_Quiroz_Juárez,
+        G_KG_ns:_Michelle_L_J_Lollie,
+        G_KG_ns:_Mingyuan_Hong,
+        G_KG_ns:_Narayan_Bhusal,
+        G_KG_ns:_Omar_S_Magaña_Loaiza,
+        G_KG_ns:_Roberto_de_J_León_Montiel ;
+    dc:date "2022-07-19"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_multimode_fibers,
+        G_KG_ns:_optical_encryption,
+        G_KG_ns:_photon_information_capacity,
+        G_KG_ns:_structured_photons .
+
+G_KG_ns:_How_to_apply_the_ERP_model_for_Smart_Mining_ dc:creator G_KG_ns:_Majstorovic_Vidosav,
+        G_KG_ns:__Dimitrijevic_Sonja,
+        G_KG_ns:__Miskovic_Zarko,
+        G_KG_ns:__Mitrovic_Radivoje,
+        G_KG_ns:__Simeunovic_Vladimir,
+        G_KG_ns:__Stosic_Dragan ;
+    dc:date "2022-10-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_NEWTECH ;
+    dc:subject G_KG_ns:_business_automation,
+        G_KG_ns:_erp_model,
+        G_KG_ns:_smart_mining,
+        G_KG_ns:_smart_supply_chains .
+
+G_KG_ns:_Impact_of_Aircraft_Performance_and_Time_of_the_Day_on_Flight_Arrival_Delays_Prediction_in_the_United_States__a_Machine_Learning_Classification dc:creator G_KG_ns:_Alla_Hajar,
+        G_KG_ns:__Balouki_Youssef,
+        G_KG_ns:__Moumoun_Lahcen ;
+    dc:date "2022-09-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_ICCWCS_2022 ;
+    dc:subject G_KG_ns:_arrival_delays_prediction,
+        G_KG_ns:_flight_delays .
+
+G_KG_ns:_Implicit_privacy_preservation__a_framework_based_on_data_generation dc:creator G_KG_ns:_Yang_Qing,
+        G_KG_ns:__Chen_Xue,
+        G_KG_ns:__Hu_Teng,
+        G_KG_ns:__Jiang_Changjun,
+        G_KG_ns:__Wang_Cheng ;
+    dc:date "2022-07-25"^^xsd:date ;
+    dc:publisher G_KG_ns:_Security_and_Safety ;
+    dc:subject G_KG_ns:_implicit_privacy_attributes .
+
+G_KG_ns:_Improving_parametric_neural_networks_for_highenergy_physics__and_beyond_ dc:creator G_KG_ns:_Luca_Anzalone,
+        G_KG_ns:__Daniele_Bonacorsi,
+        G_KG_ns:__Tommaso_Diotalevi ;
+    dc:date "2022-10-05"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_multiple_signal_mass_hypotheses,
+        G_KG_ns:_parametric_networks .
+
+G_KG_ns:_Industrial_Energy_Management_System__Design_of_a_Conceptual_Framework_Using_IoT_and_Big_Data dc:creator G_KG_ns:_MEHAR_ULLAH,
+        G_KG_ns:_PEDRO_H__J__NARDELLI,
+        G_KG_ns:__ANNIKA_WOLFF,
+        G_KG_ns:__ARUN_NARAYANAN ;
+    dc:date "2022-07-13"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_industrial_energy_management_system .
+
+G_KG_ns:_Kinematic_Optimization_of_6DOF_Serial_Robot_Arms_by_Bio_Inspired_Algorithms dc:creator G_KG_ns:_ERVIN_GALAN_URIBE,
+        G_KG_ns:__LUIS_MORALES_VELAZQUEZ ;
+    dc:date "2022-09-21"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_genetic_algorithms,
+        G_KG_ns:_harris_hawk_optimizer,
+        G_KG_ns:_industrial_robot_arm,
+        G_KG_ns:_robot_optimization .
+
+G_KG_ns:_Learning_torsional_eye_movements_through_active_efficient_coding dc:creator G_KG_ns:_Qingpeng_Zhu,
+        G_KG_ns:__Bertram_E_Shi,
+        G_KG_ns:__Chong_Zhang,
+        G_KG_ns:__Jochen_Triesch ;
+    dc:date "2022-08-18"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_active_efﬁcient_coding,
+        G_KG_ns:_binocular_torsional_eye_movement_control,
+        G_KG_ns:_developmental_robotics,
+        G_KG_ns:_human_eye,
+        G_KG_ns:_sensorimotor_contingencies .
+
+G_KG_ns:_Learning_tree_structures_from_leaves_for_particle_decay_reconstruction dc:creator G_KG_ns:_Achim_Streit,
+        G_KG_ns:_Arthur_Thaller,
+        G_KG_ns:_Florian_Bernlochner,
+        G_KG_ns:_Giulio_Dujany,
+        G_KG_ns:_Ilias_Tsaklidis,
+        G_KG_ns:_James_Kahn,
+        G_KG_ns:_Lea_Reuter,
+        G_KG_ns:_Markus_Götz,
+        G_KG_ns:_Oskar_Taubert,
+        G_KG_ns:_Pablo_Goldenzweig,
+        G_KG_ns:_Tobias_Boeckh ;
+    dc:date "2022-09-14"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_simulated_particle_physics_decay_structures,
+        G_KG_ns:_tree_reconstruction .
+
+G_KG_ns:_Machine_Learning_Based_Early_Skip_Decision_for_Intra_Subpartition_Prediction_in_VVC dc:creator G_KG_ns:_JEEYOON_PARK,
+        G_KG_ns:__BYEUNGWOO_JEON,
+        G_KG_ns:__JEEHWAN_LEE,
+        G_KG_ns:___BUMYOON_KIM ;
+    dc:date "2022-10-10"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_hevc_ai,
+        G_KG_ns:_intra_subpartition_prediction,
+        G_KG_ns:_video_coding .
+
+G_KG_ns:_Management_of_tools_in_digital_manufacturing___A_case_study dc:creator G_KG_ns:_Vukadinović_Vojin,
+        G_KG_ns:__Majstorović_Vidosav,
+        G_KG_ns:__Đurđanović_Dragan,
+        G_KG_ns:__Živković_Jovan ;
+    dc:date "2022-10-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_NEWTECH ;
+    dc:subject G_KG_ns:_collaborative_technology_system,
+        G_KG_ns:_serbian_digital_factory,
+        G_KG_ns:_smart_manufacturing,
+        G_KG_ns:_tools_lifecycle_management,
+        G_KG_ns:_wokshop_production_management_model .
+
+G_KG_ns:_Massively_scalable_wavelength_diverse_integrated_photonic_linear_neuron dc:creator G_KG_ns:_Matthew_van_Niekerk1,
+        G_KG_ns:__Anthony_Rizzo,
+        G_KG_ns:__Christopher_Tison,
+        G_KG_ns:__Daniel_Coleman,
+        G_KG_ns:__Gerald_Leake,
+        G_KG_ns:__Hector_Rubio,
+        G_KG_ns:__Keren_Bergman,
+        G_KG_ns:__Michael_Fanto,
+        G_KG_ns:__Stefan_Preble ;
+    dc:date "2022-09-15"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_linear_neuron,
+        G_KG_ns:_neuromorphic_photonics,
+        G_KG_ns:_silicon_photonics_platform .
+
+G_KG_ns:_Method_for_Profile_Guided_Optimization_of_Android_Applications_Using_Random_Forest dc:creator G_KG_ns:_ANDREI_VISOCHAN,
+        G_KG_ns:__ANASTASIA_LYUPA,
+        G_KG_ns:__ANDREY_STROGANOV,
+        G_KG_ns:__ANNA_KOZLOVA,
+        G_KG_ns:__IVAN_TITARENKO,
+        G_KG_ns:__SERGEI_LONCHAKOV,
+        G_KG_ns:__STANISLAV_MOLOGIN,
+        G_KG_ns:__SVETLANA_PAVLOVA ;
+    dc:date "2022-09-21"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_android_runtime,
+        G_KG_ns:_random_forest .
+
+G_KG_ns:_Metric_learning_for_kernel_ridge_regression__assessment_of_molecular_similarity dc:creator G_KG_ns:_Clémence_Corminboeuf,
+        G_KG_ns:_Friedrich_Eisenbrand,
+        G_KG_ns:_Matthieu_Haeberle,
+        G_KG_ns:_Puck_van_Gerwen,
+        G_KG_ns:_Raimon_Fabregat ;
+    dc:date "2022-09-22"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_computational_molecular_design,
+        G_KG_ns:_kernel_ridge_regression,
+        G_KG_ns:_molecular_similarity .
+
+G_KG_ns:_Microgrid_Power_Sharing_Framework_for_Software_Defined_Networking_and_Cybersecurity_Analysis dc:creator G_KG_ns:_RICARDO_E__PÉREZ_GUZMÁN_1,
+        G_KG_ns:__EDUARDO_E__ESPINOSA,
+        G_KG_ns:__GALINA_MIRZAEVA,
+        G_KG_ns:__JAIME_A__ROHTEN,
+        G_KG_ns:__MARCO_RIVERA_2,
+        G_KG_ns:__PATRICK_W__WHEELER ;
+    dc:date "2022-08-20"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_microgrid_power_sharing_framework .
+
+G_KG_ns:_Modified_Evolutionary_Algorithm_for_Generating_the_Cycling_Training_Routes dc:creator G_KG_ns:_ALEN_RAJŠP,
+        G_KG_ns:__IZTOK_FISTER_JR_ ;
+    dc:date "2022-10-14"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_cycling_training_routes,
+        G_KG_ns:_evolutionary_algorithm,
+        G_KG_ns:_route_generation_research .
+
+G_KG_ns:_Multi_Dimensional_Data_Compression_and_Query_Processing_in_Array_Databases dc:creator G_KG_ns:_MINSOO_KIM_,
+        G_KG_ns:__HYUBJIN_LEE_,
+        G_KG_ns:__YON_DOHN_CHUNG ;
+    dc:date "2022-09-30"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_data_compression,
+        G_KG_ns:_latest_array_databases,
+        G_KG_ns:_multidimensional_data .
+
+G_KG_ns:_Multilevel_minimization_for_deep_residual_networks dc:creator G_KG_ns:_Gaedke_Merzhäuser_Lisa,
+        G_KG_ns:__Kopaničáková_Alena,
+        G_KG_ns:__Krause_Rolf ;
+    dc:date "2021-08-04"^^xsd:date ;
+    dc:publisher G_KG_ns:_French_German_Swiss_conference_on_Optimization ;
+    dc:subject G_KG_ns:_backward_propagation,
+        G_KG_ns:_deep_residual_networks,
+        G_KG_ns:_new_multilevel_minimization_framework .
+
+G_KG_ns:_Neural_network_training_with_highly_incomplete_medical_datasets dc:creator G_KG_ns:_Yu_Wei_Chang,
+        G_KG_ns:__Giovanni_Volpe,
+        G_KG_ns:__Joana_B_Pereira,
+        G_KG_ns:__Laura_Natali_,
+        G_KG_ns:__Oveis_Jamialahmadi,
+        G_KG_ns:__Stefano_Romeo ;
+    dc:date "2022-07-06"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_clinical_memory_research_unit .
+
+G_KG_ns:_Neural_networks_for_predicting_kerf_characteristics_of_CO2_laser_machined_FFF_PLA_WF_plates dc:creator G_KG_ns:_Fountas_N__A_,
+        G_KG_ns:__Chaidas_D_,
+        G_KG_ns:__Kechagias_J_,
+        G_KG_ns:__Ninikas_K_,
+        G_KG_ns:__Vaxevanidis_N__M_ ;
+    dc:date "2022-10-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_NEWTECH ;
+    dc:subject G_KG_ns:_cut_material_parameters,
+        G_KG_ns:_power_co2_laser_cutting .
+
+G_KG_ns:_Neuromorphic_computing_for_attitude_estimation_onboard_quadrotors dc:creator G_KG_ns:_Stein_Stroobants,
+        G_KG_ns:__Guido_C_H_E_de_Croon,
+        G_KG_ns:__Julien_Dupeyroux ;
+    dc:date "2022-08-05"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_neuromorphic_attitude_estimation,
+        G_KG_ns:_quadrotors .
+
+G_KG_ns:_New_control_scheme_of_on_load_tap_changer_for_voltage_regulation_in_active_distribution_systems_using_Fuzzy_logic dc:creator G_KG_ns:_Maataoui_Yassir,
+        G_KG_ns:__Boutfarjoute_Omar,
+        G_KG_ns:__Chekenbah_Hamid,
+        G_KG_ns:__Lasri_Rafik ;
+    dc:date "2022-09-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_ICCWCS_2022 ;
+    dc:subject G_KG_ns:_fuzzy_logic_controller,
+        G_KG_ns:_power_grid .
+
+G_KG_ns:_Non_negative_Matrix_Factorization_for_Dimensionality_Reduction dc:creator G_KG_ns:_Olaya_Jbari,
+        G_KG_ns:__Otman_Chakkor ;
+    dc:date "2022-09-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_ICCWCS_2022 ;
+    dc:subject G_KG_ns:_face_image_database,
+        G_KG_ns:_famous_matrix_factorization_methods,
+        G_KG_ns:_principal_component_analysis .
+
+G_KG_ns:_Numerical_metrics_for_complete_intersection_and_Kreuzer_Skarke_Calabi_Yau_manifolds dc:creator G_KG_ns:_Andre_Lukas,
+        G_KG_ns:_Fabian_Ruehle,
+        G_KG_ns:_Magdalena_Larfors,
+        G_KG_ns:_Robin_Schneider ;
+    dc:date "2022-08-31"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_cy_manifolds,
+        G_KG_ns:_numerical_ricci,
+        G_KG_ns:_string_theory .
+
+G_KG_ns:_Optimal_injection_attack_strategy_for_cyber_physical_systems__a_dynamic_feedback_approach dc:creator G_KG_ns:_Gao_Sheng,
+        G_KG_ns:__Huang_Chao,
+        G_KG_ns:__Wang_Zhuping,
+        G_KG_ns:__Zhang_Hao ;
+    dc:date "2022-07-22"^^xsd:date ;
+    dc:publisher G_KG_ns:_Security_and_Safety ;
+    dc:subject G_KG_ns:_optimal_injection_attack_strategy,
+        G_KG_ns:_security_defense .
+
+G_KG_ns:_Parallel_Hybrid_2_Opt_Flower_Pollination_Algorithm_for_Real_Time_UAV_Trajectory_Planning_on_GPU dc:creator G_KG_ns:_Roberge_Vincent,
+        G_KG_ns:__Tarbouchi_Mohammed ;
+    dc:date "2022-09-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_ICCWCS_2022 ;
+    dc:subject G_KG_ns:_parallel_flower_pollination_algorithm,
+        G_KG_ns:_uav_trajectory_planning,
+        G_KG_ns:_wing_uavs .
+
+G_KG_ns:_Particle_based_fast_jet_simulation_at_the_LHC_with_variational_autoencoders dc:creator G_KG_ns:_Breno_Orzari,
+        G_KG_ns:_Dimitrios_Gunopulos,
+        G_KG_ns:_Javier_Duarte,
+        G_KG_ns:_Jean_Roch_Vlimant,
+        G_KG_ns:_Mary_Touranakou,
+        G_KG_ns:_Maurizio_Pierini,
+        G_KG_ns:_Nadezda_Chernyavskaya,
+        G_KG_ns:_Raghav_Kansal,
+        G_KG_ns:_Thiago_Tomei ;
+    dc:date "2022-07-13"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_deep_variational_autoencoders,
+        G_KG_ns:_fast_jet_simulation,
+        G_KG_ns:_lhc,
+        G_KG_ns:_reconstructed_particles .
+
+G_KG_ns:_Physical_layer_security_techniques_for_data_transmission_for_future_wireless_networks dc:creator G_KG_ns:_Shi_Weiping,
+        G_KG_ns:__Abdelgader_Abdeldime_Mohamed_Salih,
+        G_KG_ns:__Dong_Rongen,
+        G_KG_ns:__He_Hangjia,
+        G_KG_ns:__Hu_Jinsong,
+        G_KG_ns:__Jiang_Xinyi,
+        G_KG_ns:__Shu_Feng,
+        G_KG_ns:__Teng_Yin,
+        G_KG_ns:__Wang_Jiangzhou,
+        G_KG_ns:__Wang_Yang ;
+    dc:date "2022-07-22"^^xsd:date ;
+    dc:publisher G_KG_ns:_Security_and_Safety ;
+    dc:subject G_KG_ns:_physical_layer_security_research,
+        G_KG_ns:_secure_transmission,
+        G_KG_ns:_wireless_mobile_communications .
+
+G_KG_ns:_Predicting_the_thermal_Sunyaev_Zel_dovich_field_using_modular_and_equivariant_set_based_neural_networks dc:creator G_KG_ns:_David_N_Spergel,
+        G_KG_ns:_Leander_Thiele,
+        G_KG_ns:_Miles_Cranmer,
+        G_KG_ns:_Shirley_Ho,
+        G_KG_ns:_William_Coulton ;
+    dc:date "2022-07-07"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_baryonic_physics,
+        G_KG_ns:_computational_astrophysics,
+        G_KG_ns:_cosmological_information,
+        G_KG_ns:_thermal_sunyaev .
+
+G_KG_ns:_Predictive_Hybrid_Autoscaling_for_Containerized_Applications dc:creator G_KG_ns:_DINH_DAI_VU,
+        G_KG_ns:__MINH_NGOC_TRAN,
+        G_KG_ns:___YOUNGHAN_KIM ;
+    dc:date "2022-09-20"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_kubernetes .
+
+G_KG_ns:_Problems_and_solutions_regarding_generalized_functional_safety_in_cyberspace dc:creator G_KG_ns:_Wu_JiangXing ;
+    dc:date "2022-06-22"^^xsd:date ;
+    dc:publisher G_KG_ns:_Security_and_Safety ;
+    dc:subject G_KG_ns:_cybersecurity_technologies,
+        G_KG_ns:_generalized_functional_safety,
+        G_KG_ns:_random_physical_failures,
+        G_KG_ns:_security_assurance,
+        G_KG_ns:_uncertain_network_attacks .
+
+G_KG_ns:_Quantum_neural_networks_force_fields_generation dc:creator G_KG_ns:_Francesco_Tacchino,
+        G_KG_ns:_Ivano_Tavernelli,
+        G_KG_ns:_Oriel_Kiss,
+        G_KG_ns:_Sofia_Vallecorsa ;
+    dc:date "2022-07-15"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_accurate_molecular_force_fields,
+        G_KG_ns:_electronic_structure_calculations,
+        G_KG_ns:_neural_networks_force .
+
+G_KG_ns:_RG_Flow__a_hierarchical_and_explainable_flow_model_based_on_renormalization_group_and_sparse_prior dc:creator G_KG_ns:_Bruno_Olshausen,
+        G_KG_ns:_Dian_Wu,
+        G_KG_ns:_Hong_Ye_Hu,
+        G_KG_ns:_Yi_Zhuang_You,
+        G_KG_ns:_Yubei_Chen ;
+    dc:date "2022-08-03"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_generative_model,
+        G_KG_ns:_hierarchical_flow,
+        G_KG_ns:_renormalization_group,
+        G_KG_ns:_unsupervised_representation_disentanglement .
+
+G_KG_ns:_R_tree_data_structure_implementation_for_Computer_Aided_Engineering__CAE__tools dc:creator G_KG_ns:_Shelar_Vaibhav,
+        G_KG_ns:__Davidson_Jebaseelan,
+        G_KG_ns:__Subramani_Selamani ;
+    dc:date "2021-04-12"^^xsd:date ;
+    dc:publisher G_KG_ns:_International_Journal_for_Simulation_and_Multidisciplinary_Design_Optimization ;
+    dc:subject G_KG_ns:_finite_element_model_preparation,
+        G_KG_ns:_tree_data_structure_implementation .
+
+G_KG_ns:_Reduction_of_the_Delays_Within_an_Intrusion_Detection_System__IDS__Based_on_Software_Defined_Networking__SDN_ dc:creator G_KG_ns:_ALESSANDRO_FAUSTO,
+        G_KG_ns:__FABIO_PATRONE,
+        G_KG_ns:__GIOVANNI_GAGGERO,
+        G_KG_ns:__MARIO_MARCHES ;
+    dc:date "2022-09-28"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_deep_packet_inspection,
+        G_KG_ns:_intrusion_detection,
+        G_KG_ns:_sdn_architecture .
+
+G_KG_ns:_Reliability_aspects_of_binary_vector_matrixmultiplications_using_ReRAM_devices dc:creator G_KG_ns:_Christopher_Benge ;
+    dc:date "2022-06-22"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_memristor,
+        G_KG_ns:_neuromorphic_algorithms,
+        G_KG_ns:_reram_devices .
+
+G_KG_ns:_Robust_classification_with_feature_selection_using_an_application_of_the_Douglas_Rachford_splitting_algorithm dc:creator G_KG_ns:_Barlaud_Michel,
+        G_KG_ns:__Antonini_Marc ;
+    dc:date "2021-08-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_French_German_Swiss_conference_on_Optimization ;
+    dc:subject G_KG_ns:_feature_selection,
+        G_KG_ns:_robust_classification .
+
+G_KG_ns:_SCMA_Codebook_Design_Based_on_a_16_Star_QAM_with_MED_Maximization dc:creator G_KG_ns:_Meriem_Afilal,
+        G_KG_ns:__Adnane_Latif,
+        G_KG_ns:__Anas_Hatim,
+        G_KG_ns:__Mounir_Arioua ;
+    dc:date "2022-09-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_ICCWCS_2022 ;
+    dc:subject G_KG_ns:_scma_encoder,
+        G_KG_ns:_sparse_code_multiple_access .
+
+G_KG_ns:_SEM_Image_Quality_Assessment_Based_on_Intuitive_Morphology_and_Deep_Semantic_Features dc:creator G_KG_ns:_HAORAN_WANG,
+        G_KG_ns:__JICUN_DING,
+        G_KG_ns:__LIANG_DONG,
+        G_KG_ns:__SHIYIN_LI,
+        G_KG_ns:__SUYAN_LI,
+        G_KG_ns:__ZHAOLIN_LU ;
+    dc:date "2022-10-21"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_microscopic_images,
+        G_KG_ns:_sem_image_quality_assessment .
+
+G_KG_ns:_SMRETO__Stable_Matching_for_Reliable_and_Efficient_Task_Offloading_in_Fog_Enabled_IoT_Networks dc:creator G_KG_ns:_USMAN_MAHMOOD_MALIK,
+        G_KG_ns:__JAN_NEDOMA,
+        G_KG_ns:__JAROSLAV_FRNDA,
+        G_KG_ns:__MUHAMMAD_AWAIS_JAVED ;
+    dc:date "2022-10-19"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_abstract_fog_computing,
+        G_KG_ns:_iot_applications .
+
+G_KG_ns:_Secure_transmission_technology_based_on_direct_modulation_with_random_channel_characteristics dc:creator G_KG_ns:_Yang_Rong,
+        G_KG_ns:__Hu_Aiqun ;
+    dc:date "2022-06-22"^^xsd:date ;
+    dc:publisher G_KG_ns:_Security_and_Safety ;
+    dc:subject G_KG_ns:_cyberspace_security,
+        G_KG_ns:_mobile_communications,
+        G_KG_ns:_random_channel_characteristics,
+        G_KG_ns:_secure_transmission_technology .
+
+G_KG_ns:_Study_on_the_Application_of_the_Holistic_Optimization_Method_of_the_Manufacturing_Process_in_the_Case_of_a_Reduced_Instances_Database dc:creator G_KG_ns:_Afteni_Cezarina,
+        G_KG_ns:__Afteni_Mitica,
+        G_KG_ns:__Frumusanu_Gabriel_Radu ;
+    dc:date "2022-10-01"^^xsd:date ;
+    dc:publisher G_KG_ns:_NEWTECH ;
+    dc:subject G_KG_ns:_holistic_optimization_method .
+
+G_KG_ns:_Subaging_in_underparametrized_deep_neural_networks_ dc:creator G_KG_ns:_Carolina_Herrera_Segura,
+        G_KG_ns:_Diego_Tapias,
+        G_KG_ns:_Edison_Montoya ;
+    dc:date "2022-09-20"^^xsd:date ;
+    dc:publisher G_KG_ns:_Machine_Learning__Science_and_Technology ;
+    dc:subject G_KG_ns:_glassy_dynamics,
+        G_KG_ns:_mnist_database,
+        G_KG_ns:_underparametrized_deep_neural_networks .
+
+G_KG_ns:_Synaptic_1_f_noise_injection_for_overfitting_suppression_in_hardware_neural_networks dc:creator G_KG_ns:_Tao_Li_,
+        G_KG_ns:_Weidong_Zhang,
+        G_KG_ns:_Yan_Du,
+        G_KG_ns:__Hanzhang_Zhao,
+        G_KG_ns:__Jian_Fu_Zhang,
+        G_KG_ns:__Qiaoqiao_Wang,
+        G_KG_ns:__Qihui_Diao,
+        G_KG_ns:__Tai_Min,
+        G_KG_ns:__Wei_Shao,
+        G_KG_ns:__Xihui_Yuan,
+        G_KG_ns:__Yawei_Gao,
+        G_KG_ns:__Zheng_Chai_ ;
+    dc:date "2022-08-05"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_neuromorphic_computing,
+        G_KG_ns:_semiconductor_noise .
+
+G_KG_ns:_The_Metaverse_and_Beyond__Implementing_Advanced_Multiverse_Realms_With_Smart_Wearables dc:creator G_KG_ns:_SAJJAD_ROSTAMI,
+        G_KG_ns:__MARTIN_MAIER ;
+    dc:date "2022-10-19"^^xsd:date ;
+    dc:publisher G_KG_ns:_IEEE_Access ;
+    dc:subject G_KG_ns:_oculus_quest,
+        G_KG_ns:_virtual_experiences .
+
+G_KG_ns:_Two_sparsities_are_better_than_one__unlocking_the_performance_benefits_of_sparse_sparse_networks dc:creator G_KG_ns:_Kevin_Hunter,
+        G_KG_ns:__Lawrence_Spracklen,
+        G_KG_ns:__Subutai_Ahmad ;
+    dc:date "2022-07-14"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_activation_sparsity,
+        G_KG_ns:_deep_learning_systems,
+        G_KG_ns:_sparse_networks .
+
+G_KG_ns:_superconducting_nanowire_based_architecture_for_neuromorphic_computing dc:creator G_KG_ns:_Andres_E_Lombo,
+        G_KG_ns:__Chi_Ning_Chou,
+        G_KG_ns:__Jesus_Lares,
+        G_KG_ns:__Karl_K_Berggren,
+        G_KG_ns:__Matteo_Castellani,
+        G_KG_ns:__Nancy_Lynch ;
+    dc:date "2022-09-02"^^xsd:date ;
+    dc:publisher G_KG_ns:_Neuromorphic_Computing_and_Engineering ;
+    dc:subject G_KG_ns:_nanowire,
+        G_KG_ns:_neuromorphic_computing,
+        G_KG_ns:_superconductivity .
+
+G_KG_ns:_French_German_Swiss_conference_on_Optimization dc:subject G_KG_ns:_continuous_optimization_techniques,
+        G_KG_ns:_discrete_optimization,
+        G_KG_ns:_global_optimization,
+        G_KG_ns:_multilevel_optimization,
+        G_KG_ns:_nonlinear_optimization,
+        G_KG_ns:_nonlinear_optimization_methods,
+        G_KG_ns:_optimization,
+        G_KG_ns:_optimization_models,
+        G_KG_ns:_tial_convex_programming_methods .
+
+G_KG_ns:_International_Journal_for_Simulation_and_Multidisciplinary_Design_Optimization dc:subject G_KG_ns:_composite_material_design,
+        G_KG_ns:_design_optimization,
+        G_KG_ns:_multidisciplinary_design_optimization,
+        G_KG_ns:_structural_optimization,
+        G_KG_ns:_topology_optimization,
+        G_KG_ns:_topology_optimizations .
+
+G_KG_ns:_NEWTECH dc:subject G_KG_ns:_advanced_manufacturing,
+        G_KG_ns:_digital_manufacturing,
+        G_KG_ns:_french_mechanical_association,
+        G_KG_ns:_manufacturing_research_group,
+        G_KG_ns:_manufacturing_technologies .
+
+G_KG_ns:_ICCWCS_2022 dc:subject G_KG_ns:_antennas .
+
+G_KG_ns:_Security_and_Safety dc:subject G_KG_ns:_conventional_reliability_theories,
+        G_KG_ns:_cyber_security,
+        G_KG_ns:_cyber_security_governance_modes,
+        G_KG_ns:_functional_safety,
+        G_KG_ns:_functional_safety_problems,
+        G_KG_ns:_functional_safety_theories,
+        G_KG_ns:_hardware_facility_vulnerabilities,
+        G_KG_ns:_integrated_security,
+        G_KG_ns:_security .
+
+G_KG_ns:_Neuromorphic_Computing_and_Engineering dc:subject G_KG_ns:_clean_energy,
+        G_KG_ns:_energy_resources,
+        G_KG_ns:_grammar,
+        G_KG_ns:_grammars,
+        G_KG_ns:_hydropower,
+        G_KG_ns:_lexicon,
+        G_KG_ns:_linguistic_basis,
+        G_KG_ns:_lingvisticae_investigationes,
+        G_KG_ns:_low_carbon_future,
+        G_KG_ns:_memristive_switching_materials,
+        G_KG_ns:_neuromorphic_computing,
+        G_KG_ns:_neuromorphic_implementations,
+        G_KG_ns:_neuromorphic_sensing,
+        G_KG_ns:_neuromorphic_systems,
+        G_KG_ns:_novel_artificial_neural_processing_systems,
+        G_KG_ns:_ocean_energy,
+        G_KG_ns:_phonology,
+        G_KG_ns:_sustainable_energy,
+        G_KG_ns:_sustainable_energy_reviews,
+        G_KG_ns:_synapses .
+
+G_KG_ns:_Machine_Learning__Science_and_Technology dc:subject G_KG_ns:_learning_algorithms,
+        G_KG_ns:_machine_learning,
+        G_KG_ns:_machine_learning_methods .
+

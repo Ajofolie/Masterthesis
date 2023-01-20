@@ -64,7 +64,6 @@ def get_entity_rel(df_pdf_meta, g, keyword_list_paper, keyword_list_con, G_KG_ns
                    
     return g
 
-
 # In[3]:
 
 
@@ -74,7 +73,7 @@ def show_graph(g):
     plt.figure(figsize=(25,15))
     pos = nx.spring_layout(G_RDF_NX, k=10/math.sqrt(G_RDF_NX.order())) # Layout Graph
     d = dict(G_RDF_NX.degree)
-    nx.draw_networkx(G_RDF_NX, with_labels=True, pos=pos, node_size=[v * 50 for v in d.values()], edge_color= 'grey', font_family = 'Arial')
+    nx.draw_networkx(G_RDF_NX, with_labels=False, pos=pos, node_size=[v * 50 for v in d.values()], edge_color= 'grey', font_family = 'Arial')
     #plt.show()
     plt.savefig("G_KG_RDF.png", format="PNG")
 
