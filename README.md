@@ -4,18 +4,31 @@ Die endgültig genutzte Sammlung besteht aus 83 wissenschaftlichen papern und 16
 
 Dateien:
 Ordner keywords: Enthält die generierten keywords aus Publikationen und Konferenzen
+
 Ordner PDF: Enthält die verwendeten Publikationen
+
 Ordner AimsAndScope: Enthält die verwendeten Konferenzbeschreibungen
+
 metadata_list: Hilfs-Excel-Datei zur Befüllung sowie Korrektur der Metadaten von wissenschaftlichen Veröffentlichungen
+
 Energy efficiency_Test: Test PDF-Datei zur Erweiterung der Hilfsdatei metadata_list.xlsx
+
 G_KG.ttl: Resultierende turtle Datei. Enthält alle Triple des RDF Graphen
+
 G_KG_Update.ttl: Test turtle Datei zur Erweiterung der Wissensbasis durch weitere Triple
+
 G_KG_Networkx: Resultierender Graph nur durch Networkx erstellt.
+
 G_KG_RDF_ohne_lab: Bild des RDF-Graphen ohne Label
+
 PreProcessMetadata: Programmteil 1
+
 PreProcess_NLP: Programmteil 2
+
 KG: Programmteil 3
+
 main: Ausführung der Programmteile, SPARQL Abfragen, Update des Graphen
+
 KG_old: Altes Programm zur Erstellung des Graphen mittels Networkx
 
 In den Folgenden Abschnitten wird auf die einzelnen Programmteile eingegangen und die Rolle der Metadaten Datei näher erläutert.
