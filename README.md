@@ -140,14 +140,14 @@ beziehungsweise Instanzknoten:
          color=0.8, typ='Titel')
 
 An jeder Stelle, an der Knoten erstellt werden, wird auch ein Farbe über das Attribut color definiert, die die Knoten erhalten sollen.
-Zusätzlich werden die Kanten durch
+Zusätzlich werden die Kanten erstellt:
 
      KG_entities.add_edge(meta['Conference'][i], 'Konferenz',
          label='ist') #Überknoten
      KG_entities.add_edge(meta['Titles'][i], meta['Conference'][i], 
          label='ist Teil von') #Instanzknoten
 
-erstellt. Die Themen, also generierte keywords- und phrases werden auch in dieser Funktion als Knoten gebildet. Es wird ein Knoten mit seiner Farbe erstellt und die zugehörige Kante zum zugehörigen Titel oder Konferenz über thematisiert gebildet. Die richtige Zuordnung der Kanten wird zum Einen darüber garantiert, dass es durch den Aufbau des Dataframes möglich ist über einzelne Zeilen zu iterieren. Zum Anderen wird bei Themengebieten zusätzlich geprüft, ob der Titel, bzw. die Konferenz gleich dem Titel oder der Konferenz in den keyword Auflistungen ist. Zurückgegeben wird der entstandene Graph.
+Die Themen, also generierte keywords- und phrases werden auch in dieser Funktion als Knoten gebildet. Es wird ein Knoten mit seiner Farbe erstellt und die zugehörige Kante zum zugehörigen Titel oder Konferenz über thematisiert gebildet. Die richtige Zuordnung der Kanten wird zum Einen darüber garantiert, dass es durch den Aufbau des Dataframes möglich ist über einzelne Zeilen zu iterieren. Zum Anderen wird bei Themengebieten zusätzlich geprüft, ob der Titel, bzw. die Konferenz gleich dem Titel oder der Konferenz in den keyword Auflistungen ist. Zurückgegeben wird der entstandene Graph.
 Die Abfrage des Graphen mittels Suchbegriffen, wie schon in namerefsec:konzGraph erläutert, wird in weiteren Funktionen realisiert. Je nach Abfrage werden unterschiedliche Ergebnisse geliefert, die in autorefchap:ergebnisse näher vorgestellt und beispielhaft veranschaulicht werden.
 Außerhalb der Funktion wird der gesuchte Begriff definiert und gegebenenfalls die Suchergebnisse nach einer Überklasse spezifiziert.
 Dieser Begriff wird zuerst über eine Schleife in den Knoten des Graphen gesucht. Falls der Begriff gefunden wird, wird die Funktion query_graph mit dem Knoten, in dem sich der Begriff befindet, aufgerufen.
