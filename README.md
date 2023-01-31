@@ -93,7 +93,7 @@ Zusätzlich wird ein vectorr eingesetzt. Es wird der KeyphraseCountVectorr mit d
 
 Der KeyphraseCountVectorr wandelt die keyphrases und keywords mittels POS in eine Matrix. Diese Matrix beschreibt die Häufigkeit der keyphrases, die in dem jeweiligen Textdokument vorkommen. Das Paket nutzt zusätzlich spaCy, um das POS-Tagging durchzuführen. Diese Tags werden dann mit dem definierten regulären Ausdrucks abgeglichen. Vordefiniert ist hierbei eine Abfolge von keinen oder mehreren Adjektiven, auf die eines oder mehreren Nomen folgen citekeyphrasevecSchopf. In dieser Implementierung wurde diese Abfolge übernommen, da dies die besten Resultate in diesem Anwendungsfall liefern kann. Aus den Ergebnissen wird anschließend die Matrix gebildet. Durch die Verwendung von POS-Tagging durch spaCy, sind die entstandenen keywords- und phrases grammatikalisch korrekt.
 
-Für jeden Text, aus wissenschaftlichen papern und Konferenzbeschreibungen werden keywords durch das gewählte Modell generiert. KeyBERT bildet zum Einen mithilfe des gewählten vectorrs mögliche keyphrase und keyword Kandidaten und zum Anderen die dazu gehörigen embeddings, also die Umformung in numerische Daten. Die numerischen Daten werden für jeden keyword Kandidaten, sowie für jedes einzelne Textdokument gebildet. Am Ende werden diese Werte abgeglichen, um die keywords- und phrases zu wählen, die das Dokument am besten widerspiegeln. Dies geschieht anhand der in autorefsubsec:datExtr erläuterten mathematischen Methoden. Diese Methoden und weitere Parameter können der Funktion extract_keywords, die zur KeyBert Implementierung gehört, wie folgt angepasst werden:
+Für jeden Text, aus wissenschaftlichen papern und Konferenzbeschreibungen werden keywords durch das gewählte Modell generiert. KeyBERT bildet zum Einen mithilfe des gewählten vectorrs mögliche keyphrase und keyword Kandidaten und zum Anderen die dazu gehörigen embeddings, also die Umformung in numerische Daten. Die numerischen Daten werden für jeden keyword Kandidaten, sowie für jedes einzelne Textdokument gebildet. Am Ende werden diese Werte abgeglichen, um die keywords- und phrases zu wählen, die das Dokument am besten widerspiegeln. Diese Methoden und weitere Parameter können der Funktion extract_keywords, die zur KeyBert Implementierung gehört, wie folgt angepasst werden:
 
 
      doc=corpus['text'][x]
@@ -103,7 +103,7 @@ Für jeden Text, aus wissenschaftlichen papern und Konferenzbeschreibungen werde
      diversity=0.6 (für Konferenzen 0.6)
 
 
-Der mitgegebene corpus stellt die Sammlung an extrahierten Texten aus den PDF Dokumenten dar. Der vectorr beschreibt den übergebenen KeyphraseCountVectorr. Der Parameter top_n bezeichnet die Anzahl der Wörter und Phrasen, die ausgewählt werden sollen. Darüber hinaus werden die Berechnungen zur Auswahl dieser gesetzt. Es wurde die Berechnung mittels maximal marginal relevance gewählt, wie sie in autorefsubsec:datExtr beschrieben ist. Die Wahl ist eine Diversität von 0.5, da hier die besten Ergebnisse erzielt werden können.
+Der mitgegebene corpus stellt die Sammlung an extrahierten Texten aus den PDF Dokumenten dar. Der vectorr beschreibt den übergebenen KeyphraseCountVectorr. Der Parameter top_n bezeichnet die Anzahl der Wörter und Phrasen, die ausgewählt werden sollen. Darüber hinaus werden die Berechnungen zur Auswahl dieser gesetzt. Es wurde die Berechnung mittels maximal marginal relevance gewählt. Die Wahl ist eine Diversität von 0.5, da hier die besten Ergebnisse erzielt werden können.
 
 Nach der Generierung werden die keywords für wissenschaftliche paper und Konferenzbeschreibungen in .csv-Dateien geschrieben und gespeichert. Diese sind in dargestellt.
 
@@ -148,6 +148,6 @@ Zusätzlich werden die Kanten erstellt:
          label='ist Teil von') #Instanzknoten
 
 Die Themen, also generierte keywords- und phrases werden auch in dieser Funktion als Knoten gebildet. Es wird ein Knoten mit seiner Farbe erstellt und die zugehörige Kante zum zugehörigen Titel oder Konferenz über thematisiert gebildet. Die richtige Zuordnung der Kanten wird zum Einen darüber garantiert, dass es durch den Aufbau des Dataframes möglich ist über einzelne Zeilen zu iterieren. Zum Anderen wird bei Themengebieten zusätzlich geprüft, ob der Titel, bzw. die Konferenz gleich dem Titel oder der Konferenz in den keyword Auflistungen ist. Zurückgegeben wird der entstandene Graph.
-Die Abfrage des Graphen mittels Suchbegriffen, wie schon in namerefsec:konzGraph erläutert, wird in weiteren Funktionen realisiert. Je nach Abfrage werden unterschiedliche Ergebnisse geliefert, die in autorefchap:ergebnisse näher vorgestellt und beispielhaft veranschaulicht werden.
+Die Abfrage des Graphen mittels Suchbegriffen wird in weiteren Funktionen realisiert. Je nach Abfrage werden unterschiedliche Ergebnisse geliefert.
 Außerhalb der Funktion wird der gesuchte Begriff definiert und gegebenenfalls die Suchergebnisse nach einer Überklasse spezifiziert.
 Dieser Begriff wird zuerst über eine Schleife in den Knoten des Graphen gesucht. Falls der Begriff gefunden wird, wird die Funktion query_graph mit dem Knoten, in dem sich der Begriff befindet, aufgerufen.
